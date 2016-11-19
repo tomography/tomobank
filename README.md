@@ -1,2 +1,2 @@
 # tomobank
-Tomography data bank for everyone
+Tools for supporting tomobank
