@@ -1,8 +1,7 @@
 tomo_00001 
 ==========
 
-This section contains the python scripts to load and reconstruct tomo_00001 using its 
-native data format: :download:`rec_native_tomo_00001.py <../../../doc/demo/rec_native_tomo_00001.py>` or the 
+This section contains the python scripts to load and reconstruct tomo_00001 using its  
 data exchange format :cite:`decarlo:02`: :download:`rec_tomo_00001.py <../../../doc/demo/rec_tomo_00001.py>`.
 
 Download script: :download:`rec_tomo_00001.py <../../../doc/demo/rec_tomo_00001.py>`
