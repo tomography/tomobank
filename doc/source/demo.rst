@@ -5,11 +5,9 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
 
 .. toctree::   demo/doc.demo.tomo_00001   demo/doc.demo.tomo_00002   demo/doc.demo.tomo_00003   demo/doc.demo.tomo_00004   demo/doc.demo.tomo_00005   demo/doc.demo.tomo_00006Limited View------------
 
-Hardening---------
-
-Limited View------------
-
 Noisy Data----------
+
+Hardening---------
 
 Sample Motion-------------
 
