@@ -18,7 +18,7 @@ if __name__ == '__main__':
     tomobank_id = 'tomo_00001'
 
     # Set path to the micro-CT data to reconstruct.
-    fname = 'tomobank/datasets/' + tomobank_id + '.h5'
+    fname = 'tomobank/datasets/' + tomobank_id + '/' + tomobank_id + '.h5'
 
     # Select the sinogram range to reconstruct.
     start = 200
