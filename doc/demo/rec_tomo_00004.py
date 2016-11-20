@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-TomoPy example script to reconstruct the APS-2BM data saved as dxchange
+TomoPy example script to reconstruct the SLS TOMCAT data saved as dxchange
 """
 
 from __future__ import print_function
