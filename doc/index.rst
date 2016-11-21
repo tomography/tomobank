@@ -18,8 +18,8 @@ facility production software and to advance the development of tomographic recon
 Features
 --------
 
-* List here 
-* the module features
+* Tomographic data bank 
+* Python scripts to read and reconstruct all data sets
 
 
 Contribute
