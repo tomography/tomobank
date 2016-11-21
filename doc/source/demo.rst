@@ -21,7 +21,8 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
 
 .. toctree::   demo/doc.demo.tomo_00001   demo/doc.demo.tomo_00002   demo/doc.demo.tomo_00003   demo/doc.demo.tomo_00004   demo/doc.demo.tomo_00005   demo/doc.demo.tomo_00006Limited View------------
 
-The limited view data set contains nanoCT data with the experimental conditions reported in the table below.
+The limited view data set contains nano tomography (nanoCT) data with 
+the experimental conditions reported in the table below.
  
  +------------------------+----------------------------------+
  | Instrument             |      APS 32-ID TXM               | +------------------------+----------------------------------+
@@ -35,9 +36,10 @@ The limited view data set contains nanoCT data with the experimental conditions 
  | PixelSize              |      13.8 nm                     | +------------------------+----------------------------------+
  | Comment                |      10x 60 nm ZP                | +------------------------+----------------------------------+
 
-The sample consisting is a small particle of Ce6Al4 undergoing a pressure increase. 
+The sample consisting is a small particle of Ce :subscript:`6` Al :subscript:`4` 
+undergoing a pressure increase. 
 The Limited View data sets consists of 15 tomographic data sets, one nanoCT data 
-set is collected after each pressure increase from 0.3 Gpa to 59 GPa as reported in 
+set is collected after each pressure increase from 0.3 GPa to 59 GPa as reported in 
 the table below. Because the sample is into a high pressure cell, 
 86 of the 359 projections are blocked by the load frame. 
 
