@@ -36,5 +36,5 @@ Content
    :maxdepth: 1
 
    source/about
-   source/demo
+   source/data
    source/credits

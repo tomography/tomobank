@@ -19,7 +19,7 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
 |     00006     |        ALS     |       N1         |    blakely   |
 +---------------+----------------+------------------+--------------+
 
-.. toctree::   demo/doc.demo.tomo_00001   demo/doc.demo.tomo_00002   demo/doc.demo.tomo_00003   demo/doc.demo.tomo_00004   demo/doc.demo.tomo_00005   demo/doc.demo.tomo_00006Limited View------------
+.. toctree::   data/doc.data.tomo_00001   data/doc.data.tomo_00002   data/doc.data.tomo_00003   data/doc.data.tomo_00004   data/doc.data.tomo_00005   data/doc.data.tomo_00006Limited View------------
 
 The limited view data set contains nano tomography (nanoCT) data with 
 the experimental conditions reported in the table below.
@@ -65,7 +65,7 @@ the table below. Because the sample is into a high pressure cell,
 
 (*) was the one acquired with 5x instead of 10x optics
 
-.. toctree::   demo/doc.demo.tomo_00007   demo/doc.demo.tomo_00008   demo/doc.demo.tomo_00009   demo/doc.demo.tomo_00010   demo/doc.demo.tomo_00011   demo/doc.demo.tomo_00012   demo/doc.demo.tomo_00013   demo/doc.demo.tomo_00014   demo/doc.demo.tomo_00015   demo/doc.demo.tomo_00016   demo/doc.demo.tomo_00017   demo/doc.demo.tomo_00018   demo/doc.demo.tomo_00019   demo/doc.demo.tomo_00020   demo/doc.demo.tomo_00021
+.. toctree::   data/doc.data.tomo_00007   data/doc.data.tomo_00008   data/doc.data.tomo_00009   data/doc.data.tomo_00010   data/doc.data.tomo_00011   data/doc.data.tomo_00012   data/doc.data.tomo_00013   data/doc.data.tomo_00014   data/doc.data.tomo_00015   data/doc.data.tomo_00016   data/doc.data.tomo_00017   data/doc.data.tomo_00018   data/doc.data.tomo_00019   data/doc.data.tomo_00020   data/doc.data.tomo_00021
 
 Noisy Data----------
 
