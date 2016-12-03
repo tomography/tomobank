@@ -1,0 +1,81 @@
+Limited View------------
+
+The limited view data set contains nano tomography (nanoCT) data with 
+the experimental conditions reported in the table below.
+
++------------------------+----------------------------------+
+| Instrument             |      APS 32-ID TXM               |+------------------------+----------------------------------+
+| Energy                 |      8000 eV                     |+------------------------+----------------------------------+
+| Monochromator          |      double crystal Si (1,1,1)   | +------------------------+----------------------------------+
+| Scan Range             |      180 degree                  |+------------------------+----------------------------------+
+| Number of Projections  |      359                         |+------------------------+----------------------------------+
+| White Fields           |      20 before                   |+------------------------+----------------------------------+
+| Dark Fields            |      8 before                    | +------------------------+----------------------------------+
+| Exposure Time          |      15 s                        |+------------------------+----------------------------------+
+| PixelSize              |      13.8 nm                     |+------------------------+----------------------------------+
+| Comment                |      10x 60 nm ZP                |+------------------------+----------------------------------+
+
+The sample consisting is a small particle of Ce :subscript:`6` Al :subscript:`4` 
+undergoing a pressure increase. 
+The Limited View data sets consists of 15 tomographic data sets, one nanoCT data 
+set is collected after each pressure increase from 0.3 GPa to 59 GPa as reported in 
+the table below. Because the sample is into a high pressure cell, 
+86 of the 359 projections are blocked by the load frame. 
+
+.. |tomo_00007| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00001.py>`
+.. |tomo_00008| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00002.py>`
+.. |tomo_00009| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00003.py>`
+.. |tomo_00010| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00011| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00012| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00013| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00014| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00015| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00016| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00017| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00018| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00019| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00020| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00021| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+
+
+.. _data_00007: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00008: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00009: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00010: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00011: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00012: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00013: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00014: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00015: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00016: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00017: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00018: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00019: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00020: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _data_00021: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+
+.. |00001| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
++----------+---------+---------+-------------------+-----------+---------------------------------------------------+
+| Tomo ID  |   GPa   | Volume  |  Sample Name      |   Image   |                     Downloads                     |     
++----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+ 
+|    00007 | 0.3     | 24602   |  Ce6Al4_3kbar     |  |00001|  |      |tomo_00007|       |       data_00007_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00008 | 0.57(*) | 20577   |  Ce6Al4_5P7kbar   |  |00001|  |      |tomo_00008|       |       data_00008_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00009 | 2       | 23431   |  Ce6Al4_20kbar    |  |00001|  |      |tomo_00009|       |       data_00009_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00010 | 8.59    | 19313   |  Ce6Al4_8P59GPa   |  |00001|  |      |tomo_00010|       |       data_00010_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00011 | 13.37   | 18518   |  Ce6Al4_13P37GPa  |  |00001|  |      |tomo_00011|       |       data_00011_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00012 | 17.44   | 17626   |  Ce6Al4_17p44GPa  |  |00001|  |      |tomo_00012|       |       data_00012_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00013 | 19      | 17735   |  Ce6Al4_19GPa     |  |00001|  |      |tomo_00013|       |       data_00013_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00014 | 21.39   | 17129   |  Ce6Al4_21p39GPa  |  |00001|  |      |tomo_00014|       |       data_00014_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00015 | 26.17   | 16557   |  Ce6Al4_26p17GPa  |  |00001|  |      |tomo_00015|       |       data_00015_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00016 | 29.5    | 16304   |  Ce6Al4_29P5GPa   |  |00001|  |      |tomo_00016|       |       data_00016_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00017 | 33.07   | 15677   |  Ce6Al4_33p07GPa  |  |00001|  |      |tomo_00017|       |       data_00017_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00018 | 41.88   | 15164   |  Ce6Al4_41p88GPa  |  |00001|  |      |tomo_00018|       |       data_00017_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00019 | 47.89   | 14737   |  Ce6Al4_47p89GPa  |  |00001|  |      |tomo_00019|       |       data_00019_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00020 | 54.73   | 14328   |  Ce6Al4_54p73GPa  |  |00001|  |      |tomo_00020|       |       data_00020_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+|    00021 | 59      | 14335   |  Ce6Al4_59GPa     |  |00001|  |      |tomo_00021|       |       data_00021_       |+----------+---------+---------+-------------------+-----------+-------------------------+-------------------------+
+
+(*) was the one acquired with 5x instead of 10x optics
