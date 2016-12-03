@@ -1,2 +1,3 @@
-# tomobank
-Tools for supporting tomobank
+# TomoBank
+
+Repository of tomographic datasets and phantoms.
