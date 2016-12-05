@@ -28,15 +28,15 @@ if __name__ == '__main__':
     tomobank_id = 'phantom_00001'
 
     # Set path to the micro-CT data to convert.
-    fname = '/local/decarlo/conda/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
+    fname = 'tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
 
     # Set meta-data
     experimenter_affiliation="Argonne National Laboratory" 
     experimenter_email="tomobank@anl.gov"
-    instrument_name="XDesign VERSION: VERSION:0.2.0.dev0+1d67599b8f104ebded86bac98100dbf15e251a66 FUNCTION: SlantedSquares(count=16, angle=5/360*2*np.pi, gap=0.01), prop='mass_atten'"  
+    instrument_name="XDesign VERSION:0.2.0.dev0+1d67599b8f104ebded86bac98100dbf15e251a66 FUNCTION: SlantedSquares(count=16, angle=5/360*2*np.pi, gap=0.01), prop='mass_atten'"  
     sample_name = tomobank_id
 
-    # phantom generation start time
+    # Phantom generation start time
     start_date = iso_time()
 
     phantom = SlantedSquares(count=16, angle=5/360*2*np.pi, gap=0.01)
@@ -46,17 +46,16 @@ if __name__ == '__main__':
     n_proj = 512
     
     step = 1. / ccd_x    prb = Probe(Point([step / 2., -10]), Point([step / 2., 10]), step)
-    #plt.imshow(np.reshape(sino, (n_proj, ccd_x)), cmap='gray', interpolation='nearest')    #plt.show(block=True)
 
-
-    n_dark = 10
-    n_white = 10
+    n_dark = 1
+    n_white = 1
     dark = np.zeros((n_dark, ccd_y, ccd_x)) # Array filled with zeros
     flat = np.ones((n_white, ccd_y, ccd_x)) # Array filled with ones
 
     sino = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
+    # Theta
     theta_step = np.pi / n_proj    theta_step_deg = theta_step * 180./np.pi
     theta = np.arange(0, 180., 180. / n_proj)
 
@@ -67,15 +66,13 @@ if __name__ == '__main__':
     end_angle_unit = 'deg'
     angular_step_unit = 'deg'
 
-    # phantom generation end time 
+    # Phantom generation end time 
     end_date = iso_time()
                 
     # Write ground_truth
     ground_truth = discrete_phantom(phantom, ccd_x, prop='mass_atten')
     fname_gt='/local/decarlo/conda/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '_ground_truth'
     dxchange.write_tiff(ground_truth, fname=fname_gt, dtype='float32')
-    #plt.imshow(ground_truth, interpolation='none', cmap=plt.cm.inferno)
-    #plt.show()
 
     # Save into a data-exchange file.
     if os.path.isfile(fname):

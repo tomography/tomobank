@@ -3,7 +3,7 @@ TomoBank
 ========
 
 
-.. image:: source/img/project-logo.png
+.. image:: source/img/tomobank-logo.png
    :width: 320px
    :alt: project
 
