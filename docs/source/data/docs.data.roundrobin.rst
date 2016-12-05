@@ -5,24 +5,24 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
 
 
 
-.. |00001| image:: ../img/tomo_00001.png
+.. |d00001| image:: ../img/tomo_00001.png
     :width: 20pt
     :height: 20pt
-.. |00002| image:: ../img/tomo_00002.png
+.. |d00002| image:: ../img/tomo_00002.png
     :width: 20pt
     :height: 20pt
-.. |00003| image:: ../img/tomo_00003.png
+.. |d00003| image:: ../img/tomo_00003.png
     :width: 20pt
     :height: 20pt
-.. |00004| image:: ../img/tomo_00004.png
+.. |d00004| image:: ../img/tomo_00004.png
     :width: 20pt
     :height: 20pt
     
     
-.. |tomo_00001| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00001.py>`
-.. |tomo_00002| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00002.py>`
-.. |tomo_00003| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00003.py>`
-.. |tomo_00004| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00001| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00001.py>`
+.. |tomo_00002| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00002.py>`
+.. |tomo_00003| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00003.py>`
+.. |tomo_00004| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
 
 
 .. _data_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
@@ -36,13 +36,13 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
 +---------------+----------------+------------------+--------------+-----------+---------------------------------------------------+
 |    Tomo ID    |    Facility    |    Sample        |   Scan Name  |   Image   |                     Downloads                     |                             
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+
-|     00001     |        APS     |       B1         |    hornby    |  |00001|  |      |tomo_00001|       |       data_00001_       |
+|     00001     |        APS     |       B1         |    hornby    |  |d00001| |      |tomo_00001|       |       data_00001_       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+
-|     00002     |        APS     |       N1         |    blakely   |  |00002|  |      |tomo_00002|       |       data_00002_       |
+|     00002     |        APS     |       N1         |    blakely   |  |d00002| |      |tomo_00002|       |       data_00002_       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+
-|     00003     |        SLS     |       B1         |    hornby    |  |00003|  |      |tomo_00003|       |       data_00003_       |
+|     00003     |        SLS     |       B1         |    hornby    |  |d00003| |      |tomo_00003|       |       data_00003_       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+
-|     00004     |        SLS     |       N1         |    blakely   |  |00004|  |      |tomo_00004|       |       data_00004_       |
+|     00004     |        SLS     |       N1         |    blakely   |  |d00004| |      |tomo_00004|       |       data_00004_       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+
 |     00005     |        ALS     |       B1         |    hornby    |           |                         |       data_00005_       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+-------------------------+

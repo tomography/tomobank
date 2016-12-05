@@ -22,21 +22,21 @@ set is collected after each pressure increase from 0.3 GPa to 59 GPa as reported
 the table below. Because the sample is into a high pressure cell, 
 86 of the 359 projections are blocked by the load frame. 
 
-.. |tomo_00007| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00001.py>`
-.. |tomo_00008| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00002.py>`
-.. |tomo_00009| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00003.py>`
-.. |tomo_00010| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00011| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00012| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00013| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00014| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00015| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00016| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00017| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00018| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00019| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00020| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
-.. |tomo_00021| replace:: :download:`script.py <../../../doc/demo/rec_tomo_00004.py>`
+.. |tomo_00007| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00001.py>`
+.. |tomo_00008| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00002.py>`
+.. |tomo_00009| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00003.py>`
+.. |tomo_00010| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00011| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00012| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00013| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00014| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00015| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00016| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00017| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00018| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00019| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00020| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00021| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
 
 
 .. _data_00007: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
