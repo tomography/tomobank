@@ -6,4 +6,4 @@ distributed as data exchange :cite:`decarlo:02` together with a python scripts t
 a basic reconstruction.
 
 .. toctree::   phantom/docs.phantom.standard   phantom/docs.phantom.foams
-   phantom/docs.wet_circles   phantom/docs.phantom.bio
+   phantom/docs.phantom.wet_circles   phantom/docs.phantom.bio
