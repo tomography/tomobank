@@ -79,8 +79,13 @@ Standard--------
 .. _phan_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 
-Version: 0.2.0.dev0+1d67599b8f104ebded86bac98100dbf15e251a66 are generated as follows:     
-    
+Version: `0.2.0.dev0+1d67599 <https://github.com/tomography/xdesign/tree/6ac04d785bc2c9c93d00886150ca60a8900825a7>`_
+are generated as follows:     
+
+
+
+
+
 .. code:: python
 
     ccd_x = 256 
