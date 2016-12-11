@@ -25,7 +25,7 @@ def iso_time():
 if __name__ == '__main__':
 
     # Set tomobank id
-    tomobank_id = 'phantom_00001'
+    tomobank_id = 'phantom_00002'
 
     # Set path to the micro-CT data to convert.
     fname = '/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
@@ -39,12 +39,12 @@ if __name__ == '__main__':
     # Phantom generation start time
     start_date = iso_time()
 
-    phantom = SlantedSquares(count=16, angle=5/360*2*np.pi, gap=0.01)
+    phantom = UnitCircle(radius=0.4, mass_atten=1)
 
     ccd_x = 256 
     ccd_y = 256
     n_proj = 512
-    
+   
     step = 1. / ccd_x    prb = Probe(Point([step / 2., -10]), Point([step / 2., 10]), step)
 
     n_dark = 1

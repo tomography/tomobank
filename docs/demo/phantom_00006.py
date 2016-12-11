@@ -25,7 +25,7 @@ def iso_time():
 if __name__ == '__main__':
 
     # Set tomobank id
-    tomobank_id = 'phantom_00001'
+    tomobank_id = 'phantom_00006'
 
     # Set path to the micro-CT data to convert.
     fname = '/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
@@ -39,12 +39,12 @@ if __name__ == '__main__':
     # Phantom generation start time
     start_date = iso_time()
 
-    phantom = SlantedSquares(count=16, angle=5/360*2*np.pi, gap=0.01)
+    phantom = SiemensStar(32)
 
     ccd_x = 256 
     ccd_y = 256
     n_proj = 512
-    
+
     step = 1. / ccd_x    prb = Probe(Point([step / 2., -10]), Point([step / 2., 10]), step)
 
     n_dark = 1
@@ -73,7 +73,7 @@ if __name__ == '__main__':
     ground_truth = discrete_phantom(phantom, ccd_x, prop='mass_atten')
     fname_gt='/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '_ground_truth'
     dxchange.write_tiff(ground_truth, fname=fname_gt, dtype='float32')
-
+ 
     # Save into a data-exchange file.
     if os.path.isfile(fname):
         print ("Data Exchange file already exists: ", fname)
