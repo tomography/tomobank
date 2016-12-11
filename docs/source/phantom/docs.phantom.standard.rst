@@ -83,9 +83,6 @@ version `0.2.0.dev0+1d67599 <https://github.com/tomography/xdesign/tree/1d67599b
 are generated as follows:     
 
 
-
-
-
 .. code:: python
 
     ccd_x = 256 
