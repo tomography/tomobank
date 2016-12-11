@@ -5,5 +5,5 @@ All phantom data sets are generated with `XDesign <http://myxdesign.readthedocs.
 distributed as data exchange :cite:`decarlo:02` together with a python scripts to load and perform 
 a basic reconstruction.
 
-.. toctree::   phantom/docs.phantom.standard   phantom/docs.phantom.foams
-   phantom/docs.phantom.wet_circles   phantom/docs.phantom.bio
+.. toctree::   phantom/docs.phantom.standard   phantom/docs.phantom.wet_circles   phantom/docs.phantom.foams
+   phantom/docs.phantom.bio
