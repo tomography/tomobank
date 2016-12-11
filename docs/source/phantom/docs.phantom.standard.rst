@@ -1,6 +1,6 @@
 Standard--------
 
-.. |rec00001| image:: ../img/phantom_00001.png
+.. |rec00001| image:: ../img/phantom_00001_00000.png
     :width: 20pt
     :height: 20pt
 
@@ -13,7 +13,7 @@ Standard--------
 
 .. _phan_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |rec00002| image:: ../img/phantom_00001.png
+.. |rec00002| image:: ../img/phantom_00002_00000.png
     :width: 20pt
     :height: 20pt
 
@@ -26,7 +26,7 @@ Standard--------
 
 .. _phan_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |rec00003| image:: ../img/phantom_00001.png
+.. |rec00003| image:: ../img/phantom_00003_00000.png
     :width: 20pt
     :height: 20pt
 
@@ -39,7 +39,7 @@ Standard--------
 
 .. _phan_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |rec00004| image:: ../img/phantom_00001.png
+.. |rec00004| image:: ../img/phantom_00004_00000.png
     :width: 20pt
     :height: 20pt
 
@@ -52,7 +52,7 @@ Standard--------
 
 .. _phan_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |rec00005| image:: ../img/phantom_00001.png
+.. |rec00005| image:: ../img/phantom_00005_00000.png
     :width: 20pt
     :height: 20pt
 
@@ -65,7 +65,7 @@ Standard--------
 
 .. _phan_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |rec00006| image:: ../img/phantom_00001.png
+.. |rec00006| image:: ../img/phantom_00006_00000.png
     :width: 20pt
     :height: 20pt
 
