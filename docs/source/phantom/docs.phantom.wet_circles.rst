@@ -24,7 +24,7 @@ are generated as follows:
     ccd_y = 1
     n_proj = 512
 
-    phantom_00008 = xdesign.WetCircles()
+    phantom_00007 = xdesign.WetCircles()
 
 The ground truth, sinogram and projection are obtained with:
 
