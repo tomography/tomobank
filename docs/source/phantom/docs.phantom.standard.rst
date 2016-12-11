@@ -17,7 +17,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |gt00002| image:: ../img/phantom_00001_ground_truth.png
+.. |gt00002| image:: ../img/phantom_00002_ground_truth.png
     :width: 20pt
     :height: 20pt
 
@@ -30,7 +30,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |gt00003| image:: ../img/phantom_00001_ground_truth.png
+.. |gt00003| image:: ../img/phantom_00003_ground_truth.png
     :width: 20pt
     :height: 20pt
 
@@ -43,7 +43,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |gt00004| image:: ../img/phantom_00001_ground_truth.png
+.. |gt00004| image:: ../img/phantom_00004_ground_truth.png
     :width: 20pt
     :height: 20pt
 
@@ -56,7 +56,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |gt00005| image:: ../img/phantom_00001_ground_truth.png
+.. |gt00005| image:: ../img/phantom_00005_ground_truth.png
     :width: 20pt
     :height: 20pt
 
@@ -69,7 +69,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |gt00006| image:: ../img/phantom_00001_ground_truth.png
+.. |gt00006| image:: ../img/phantom_00006_ground_truth.png
     :width: 20pt
     :height: 20pt
 
