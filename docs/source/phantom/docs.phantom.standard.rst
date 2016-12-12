@@ -8,7 +8,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00001| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00001| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00001.py>`
 
 .. |rec_00001| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00001.py>`
 
@@ -22,7 +22,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00002| replace:: :download:`script.py <../../../docs/demo/phantom_00002.py>`
+.. |phan_00002| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00002.py>`
 
 .. |rec_00002| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00002.py>`
 
@@ -36,7 +36,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00003| replace:: :download:`script.py <../../../docs/demo/phantom_00003.py>`
+.. |phan_00003| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00003.py>`
 
 .. |rec_00003| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00003.py>`
 
@@ -50,7 +50,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00004| replace:: :download:`script.py <../../../docs/demo/phantom_00004.py>`
+.. |phan_00004| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00004.py>`
 
 .. |rec_00004| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00004.py>`
 
@@ -64,7 +64,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00005| replace:: :download:`script.py <../../../docs/demo/phantom_00005.py>`
+.. |phan_00005| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00005.py>`
 
 .. |rec_00005| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00005.py>`
 
@@ -78,7 +78,7 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00006| replace:: :download:`script.py <../../../docs/demo/phantom_00006.py>`
+.. |phan_00006| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00006.py>`
 
 .. |rec_00006| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00006.py>`
 

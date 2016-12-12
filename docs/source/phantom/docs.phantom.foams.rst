@@ -8,7 +8,7 @@ Foam----
     :width: 20pt
     :height: 20pt
 
-.. |phan_00008| replace:: :download:`script.py <../../../docs/demo/phantom_00008.py>`
+.. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
 
 .. |rec_00008| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00008.py>`
 
@@ -23,7 +23,7 @@ Foam----
     :width: 20pt
     :height: 20pt
 
-.. |phan_00009| replace:: :download:`script.py <../../../docs/demo/phantom_00009.py>`
+.. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
 
 .. |rec_00009| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00009.py>`
 
@@ -37,7 +37,7 @@ Foam----
     :width: 20pt
     :height: 20pt
 
-.. |phan_00010| replace:: :download:`script.py <../../../docs/demo/phantom_00010.py>`
+.. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
 
 .. |rec_00010| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00010.py>`
 
@@ -51,7 +51,7 @@ Foam----
     :width: 20pt
     :height: 20pt
 
-.. |phan_00011| replace:: :download:`script.py <../../../docs/demo/phantom_00011.py>`
+.. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
 
 .. |rec_00011| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00011.py>`
 
