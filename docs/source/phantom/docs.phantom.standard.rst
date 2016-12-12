@@ -10,6 +10,7 @@ Standard--------
 
 .. |phan_00001| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
 
+.. |rec_00001| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00001.py>`
 
 .. _phan_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -21,8 +22,9 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00002| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00002| replace:: :download:`script.py <../../../docs/demo/phantom_00002.py>`
 
+.. |rec_00002| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00002.py>`
 
 .. _phan_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -34,8 +36,9 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00003| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00003| replace:: :download:`script.py <../../../docs/demo/phantom_00003.py>`
 
+.. |rec_00003| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00003.py>`
 
 .. _phan_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -47,8 +50,9 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00004| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00004| replace:: :download:`script.py <../../../docs/demo/phantom_00004.py>`
 
+.. |rec_00004| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00004.py>`
 
 .. _phan_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -60,8 +64,9 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00005| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00005| replace:: :download:`script.py <../../../docs/demo/phantom_00005.py>`
 
+.. |rec_00005| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00005.py>`
 
 .. _phan_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -73,8 +78,9 @@ Standard--------
     :width: 20pt
     :height: 20pt
 
-.. |phan_00006| replace:: :download:`script.py <../../../docs/demo/phantom_00001.py>`
+.. |phan_00006| replace:: :download:`script.py <../../../docs/demo/phantom_00006.py>`
 
+.. |rec_00006| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00006.py>`
 
 .. _phan_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -102,17 +108,17 @@ The ground truth, sinogram and projection are obtained with:
 
 +---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
 |  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |                     Downloads                     |                             
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00001     |    XDesign     |  Slanted Squares       |  |gt00001|   | |rec00001| |      |phan_00001|       |       phan_00001_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00002     |    XDesign     |  Unit Circle           |  |gt00002|   | |rec00002| |      |phan_00002|       |       phan_00002_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00003     |    XDesign     |  Hyperbolic Concentric |  |gt00003|   | |rec00003| |      |phan_00003|       |       phan_00003_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00004     |    XDesign     |  Dynamic Range         |  |gt00004|   | |rec00004| |      |phan_00004|       |       phan_00004_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00005     |    XDesign     |  Doga's Circles        |  |gt00005|   | |rec00005| |      |phan_00005|       |       phan_00005_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
-|     00006     |    XDesign     |  Siemens Star          |  |gt00006|   | |rec00006| |      |phan_00006|       |       phan_00006_       |
-+---------------+----------------+------------------------+--------------+------------+-------------------------+-------------------------+
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00001     |    XDesign     |  Slanted Squares       |  |gt00001|   | |rec00001| |      |phan_00001|  |  |rec_00001| | phan_00001_   |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00002     |    XDesign     |  Unit Circle           |  |gt00002|   | |rec00002| |      |phan_00002|  |  |rec_00002| | phan_00002_   |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00003     |    XDesign     |  Hyperbolic Concentric |  |gt00003|   | |rec00003| |      |phan_00003|  |  |rec_00003| | phan_00003_   |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00004     |    XDesign     |  Dynamic Range         |  |gt00004|   | |rec00004| |      |phan_00004|  |  |rec_00004| |phan_00004_    |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00005     |    XDesign     |  Doga's Circles        |  |gt00005|   | |rec00005| |      |phan_00005|  |  |rec_00005| |phan_00005_    |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
+|     00006     |    XDesign     |  Siemens Star          |  |gt00006|   | |rec00006| |      |phan_00006|  |  |rec_00006| |phan_00006_    |
++---------------+----------------+------------------------+--------------+------------+--------------------+--------------+---------------+
 

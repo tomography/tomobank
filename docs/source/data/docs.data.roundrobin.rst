@@ -19,10 +19,10 @@ The Round-Robin data sets consists of two shale samples obtained from the North 
     :height: 20pt
     
     
-.. |tomo_00001| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00001.py>`
-.. |tomo_00002| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00002.py>`
-.. |tomo_00003| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00003.py>`
-.. |tomo_00004| replace:: :download:`script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00001| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00001.py>`
+.. |tomo_00002| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00002.py>`
+.. |tomo_00003| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00003.py>`
+.. |tomo_00004| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
 
 .. _data_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
