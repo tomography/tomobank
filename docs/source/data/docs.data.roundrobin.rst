@@ -25,27 +25,27 @@ The Tomography Round-Robin data sets consist of two shale samples obtained from 
 .. |tomo_00004| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
 
-.. _data_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
-.. _data_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
-.. _data_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
-.. _data_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
-.. _data_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
-.. _data_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
+.. _tomo_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F&destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00001_to_00006%2F
 
 
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
 |    Tomo ID    |    Facility    |    Sample        |   Scan Name  |   Image   |        Downloads        |                             
 +---------------+----------------+------------------+--------------+-----------+-------------------------+ 
-| data_00001_   |        APS     |       B1         |    hornby    |  |d00001| |      |tomo_00001|       |
+| tomo_00001_   |        APS     |       B1         |    hornby    |  |d00001| |      |tomo_00001|       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
-| data_00002_   |        APS     |       N1         |    blakely   |  |d00002| |      |tomo_00002|       |
+| tomo_00002_   |        APS     |       N1         |    blakely   |  |d00002| |      |tomo_00002|       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
-| data_00003_   |        SLS     |       B1         |    hornby    |  |d00003| |      |tomo_00003|       |
+| tomo_00003_   |        SLS     |       B1         |    hornby    |  |d00003| |      |tomo_00003|       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
-| data_00004_   |        SLS     |       N1         |    blakely   |  |d00004| |      |tomo_00004|       |
+| tomo_00004_   |        SLS     |       N1         |    blakely   |  |d00004| |      |tomo_00004|       |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
-| data_00005_   |        ALS     |       B1         |    hornby    |           |                         |
+| tomo_00005_   |        ALS     |       B1         |    hornby    |           |                         |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
-| data_00006_   |        ALS     |       N1         |    blakely   |           |                         |
+| tomo_00006_   |        ALS     |       N1         |    blakely   |           |                         |
 +---------------+----------------+------------------+--------------+-----------+-------------------------+
 
