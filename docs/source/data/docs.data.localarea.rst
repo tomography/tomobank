@@ -4,19 +4,52 @@ Local Area
 Local Area includes a first series of 5 data sets in which the sample is larger than the field of view (see table below). The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00022 to tomo_00026. 
 
 
-+------------------------------------+------------------------------+
-|           tomo_ID                  | Sample Name                  |
-+------------------------------------+------------------------------+
-|           00022                    | Double Bamboo Tin Wire       |
-+------------------------------------+------------------------------+
-|           00023                    | Bamboo Wires 2               |
-+------------------------------------+------------------------------+
-|           00024                    | Polystyrene                  |
-+------------------------------------+------------------------------+
-|           00025                    | Rock no oil                  |
-+------------------------------------+------------------------------+
-|           00026                    | Rock oil saturated           |
-+------------------------------------+------------------------------+
++------------------------------------+------------------------------+-----------+-------------------------+
+|           tomo_ID                  | Sample Name                  |   Image   |       Downloads         |     
++------------------------------------+------------------------------+-----------+-------------------------+ 
+|           00022                    | Double Bamboo Tin Wire       |  |00022|  |      |tomo_00022|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
+|           00023                    | Bamboo Wires 2               |  |00023|  |      |tomo_00023|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
+|           00024                    | Polystyrene                  |  |00024|  |      |tomo_00024|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
+|           00025                    | Rock no oil                  |  |00025|  |      |tomo_00025|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
+|           00026                    | Rock oil saturated           |  |00026|  |      |tomo_00026|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
+
+.. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00025| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00026| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+
+.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+
+.. |00022| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00023| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00024| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00025| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00026| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     |   00022                    |  
@@ -134,18 +167,44 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 
 A second series of data sets (see table below) were acquired by microfocus CT at the TomoLab station of Elettra using a cone-beam geometry. The sample description and the experimental conditions are reported in tables below under tomo_00027 to tomo_00030.
 
+.. |tomo_00027| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00028| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00029| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00030| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
-+------------------------------------+------------------------------+
-|           tomo_ID                  | Sample Name                  |
-+------------------------------------+------------------------------+
-|           00027                    | bone local                   |
-+------------------------------------+------------------------------+
-|           00028                    | bone local stone             |
-+------------------------------------+------------------------------+
-|           00029                    | candie local                 |
-+------------------------------------+------------------------------+
-|           00030                    | smiling sammple              |
-+------------------------------------+------------------------------+
+.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+
+.. |00027| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00028| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00029| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00030| image:: ../img/tomo_00001.png
+    :width: 20pt
+    :height: 20pt
+
+
++------------------------------------+------------------------------+-----------+-------------------------+
+|           tomo_ID                  | Sample Name                  |   Image   |       Downloads         |
++------------------------------------+------------------------------+-----------+-------------------------+
+|           00027                    | bone local                   |  |00027|  |      |tomo_00027|       |
++------------------------------------+------------------------------+-----------+-------------------------+
+|           00028                    | bone local stone             |  |00028|  |      |tomo_00028|       |
++------------------------------------+------------------------------+-----------+-------------------------+
+|           00029                    | candie local                 |  |00029|  |      |tomo_00029|       |
++------------------------------------+------------------------------+-----------+-------------------------+
+|           00030                    | smiling sammple              |  |00030|  |      |tomo_00030|       |
++------------------------------------+------------------------------+-----------+-------------------------+
 
 +------------------------------------+------------------------------+
 |    tomo_ID                         |      00027                   |
