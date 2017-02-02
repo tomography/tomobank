@@ -6,7 +6,7 @@ Sometimes data collection speed requirements, e. g. in evolving samples, impose 
 exposure times generating noisy data. Noisy Data includes several data sets like Dorthe_F_002 in which 
 the exposure time much shorter than the optimal value. 
 The sample description and the experimental conditions are reported in tables below:
-and accessible for download at \cite{tomobank:16} under tomo\_00031. 
+and accessible for download under tomo\_00031. 
 
 +------------------------+---------------------------------------------------------+
 | Instrument             |      APS 13-BM-D                                        |
@@ -35,13 +35,13 @@ and accessible for download at \cite{tomobank:16} under tomo\_00031.
 
 .. _tomo_00031: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |00001| image:: ../img/tomo_00031.png
+.. |00031| image:: ../img/tomo_00031.png
     :width: 20pt
     :height: 20pt
 
 +-------------+------------------+-----------+-------------------------+
 | Tomo ID     | Sample Name      |   Image   |       Downloads         |     
 +-------------+------------------+-----------+-------------------------+ 
-| tomo_00007_ |  Dorthe_F_002    |  |00031|  |      |tomo_00031|       |
+| tomo_00031_ |  Dorthe_F_002    |  |00031|  |      |tomo_00031|       |
 +-------------+------------------+-----------+-------------------------+
 
