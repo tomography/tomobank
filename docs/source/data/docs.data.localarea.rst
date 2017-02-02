@@ -1,106 +1,309 @@
 Local Area
 ----------
 
-The limited view data set contains tomography ..................
+Local Area includes a first series of 5 data sets in which the sample is larger than the field of view (see table below). The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00022 to tomo_00026. 
 
 
-To complete with
++------------------------------------+------------------------------+
+|           tomo_ID                  | Sample Name                  |
++------------------------------------+------------------------------+
+|           00022                    | Double Bamboo Tin Wire       |
++------------------------------------+------------------------------+
+|           00023                    | Bamboo Wires 2               |
++------------------------------------+------------------------------+
+|           00024                    | Polystyrene                  |
++------------------------------------+------------------------------+
+|           00025                    | Rock no oil                  |
++------------------------------------+------------------------------+
+|           00026                    | Rock oil saturated           |
++------------------------------------+------------------------------+
 
-tomo_00022 to tomo_00026 elettra
-tomo_00027 to tomo_00030 elettra tomolab
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00022                    |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   Double Bamboo Tin Wire   |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   white beam mode          |  
++-----------------------------------------+----------------------------+
+|             Ring energy                 |   2 GeV                    |  
++-----------------------------------------+----------------------------+
+|             Exposure time               |   1 s                      |  
++-----------------------------------------+----------------------------+
+|             Detector                    |   SCMOS 16-bit             |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   2.4 µm                   |  
++-----------------------------------------+----------------------------+
+|             Projections                 |   1800 over 180 degrees    | 
++-----------------------------------------+----------------------------+
 
-tomo_ID: 00027
-Sample Name: Bone_local
-distance source-sample (mm): 100
-distance source-detector (mm):  250 
-total scanned angle (degrees): 360 
-start angle (degrees): 0 
-number of acquired projections: 1805
-number of projections to be processed: 1800     
-horizontal image size (pixels): 2004
-vertical image size (pixels): 1335
-detector horizontal offset (pixels): 25
-detector vertical offset (pixels): 0.25    
-detector horizontal pixel size (mm): 0.025   
-detector vertical pixel size (mm): 0.025    
-reconstructed volume X size (pixels): 1984
-reconstructed volume Y size (pixels): 1984
-reconstructed volume Z size (pixels) : 192
-reconstructed volume X pitch size (mm): 0.01
-reconstructed volume Y pitch size (mm): 0.01
-reconstructed volume Z pitch size (mm): 0.01
-reconstructed volume X origin (pixels): 0
-reconstructed volume Y origin (pixels): 0
-reconstructed volume Z origin (pixels): -80
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00023                    |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   Bamboo Wires 2           |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   white beam mode          |  
++-----------------------------------------+----------------------------+
+|             Ring energy                 |   2 GeV                    |  
++-----------------------------------------+----------------------------+
+|             Exposure time               |   1 s                      |  
++-----------------------------------------+----------------------------+
+|             Detector                    |   SCMOS 16-bit             |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   2.6 µm                   |  
++-----------------------------------------+----------------------------+
+|             Projections                 |   1800 over 180 degrees    |  
++-----------------------------------------+----------------------------+
 
-tomo_ID: 00028
-Sample Name: bone_local_stone
-distance source-sample (mm): 100
-distance source-detector (mm):  250 
-total scanned angle (degrees): 360 
-start angle (degrees): 0 
-number of acquired projections: 1805
-number of projections to be processed: 1800     
-horizontal image size (pixels): 2004
-vertical image size (pixels): 1335
-detector horizontal offset (pixels): 26
-detector vertical offset (pixels): 0.25    
-detector horizontal pixel size (mm): 0.025   
-detector vertical pixel size (mm): 0.025    
-reconstructed volume X size (pixels): 1984
-reconstructed volume Y size (pixels): 1984
-reconstructed volume Z size (pixels) : 192
-reconstructed volume X pitch size (mm): 0.01
-reconstructed volume Y pitch size (mm): 0.01
-reconstructed volume Z pitch size (mm): 0.01
-reconstructed volume X origin (pixels): 0
-reconstructed volume Y origin (pixels): 0
-reconstructed volume Z origin (pixels): -80
 
-tomo_ID: 00029
-Sample Name: TicTac_local
-distance source-sample (mm): 100
-distance source-detector (mm):  250 
-total scanned angle (degrees): 360 
-start angle (degrees): 0 
-number of acquired projections: 1805
-number of projections to be processed: 1800    
-horizontal image size (pixels): 2004
-vertical image size (pixels): 1335
-detector horizontal offset (pixels): 27
-detector vertical offset (pixels): 0.2    
-detector horizontal pixel size (mm): 0.025   
-detector vertical pixel size (mm): 0.025    
-reconstructed volume X size (pixels): 1984
-reconstructed volume Y size (pixels): 1984
-reconstructed volume Z size (pixels) : 192
-reconstructed volume X pitch size (mm): 0.01
-reconstructed volume Y pitch size (mm): 0.01
-reconstructed volume Z pitch size (mm): 0.01
-reconstructed volume X origin (pixels): 0
-reconstructed volume Y origin (pixels): 0
-reconstructed volume Z origin (pixels): -100
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00024                    |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   Polystyrene              |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   white beam mode          |  
++-----------------------------------------+----------------------------+
+|             Ring energy                 |   2 GeV                    |  
++-----------------------------------------+----------------------------+
+|             Exposure time               |   1 s                      |  
++-----------------------------------------+----------------------------+
+|             Detector                    |   SCMOS 16-bit             |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   2.04 µm                  |  
++-----------------------------------------+----------------------------+
+|             Projections                 |   1800 over 180 degrees    |  
++-----------------------------------------+----------------------------+
 
-tomo_ID: 00030
-Sample Name: Smiling_sample
-distance source-sample (mm): 250.00
-distance source-detector (mm):  350.00
-total scanned angle (degrees): 360.000
-start angle (degrees): 0 
-number of acquired projections: 721
-number of projections to be processed: 720 
-horizontal image size (pixels): 668
-vertical image size (pixels): 445
-detector horizontal offset (pixels): -10
-detector vertical offset (pixels): 0.2
-detector horizontal pixel size (mm): 0.075 
-detector vertical pixel size (mm): 0.075
-reconstructed volume X size (pixels): 672
-reconstructed volume Y size (pixels): 672
-reconstructed volume Z size (pixels) : 445
-reconstructed volume X pitch size (mm): 0.058
-reconstructed volume Y pitch size (mm): 0.058
-reconstructed volume Z pitch size (mm): 0.058
-reconstructed volume X origin (pixels): 0
-reconstructed volume Y origin (pixels): 0
-reconstructed volume Z origin (pixels): 30
+
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00025                    |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   Rock no oil              |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   white beam mode          |  
++-----------------------------------------+----------------------------+
+|             Ring energy                 |   2 GeV                    |  
++-----------------------------------------+----------------------------+
+|             Exposure time               |   1 s                      |  
++-----------------------------------------+----------------------------+
+|             Detector                    |   SCMOS 16-bit             |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   2.04 µm                  |  
++-----------------------------------------+----------------------------+
+|             Projections                 |  1800 over 180 degrees     |
++-----------------------------------------+----------------------------+
+
+
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00026                    |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   Rock oil saturated       |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   white beam mode          |  
++-----------------------------------------+----------------------------+
+|             Ring energy                 |   2 GeV                    |  
++-----------------------------------------+----------------------------+
+|             Exposure time               |   1 s                      |  
++-----------------------------------------+----------------------------+
+|             Detector                    |   SCMOS 16-bit             |
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   2.04 µm                  |  
++-----------------------------------------+----------------------------+
+|             Projections                 |   1800 over 180 degrees    |  
++-----------------------------------------+----------------------------+
+
+
+A second series of data sets (see table below) were acquired by microfocus CT at the TomoLab station of Elettra using a cone-beam geometry. The sample description and the experimental conditions are reported in tables below under tomo_00027 to tomo_00030.
+
+
++------------------------------------+------------------------------+
+|           tomo_ID                  | Sample Name                  |
++------------------------------------+------------------------------+
+|           00027                    | bone local                   |
++------------------------------------+------------------------------+
+|           00028                    | bone local stone             |
++------------------------------------+------------------------------+
+|           00029                    | candie local                 |
++------------------------------------+------------------------------+
+|           00030                    | smiling sammple              |
++------------------------------------+------------------------------+
+
++------------------------------------+------------------------------+
+|    tomo_ID                         |      00027                   |
++------------------------------------+------------------------------+
+|    Instrument                      |      TomoLab @Elettra        |
++------------------------------------+------------------------------+
+|    Sample Name                     |      Bone  local             |
++------------------------------------+------------------------------+
+|    Voltage                         |      110 kV                  |
++------------------------------------+------------------------------+
+|    Current                         |      145 µA                  |
++------------------------------------+------------------------------+
+|    Filter                          |      0.1 mm Cu               |
++------------------------------------+------------------------------+
+|    Focal spot                      |      16 µm                   |
++------------------------------------+------------------------------+
+|    Exposure time/proj              |      4 s                     |
++------------------------------------+------------------------------+
+|    Detector                        |      CCD 12-bit              |
++------------------------------------+------------------------------+
+|    Source-to-sample distance       |      100 mm                  |
++------------------------------------+------------------------------+
+|    Source-to-detector distance     |      250 mm                  |
++------------------------------------+------------------------------+
+|    Pixel size                      |      10.0 µm                 |
++------------------------------------+------------------------------+
+|    Projections                     |      1800 over 360 degrees   |
++------------------------------------+------------------------------+
+|    Total scanned angle             |      360 degrees             |
++------------------------------------+------------------------------+
+|    Start angle (degrees)           |      0                       |
++------------------------------------+------------------------------+
+|    Horizontal image size           |      2004 pixels             |
++------------------------------------+------------------------------+
+|    Vertical image size             |      1335 pixels             |
++------------------------------------+------------------------------+
+|    Detector horizontal pixel size  |      25 µm                   |
++------------------------------------+------------------------------+
+|    Detector vertical pixel size    |      25 µm                   |
++------------------------------------+------------------------------+
+
++------------------------------------+------------------------------+
+|    tomo_ID                         |      00028                   |
++------------------------------------+------------------------------+
+|    Instrument                      |      TomoLab @Elettra        |
++------------------------------------+------------------------------+
+|    Sample Name                     |      bone  local  stone      |
++------------------------------------+------------------------------+
+|    Voltage                         |      60 kV                   |
++------------------------------------+------------------------------+
+|    Current                         |      250 µA                  |
++------------------------------------+------------------------------+
+|    Filter                          |      1.0 mm Al               |
++------------------------------------+------------------------------+
+|    Focal spot                      |      16 µm                   |
++------------------------------------+------------------------------+
+|    Exposure time/proj              |      4 s                     |
++------------------------------------+------------------------------+
+|    Detector                        |      CCD 12-bit              |
++------------------------------------+------------------------------+
+|    Source-to-sample distance       |      100 mm                  |
++------------------------------------+------------------------------+
+|    Source-to-detector distance     |      250 mm                  |
++------------------------------------+------------------------------+
+|    Pixel size                      |      10.0 µm                 |
++------------------------------------+------------------------------+
+|    Projections                     |      1800 over 360 degrees   |
++------------------------------------+------------------------------+
+|    Total scanned angle             |      360 degrees             |
++------------------------------------+------------------------------+
+|    Start angle (degrees)           |      0                       |
++------------------------------------+------------------------------+
+|    Horizontal image size           |      2004 pixels             |
++------------------------------------+------------------------------+
+|    Vertical image size             |      1335 pixels             |
++------------------------------------+------------------------------+
+|    Detector horizontal pixel size  |      25 µm                   |
++------------------------------------+------------------------------+
+|    Detector vertical pixel size    |      25 µm                   |
++------------------------------------+------------------------------+
+
++------------------------------------+------------------------------+
+|    tomo_ID                         |      00029                   |
++------------------------------------+------------------------------+
+|    Instrument                      |      TomoLab @Elettra        |
++------------------------------------+------------------------------+
+|    Sample Name                     |      Candy  local            |
++------------------------------------+------------------------------+
+|    Voltage                         |      70 kV                   |
++------------------------------------+------------------------------+
+|    Current                         |      114 µA                  |
++------------------------------------+------------------------------+
+|    Filter                          |      1.5 mm Al               |
++------------------------------------+------------------------------+
+|    Focal spot                      |      8 µm                    |
++------------------------------------+------------------------------+
+|    Exposure time/proj              |      6 s                     |
++------------------------------------+------------------------------+
+|    Detector                        |      CCD 12-bit              |
++------------------------------------+------------------------------+
+|    Source-to-sample distance       |      100 mm                  |
++------------------------------------+------------------------------+
+|    Source-to-detector distance     |      250 mm                  |
++------------------------------------+------------------------------+
+|    Pixel size                      |      10.0 µm                 |
++------------------------------------+------------------------------+
+|    Projections                     |      1800 over 360 degrees   |
++------------------------------------+------------------------------+
+|    Total scanned angle             |      360 degrees             |
++------------------------------------+------------------------------+
+|    Start angle (degrees)           |      0                       |
++------------------------------------+------------------------------+
+|    Horizontal image size           |      2004 pixels             |
++------------------------------------+------------------------------+
+|    Vertical image size             |      1335 pixels             |
++------------------------------------+------------------------------+
+|    Detector horizontal pixel size  |      25 µm                   |
++------------------------------------+------------------------------+
+|    Detector vertical pixel size    |      25 µm                   |
++------------------------------------+------------------------------+
+
++------------------------------------+------------------------------+
+|    tomo_ID                         |      00030                   |
++------------------------------------+------------------------------+
+|    Instrument                      |      TomoLab @Elettra        |
++------------------------------------+------------------------------+
+|    Sample Name                     |      Smiling  sample         |
++------------------------------------+------------------------------+
+|    Voltage                         |      60 kV                   |
++------------------------------------+------------------------------+
+|    Current                         |      300 µA                  |
++------------------------------------+------------------------------+
+|    Filter                          |      1.5 mm Al               |
++------------------------------------+------------------------------+
+|    Focal spot                      |      20 µm                   |
++------------------------------------+------------------------------+
+|    Exposure time/proj              |      1 s                     |
++------------------------------------+------------------------------+
+|    Detector                        |      CCD 12-bit              |
++------------------------------------+------------------------------+
+|    Source-to-sample distance       |      250 mm                  |
++------------------------------------+------------------------------+
+|    Source-to-detector distance     |      350 mm                  |
++------------------------------------+------------------------------+
+|    Pixel size                      |      58.0 µm                 |
++------------------------------------+------------------------------+
+|    Projections                     |      720 over 360 degrees    |
++------------------------------------+------------------------------+
+|    Total scanned angle             |      360 degrees.000         |
++------------------------------------+------------------------------+
+|    Start angle (degrees)           |      0                       |
++------------------------------------+------------------------------+
+|    Horizontal image size           |      668 pixels              |
++------------------------------------+------------------------------+
+|    Vertical image size             |      445 pixels              |
++------------------------------------+------------------------------+
+|    Detector horizontal pixel size  |      75 µm                   |
++------------------------------------+------------------------------+
+|    Detector vertical pixel size    |      75 µm                   |
++------------------------------------+------------------------------+
+
