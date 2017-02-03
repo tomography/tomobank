@@ -30,23 +30,23 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 .. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 .. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
-.. |00022| image:: ../img/tomo_00001.png
+.. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
     :height: 20pt
 
-.. |00023| image:: ../img/tomo_00001.png
+.. |00023| image:: ../img/tomo_00023.png
     :width: 20pt
     :height: 20pt
 
-.. |00024| image:: ../img/tomo_00001.png
+.. |00024| image:: ../img/tomo_00024.png
     :width: 20pt
     :height: 20pt
 
-.. |00025| image:: ../img/tomo_00001.png
+.. |00025| image:: ../img/tomo_00025.png
     :width: 20pt
     :height: 20pt
 
-.. |00026| image:: ../img/tomo_00001.png
+.. |00026| image:: ../img/tomo_00026.png
     :width: 20pt
     :height: 20pt
 
