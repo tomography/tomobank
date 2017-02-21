@@ -24,11 +24,11 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 .. |tomo_00025| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00026| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
-.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F/
+.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F/
+.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F/
+.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00025%2F/
+.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00026%2F/
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -205,10 +205,10 @@ A second series of data sets (see table below) were acquired by microfocus CT at
 .. |tomo_00029| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00030| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
-.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
-.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F/
+.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00028%2F/
+.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00029%2F/
+.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00030%2F/
 
 .. |00027| image:: ../img/tomo_00001.png
     :width: 20pt
