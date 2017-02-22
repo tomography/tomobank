@@ -4,29 +4,8 @@ In-situ Studies
 Fatigue-corrosion 
 ~~~~~~~~~~~~~~~~~
 
-Reference :cite:`stannard:17`:
-
-X-ray synchrotron tomography was used to visualize the fatigue crack initiation and growth from corrosion pits in Al7075 aluminum alloys. Peak-aged Al 7075 samples were corrosion-pitted by soaking in exposed 3.5 wt.% NaCl solution for fifteen days (360 hours). These samples were fatigue tested in situ in solution using synchrotron X-ray tomography to analyze the fatigue crack initiation and growth characteristics (4D). Hydrogen bubbles were observed within the cracks during fatigue crack growth, indicating chemical changes in the sample during corrosion fatigue. 
-
-
-.. image:: ../img/tomo_00032.png
-   :width: 320px
-   :alt: project
-   :align: center
-
-
-Top figure shows an X-ray projection. The reconstruction is from 14300 fatigue cycles and shows the fatigue crack initiating from pre-existing “mud cracks” within the corrosion products in pits on the surface of the sample. The 4D data allowed measurement of the microscopic bubbles in the crack, which appeared to grow preferentially near the impurity particles within the alloy. With these 4D insights, alloys of improved corrosion-cracking resistance can be created and more durable aerospace components can eventually reach the market.
-
-Three-dimensional (3D) tomography under load is required to gain complete understanding of the growth rate of tortuous crack geometry within engineered components. When corrosion is involved, the four-dimensional (3D  plus time) tomography is required to capture the stress-corrosion cracking phenomena because corrosion reactions occur rapidly upon exposure of the unpassivated metal crack faces to corrosive solution. These corrosion and cracking mechanisms work synergistically to change the properties of the sample while producing microscopic hydrogen bubbles as evidence of their damage. Only with the high brilliance and stability of monochromatic synchrotron X-rays can accurate measurement of these bubbles be performed to identify the corrosion-cracking mechanisms. The work below demonstrates one such example to find the mechanisms behind corrosion-fatigue cracking from corrosion pits in peak-aged Al7075, which is a relevant source of failure in aerospace industry component reliability.
-
-
-
-
-
-
-
 The fatigue-corrosion data sets contain micro tomography (microCT) data with 
-the experimental conditions reported in the table below.
+the experimental conditions reported in the table below :cite:`stannard:17`:
 
 
 +---------------------------------+------------------------------------+
@@ -66,13 +45,12 @@ the experimental conditions reported in the table below.
 +---------------------------------+------------------------------------+
 | Objective Magnification         |        Mitutoyo 10x                | 
 +---------------------------------+------------------------------------+
-| Scintillator                    |        LuAG 10um                   | 
+| Scintillator                    |        LuAG 10 µm                  | 
 +---------------------------------+------------------------------------+
 
 
-The fatigue-corrision data sets consist of 25 tomographic data sets, each microCT data 
-set is collected after the fatigue cycles are increase from 750 to 14346 as reported in 
-the table below.
+The fatigue-corrision data sets includes 25 tomographic data sets collected at different 
+fatigue cycle ranging from 750 to 14346 as reported in the table below:
 
 .. |tomo_00032| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00032_to_00056.py>`
 .. |tomo_00033| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00032_to_00056.py>`
@@ -186,6 +164,20 @@ the table below.
 +-------------+---------+----------------------------------+-----------+-----------------------+ 
 | tomo_00056_ |  14346  |  H14_7075PA_172HV_99NF_14346C    |  |00032|  |      |tomo_00056|     |
 +-------------+---------+----------------------------------+-----------+-----------------------+ 
+
+
+X-ray synchrotron tomography was used to visualize the fatigue crack initiation and growth from corrosion pits in Al7075 aluminum alloys. Peak-aged Al 7075 samples were corrosion-pitted by soaking in exposed 3.5 wt.% NaCl solution for fifteen days (360 hours). These samples were fatigue tested in situ in solution using synchrotron X-ray tomography to analyze the fatigue crack initiation and growth characteristics (4D). Hydrogen bubbles were observed within the cracks during fatigue crack growth, indicating chemical changes in the sample during corrosion fatigue. 
+
+
+.. image:: ../img/tomo_00032.png
+   :width: 320px
+   :alt: project
+   :align: center
+
+
+Top figure shows an X-ray projection. The reconstruction is from 14300 fatigue cycles and shows the fatigue crack initiating from pre-existing “mud cracks” within the corrosion products in pits on the surface of the sample. The 4D data allowed measurement of the microscopic bubbles in the crack, which appeared to grow preferentially near the impurity particles within the alloy. With these 4D insights, alloys of improved corrosion-cracking resistance can be created and more durable aerospace components can eventually reach the market.
+
+Three-dimensional (3D) tomography under load is required to gain complete understanding of the growth rate of tortuous crack geometry within engineered components. When corrosion is involved, the four-dimensional (3D  plus time) tomography is required to capture the stress-corrosion cracking phenomena because corrosion reactions occur rapidly upon exposure of the unpassivated metal crack faces to corrosive solution. These corrosion and cracking mechanisms work synergistically to change the properties of the sample while producing microscopic hydrogen bubbles as evidence of their damage. Only with the high brilliance and stability of monochromatic synchrotron X-rays can accurate measurement of these bubbles be performed to identify the corrosion-cracking mechanisms. The work below demonstrates one such example to find the mechanisms behind corrosion-fatigue cracking from corrosion pits in peak-aged Al7075, which is a relevant source of failure in aerospace industry component reliability.
 
 
 
