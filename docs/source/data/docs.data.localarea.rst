@@ -1,7 +1,7 @@
 Local Area
 ----------
 
-Local Area includes a first series of 5 data sets in which the sample is larger than the field of view (see table below). The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00022 to tomo_00026. 
+Local Area includes a first series of 5 data sets in which the sample is larger than the field of view (see table below). The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00022 to tomo_00024. 
 
 
 +------------------------------------+------------------------------+-----------+-------------------------+
@@ -13,22 +13,14 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 +------------------------------------+------------------------------+-----------+-------------------------+ 
 |      tomo_00024_                   | Polystyrene                  |  |00024|  |      |tomo_00024|       |
 +------------------------------------+------------------------------+-----------+-------------------------+ 
-|      tomo_00025_                   | Rock no oil                  |  |00025|  |      |tomo_00025|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
-|      tomo_00026_                   | Rock oil saturated           |  |00026|  |      |tomo_00026|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
 
 .. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00025| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00026| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
 .. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F/
 .. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F/
 .. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F/
-.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00025%2F/
-.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00026%2F/
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -42,13 +34,6 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
     :width: 20pt
     :height: 20pt
 
-.. |00025| image:: ../img/tomo_00025.png
-    :width: 20pt
-    :height: 20pt
-
-.. |00026| image:: ../img/tomo_00026.png
-    :width: 20pt
-    :height: 20pt
 
 Double Bamboo Tin Wire
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -130,65 +115,6 @@ Polystyrene
 |             Exposure time               |   1 s                      |  
 +-----------------------------------------+----------------------------+
 |             Detector                    |   SCMOS 16-bit             |  
-+-----------------------------------------+----------------------------+
-|             Sample-to-detector distance |   150 mm                   |  
-+-----------------------------------------+----------------------------+
-|             Pixel size                  |   2.04 µm                  |  
-+-----------------------------------------+----------------------------+
-|             Projections                 |   1800 over 180 degrees    |  
-+-----------------------------------------+----------------------------+
-
-
-Rock no oil
-~~~~~~~~~~~
-
-+-----------------------------------------+----------------------------+
-|             tomo_ID                     |   00025                    |  
-+=========================================+============================+
-|             Image preview               |  |00025|                   |  
-+-----------------------------------------+----------------------------+
-|             Download                    |   tomo_00025_              |  
-+-----------------------------------------+----------------------------+
-|             Instrument                  |   Elettra Syrmep           |  
-+-----------------------------------------+----------------------------+
-|             Sample name                 |   Rock no oil              |  
-+-----------------------------------------+----------------------------+
-|             X-ray energy                |   white beam mode          |  
-+-----------------------------------------+----------------------------+
-|             Ring energy                 |   2 GeV                    |  
-+-----------------------------------------+----------------------------+
-|             Exposure time               |   1 s                      |  
-+-----------------------------------------+----------------------------+
-|             Detector                    |   SCMOS 16-bit             |  
-+-----------------------------------------+----------------------------+
-|             Sample-to-detector distance |   150 mm                   |  
-+-----------------------------------------+----------------------------+
-|             Pixel size                  |   2.04 µm                  |  
-+-----------------------------------------+----------------------------+
-|             Projections                 |  1800 over 180 degrees     |
-+-----------------------------------------+----------------------------+
-
-Rock oil saturated
-~~~~~~~~~~~~~~~~~~
-
-+-----------------------------------------+----------------------------+
-|             tomo_ID                     |   00026                    |  
-+=========================================+============================+
-|             Image preview               |  |00026|                   |  
-+-----------------------------------------+----------------------------+
-|             Download                    |   tomo_00026_              |  
-+-----------------------------------------+----------------------------+
-|             Instrument                  |   Elettra Syrmep           |  
-+-----------------------------------------+----------------------------+
-|             Sample name                 |   Rock oil saturated       |  
-+-----------------------------------------+----------------------------+
-|             X-ray energy                |   white beam mode          |  
-+-----------------------------------------+----------------------------+
-|             Ring energy                 |   2 GeV                    |  
-+-----------------------------------------+----------------------------+
-|             Exposure time               |   1 s                      |  
-+-----------------------------------------+----------------------------+
-|             Detector                    |   SCMOS 16-bit             |
 +-----------------------------------------+----------------------------+
 |             Sample-to-detector distance |   150 mm                   |  
 +-----------------------------------------+----------------------------+
@@ -427,4 +353,9 @@ Smiling  sample
 +------------------------------------+------------------------------+
 |    Detector vertical pixel size    |      75 µm                   |
 +------------------------------------+------------------------------+
+
+add datasets SLS02
+~~~~~~~~~~~~~~~~~~
+
+from https://drive.google.com/drive/folders/0B78bW1AwveI_WVdXQlBRMVBKQk0
 
