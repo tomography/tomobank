@@ -35,4 +35,5 @@ Content
    source/about
    source/data
    source/phantom
+   source/publish
    source/credits
