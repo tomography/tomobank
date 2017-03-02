@@ -65,9 +65,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-Affiliation = u'Aargonne National Laboratory'
+Affiliation = u'Argonne National Laboratory'
 project = u'TomoBank'
-copyright = u'2016, ' + Affiliation
+copyright = u'2016-2017, ' + Affiliation
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
