@@ -9,13 +9,14 @@ TomoBank
 
 The X-ray Tomography Data Bank or TomoBank, provides a repository of experimental 
 and simulated data sets with the aim to foster collaboration among computational scientists, 
-beamline scientists and experimentalists, to accelerate their implementation in the synchrotron 
-facility production software and to advance the development of tomographic reconstruction methods.
+beamline scientists and experimentalists, to accelerate the development of tomographic 
+reconstruction and 3D visualization methods and to speed up their implementation in the various 
+synchrotron facility data analysis software packages.
 
 Features
 --------
 
-* Tomographic data bank 
+* Tomographic datasets and phantom repository
 * Python scripts to read and reconstruct all data sets
 
 
