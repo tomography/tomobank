@@ -24,7 +24,8 @@ if __name__ == '__main__':
 
     # Read the APS 2-BM raw data.
     proj, flat, dark, theta = dxchange.read_aps_32id(fname, sino=(start, end))
-    
+
+    print(fname)   
     # Flat-field correction of raw data.
     proj = tomopy.normalize(proj, flat, dark)
 
@@ -32,11 +33,13 @@ if __name__ == '__main__':
     rot_center = (proj.shape[2]-1)/2.
     print (rot_center)
     
-    
-    tomopy.minus_log(proj)
+    # proj = tomopy.minus_log(proj)
 
     # Reconstruct object using Gridrec algorithm.
     rec = tomopy.recon(proj, theta, center=rot_center, algorithm='gridrec', nchunk=1)
+
+    # Mask each reconstructed slice with a circle.
+    rec = tomopy.circ_mask(rec, axis=0, ratio=0.95)
     
     # Write data as stack of TIFs.
     fname='/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id
