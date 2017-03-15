@@ -4,21 +4,21 @@ Created on Sat Dec  3 15:35:30 2016
 
 @author: decarlo
 """
-from __future__ import (absolute_import, division, print_function,                        unicode_literals)
+from __future__ import (absolute_import, division, print_function,                        unicode_literals)
                         
 from xdesign import *
 
 import os
-import timeimport pytzimport datetimeimport numpy as np
+import timeimport pytzimport datetimeimport numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import dxfile.dxtomo as dx
 import dxchange
 
 def iso_time():
-    # set the experiment date     now = datetime.datetime.today()
+    # set the experiment date     now = datetime.datetime.today()
 
-    # set iso format time    central = pytz.timezone('US/Central')    local_time = central.localize(now)    local_time_iso = local_time.isoformat()
+    # set iso format time    central = pytz.timezone('US/Central')    local_time = central.localize(now)    local_time_iso = local_time.isoformat()
     
     return local_time_iso
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     ccd_y = 256
     n_proj = 512
     
-    step = 1. / ccd_x    prb = Probe(Point([step / 2., -10]), Point([step / 2., 10]), step)
+    step = 1. / ccd_x    prb = Probe(Point([step / 2., -10]), Point([step / 2., 10]), step)
 
     n_dark = 1
     n_white = 1
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     proj = np.expand_dims(sino, 1)
 
     # Theta
-    theta_step = np.pi / n_proj    theta_step_deg = theta_step * 180./np.pi
+    theta_step = np.pi / n_proj    theta_step_deg = theta_step * 180./np.pi
     theta = np.arange(0, 180., 180. / n_proj)
 
     # Set data collection angles as equally spaced between 0-180 degrees.
