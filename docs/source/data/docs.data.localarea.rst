@@ -14,7 +14,7 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 |      tomo_00024_                   | Polystyrene                  |  |00024|  |      |tomo_00024|       |
 +------------------------------------+------------------------------+-----------+-------------------------+ 
 
-.. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 .. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
