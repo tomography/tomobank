@@ -11,8 +11,8 @@ Noisy Data
 ~~~~~~~~~~
 
 Sometimes data collection speed requirements, e. g. in evolving samples, impose very short 
-exposure times generating noisy data.  Noisy Data includes several data sets like Dorthe_F_002 in which 
-the exposure time much shorter than the optimal value. 
+exposure times generating noisy data.  Noisy Data includes several data sets like Dorthe_F_002 
+in which  the exposure time much shorter than the optimal value. 
 The sample description and the experimental conditions are reported in tables below:
 and accessible for download under tomo\_00031. 
 
@@ -64,7 +64,7 @@ equally spaced sparce angles. After each 0-180 deg rotation the next data set is
 with angular sampling interlaced to the previous scan.
 
 Below we report the sample description and the experimental conditions for an interlace dataset
-(tomo\_00057) collected at the Elettra Syrmep beamline.
+(tomo\_00057) :cite:`trabecular-bone:15`  collected at the Elettra Syrmep beamline.
 
 +-----------------------------+---------------------------------------------------------+
 | Instrument                  |      Elettra Syrmep                                     |
