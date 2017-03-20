@@ -64,7 +64,7 @@ equally spaced sparce angles. After each 0-180 deg rotation the next data set is
 with angular sampling interlaced to the previous scan.
 
 Below we report the sample description and the experimental conditions for an interlace dataset
-(tomo\_00031) collected at the Elettra Syrmep beamline.
+(tomo\_00057) collected at the Elettra Syrmep beamline.
 
 +-----------------------------+---------------------------------------------------------+
 | Instrument                  |      Elettra Syrmep                                     |
