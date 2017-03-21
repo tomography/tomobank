@@ -51,7 +51,7 @@ The experimental conditions reported in the table below:
 +---------------------------------+------------------------------------+
 
 
-The sphere data sets includes 6 tomographic data sets collected at different 
+The sphere data sets includes 4 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
 .. |tomo_00064| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00064_to_00067.py>`
