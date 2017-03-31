@@ -109,7 +109,7 @@ instead of forming a complete contour. The experimental conditions reported in t
 
 .. |tomo_00068| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00001.py>`
 
-.. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F/
+.. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F/
 
 .. |00068| image:: ../img/tomo_00068.png
     :width: 20pt
