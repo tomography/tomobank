@@ -85,7 +85,7 @@ sample to detector distance and different concentrations as reported in the tabl
 
 +-------------+----------+---------------+-----------+-----------------------+ 
 | Tomo ID     | Distance | Sample Name   |   Image   |       Downloads       |     
-+-------------+----------+---------------+-----------+-----------------------+ 
++=============+==========+===============+===========+=======================+ 
 | tomo_00064_ |     8    |   p2_pct_1    |  |00064|  |      |tomo_00064|     |
 +-------------+----------+---------------+-----------+-----------------------+ 
 | tomo_00065_ |    58    |   p2_pct_2    |  |00065|  |      |tomo_00065|     |
@@ -107,7 +107,7 @@ Here we present a dataset in which the challange is to compensate a partial moti
 a liquid-embedded biomaterial structure causing the edges of the air bubbles to contain streaks due to motio of the air bubbles
 instead of forming a complete contour. The experimental conditions reported in the table below:
 
-.. |tomo_00068| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00001.py>`
+.. |tomo_00068| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00068.py>`
 
 .. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F/
 
