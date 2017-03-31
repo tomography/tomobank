@@ -95,7 +95,46 @@ sample to detector distance and different concentrations as reported in the tabl
 | tomo_00067_ |   308    |   p2_pct_4    |  |00067|  |      |tomo_00067|     |
 +-------------+----------+---------------+-----------+-----------------------+ 
 
-add datasets Elettra01 
-~~~~~~~~~~~~~~~~~~~~~~
+Wet Sample
+~~~~~~~~~~
 
-from https://drive.google.com/drive/folders/0B78bW1AwveI_WVdXQlBRMVBKQk0
+The evaluation of wettability and swelling properties of biomaterials is fundamental in several applications in order to assess 
+the structural stability as well as the ability of water uptake of the synthesized 3D structures :cite:`brun:15`. However, 
+experiments carried  out in wet conditions might be affected by motion artfacts.  These artifacts negatively affect image 
+interpretation. 
+
+Here we present a dataset in which the challange is to compensate a partial motion artifact occurring in air bubbles within 
+a liquid-embedded biomaterial structure causing the edges of the air bubbles to contain streaks due to motio of the air bubbles
+instead of forming a complete contour. The experimental conditions reported in the table below:
+
+.. |tomo_00068| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00001.py>`
+
+.. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F/
+
+.. |00068| image:: ../img/tomo_00068.png
+    :width: 20pt
+    :height: 20pt
+
+
++-----------------------------------------+----------------------------+
+|             tomo_ID                     |   00068                    |  
++=========================================+============================+
+|             Image preview               |  |00068|                   |  
++-----------------------------------------+----------------------------+
+|             Download                    |   tomo_00068_              |  
++-----------------------------------------+----------------------------+
+|             Instrument                  |   Elettra Syrmep           |  
++-----------------------------------------+----------------------------+
+|             Sample name                 |   wet sample               |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                |   14 keV                   |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance |   150 mm                   |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  |   4.1 µm                   |  
++-----------------------------------------+----------------------------+
+|             Scan Range                  |   180 degree               |
++-----------------------------------------+----------------------------+
+|             Number of Projections       |   1800                     |
++-----------------------------------------+----------------------------+
+
