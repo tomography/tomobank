@@ -33,7 +33,7 @@ if __name__ == '__main__':
     monochromator_energy = 55.0
        
     # Set path to the micro-CT data to reconstruct.
-    fname = '/local/decarlo/data/tomobank/datasets/tomo_00064_to_00067/' + tomo_id + '.h5'
+    fname = '/tomobank/tomo_00064_to_00067/' + tomo_id + '.h5'
 
     # Select the sinogram range to reconstruct.
     start = 122

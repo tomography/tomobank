@@ -18,36 +18,36 @@ if __name__ == '__main__':
     sample_detector_distance = 60
     rot_center = 1427
 
-    sample_name = 'somya_30_60'
-    tomo_id = 'tomo_00059'
-    sample_detector_distance = 60
-    rot_center = 1440
+    #sample_name = 'somya_30_60'
+    #tomo_id = 'tomo_00059'
+    #sample_detector_distance = 60
+    #rot_center = 1440
     
-    sample_name = 'somya_30_25'
-    tomo_id = 'tomo_00060'
-    sample_detector_distance = 25
-    rot_center = 1337
+    #sample_name = 'somya_30_25'
+    #tomo_id = 'tomo_00060'
+    #sample_detector_distance = 25
+    #rot_center = 1337
 
-    sample_name = 'somya_20_25'
-    tomo_id = 'tomo_00061'
-    sample_detector_distance = 25
-    rot_center = 1316.5
+    #sample_name = 'somya_20_25'
+    #tomo_id = 'tomo_00061'
+    #sample_detector_distance = 25
+    #rot_center = 1316.5
     
-    sample_name = 'somya_10_25'
-    tomo_id = 'tomo_00062'
-    sample_detector_distance = 25
-    rot_center = 1359.5
+    #sample_name = 'somya_10_25'
+    #tomo_id = 'tomo_00062'
+    #sample_detector_distance = 25
+    #rot_center = 1359.5
     
-    sample_name = 'somya_5_25'
-    tomo_id = 'tomo_00063'
-    sample_detector_distance = 25
-    rot_center =  1322.5  
+    #sample_name = 'somya_5_25'
+    #tomo_id = 'tomo_00063'
+    #sample_detector_distance = 25
+    #rot_center =  1322.5  
 
     detector_pixel_size_x = 0.65e-4
     monochromator_energy = 27.4
        
     # Set path to the micro-CT data to reconstruct.
-    fname = '/local/decarlo/data/tomobank/datasets/tomo_00058_to_00063/' + tomo_id + '.h5'
+    fname = '/tomobank/tomo_00058_to_00063/' + tomo_id + '.h5'
 
     # Select the sinogram range to reconstruct.
     start = 1022
