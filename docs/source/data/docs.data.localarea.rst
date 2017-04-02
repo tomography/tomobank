@@ -3,26 +3,13 @@ Local Area
 
 Local Area includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
 
-
-+------------------------------------+------------------------------+-----------+-------------------------+
-|           tomo_ID                  | Sample Name                  |   Image   |       Downloads         |     
-+====================================+==============================+===========+=========================+ 
-|      tomo_00022_                   | Double Bamboo Tin Wire       |  |00022|  |      |tomo_00022|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
-|      tomo_00023_                   | Bamboo Wires 2               |  |00023|  |      |tomo_00023|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
-|      tomo_00024_                   | Polystyrene                  |  |00024|  |      |tomo_00024|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
-|      tomo_00070_                   | Polystyrene                  |  |00070|  |      |tomo_00070|       |
-+------------------------------------+------------------------------+-----------+-------------------------+ 
-
 .. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
-.. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
+.. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 
-.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F/
-.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F/
-.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F/
+.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F
+.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F
+.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -44,7 +31,7 @@ Double Bamboo Tin Wire
 +=========================================+============================+
 |             Image preview               |  |00022|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |   tomo_00022_              |  
+|             Download                    |  tomo_00022_, |tomo_00022| |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -75,7 +62,7 @@ Bamboo Wires 2
 +=========================================+============================+
 |             Image preview               |  |00023|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |   tomo_00023_              |  
+|             Download                    |  tomo_00023_, |tomo_00023| |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -107,7 +94,7 @@ Polystyrene
 +=========================================+============================+
 |             Image preview               |  |00024|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |   tomo_00024_              |  
+|             Download                    |  tomo_00024_, |tomo_00024| |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -143,11 +130,11 @@ if small grey level differences need to be reliably detected.
 +=========================================+============================+
 |             Image preview               | |00070|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00070_                |  
+|             Download                    | tomo_00070_ , |tomo_00070| |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | SLS TOMCAT                 |  
 +-----------------------------------------+----------------------------+
-|             Sample name                 | Electrode Particles        |  
+|             Sample name                 | SLS_02                     |  
 +-----------------------------------------+----------------------------+
 |             X-ray energy                | 24.999 keV                 |  
 +-----------------------------------------+----------------------------+
@@ -166,7 +153,7 @@ if small grey level differences need to be reliably detected.
 
 .. |tomo_00070| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00070.py>`
 
-.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F/
+.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F
 
 .. |00070| image:: ../img/tomo_00070.png
     :width: 20pt
@@ -177,15 +164,10 @@ TomoLab
 
 A second series of data sets (see table below) were acquired by microfocus CT at the TomoLab station of Elettra using a cone-beam geometry. The sample description and the experimental conditions are reported in tables below under tomo_00027 to tomo_00030.
 
-.. |tomo_00027| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00028| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00029| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00030| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-
-.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F/
-.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00028%2F/
-.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00029%2F/
-.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00030%2F/
+.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F
+.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00028%2F
+.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00029%2F
+.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00030%2F
 
 .. |00027| image:: ../img/tomo_00001.png
     :width: 20pt
@@ -202,20 +184,6 @@ A second series of data sets (see table below) were acquired by microfocus CT at
 .. |00030| image:: ../img/tomo_00001.png
     :width: 20pt
     :height: 20pt
-
-
-+------------------------------------+------------------------------+-----------+-------------------------+
-|           tomo_ID                  | Sample Name                  |   Image   |       Downloads         |
-+====================================+==============================+===========+=========================+
-|      tomo_00027_                   | bone local                   |  |00027|  |      |tomo_00027|       |
-+------------------------------------+------------------------------+-----------+-------------------------+
-|      tomo_00028_                   | bone local stone             |  |00028|  |      |tomo_00028|       |
-+------------------------------------+------------------------------+-----------+-------------------------+
-|      tomo_00029_                   | candie local                 |  |00029|  |      |tomo_00029|       |
-+------------------------------------+------------------------------+-----------+-------------------------+
-|      tomo_00030_                   | smiling sammple              |  |00030|  |      |tomo_00030|       |
-+------------------------------------+------------------------------+-----------+-------------------------+
-
 
 Bone  local
 ___________

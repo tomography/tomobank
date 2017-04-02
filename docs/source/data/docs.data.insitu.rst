@@ -305,8 +305,8 @@ The microCT data sets of these samples were acquired at the SYRMEP beamline of E
 .. |tomo_00025| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00026| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 
-.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00025%2F/
-.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00026%2F/
+.. _tomo_00025: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00025%2F
+.. _tomo_00026: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00026%2F
 
 .. |00025| image:: ../img/tomo_00025.png
     :width: 20pt
