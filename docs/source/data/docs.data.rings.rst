@@ -15,11 +15,11 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 +=========================================+============================+
 |             Image preview               | |00071|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00071_                |  
+|             Download                    | tomo_00071_, |tomo_00071|  |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | SLS TOMCAT                 |  
 +-----------------------------------------+----------------------------+
-|             Sample name                 | Electrode Particles        |  
+|             Sample name                 | SLS_01                     |  
 +-----------------------------------------+----------------------------+
 |             X-ray energy                | 24.999 keV                 |  
 +-----------------------------------------+----------------------------+
@@ -38,7 +38,7 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 
 .. |tomo_00071| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00071.py>`
 
-.. _tomo_00071: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00071%2F/
+.. _tomo_00071: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00071%2F
 
 .. |00071| image:: ../img/tomo_00071.png
     :width: 20pt
