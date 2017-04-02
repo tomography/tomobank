@@ -19,12 +19,10 @@ Local Area includes a series of data sets in which the sample is larger than the
 .. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 .. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
-.. |tomo_00070| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00070.py>`
 
 .. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F/
 .. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F/
 .. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F/
-.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F/
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -35,10 +33,6 @@ Local Area includes a series of data sets in which the sample is larger than the
     :height: 20pt
 
 .. |00024| image:: ../img/tomo_00024.png
-    :width: 20pt
-    :height: 20pt
-
-.. |00070| image:: ../img/tomo_00070.png
     :width: 20pt
     :height: 20pt
 
@@ -141,8 +135,8 @@ Electrode Particles
 
 Detection and quantification of grey level differences of ca. 1% in the electrode particles – local
 tomography is making this challenging task even more difficult. Standard solutions used at the
-TOMCAT beamline (e.g. constant padding) :cite:`paganin:02` are not sufficient in the phase retrieved case, if small grey
-level differences need to be reliably detected.
+TOMCAT beamline (e.g. constant padding) are not sufficient in the phase retrieved case :cite:`paganin:02`, 
+if small grey level differences need to be reliably detected.
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     | 00070                      |  
@@ -169,6 +163,14 @@ level differences need to be reliably detected.
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 0.65 µm                    |  
 +-----------------------------------------+----------------------------+
+
+.. |tomo_00070| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00070.py>`
+
+.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F/
+
+.. |00070| image:: ../img/tomo_00070.png
+    :width: 20pt
+    :height: 20pt
 
 TomoLab
 ~~~~~~~
