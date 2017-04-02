@@ -11,37 +11,12 @@ Noisy Data
 ~~~~~~~~~~
 
 Sometimes data collection speed requirements, e. g. in evolving samples, impose very short 
-exposure times generating noisy data.  Noisy Data includes several data sets like Dorthe_F_002 
+exposure times generating noisy data.  Here we include a dataset, Dorthe_F_002, 
 in which  the exposure time much shorter than the optimal value. 
 The sample description and the experimental conditions are reported in tables below:
 and accessible for download under tomo\_00031. 
 
-+------------------------+---------------------------------------------------------+
-| Instrument             |      APS 13-BM-D                                        |
-+------------------------+---------------------------------------------------------+
-| Energy                 |      33.269 keV                                         |
-+------------------------+---------------------------------------------------------+
-| Monochromator          |      double crystal Si (1,1,1)                          | 
-+------------------------+---------------------------------------------------------+
-| Scan Range             |      180 degree                                         |
-+------------------------+---------------------------------------------------------+
-| Number of Projections  |      900                                                |
-+------------------------+---------------------------------------------------------+
-| White Fields           |      20 before                                          |
-+------------------------+---------------------------------------------------------+
-| Dark Fields            |      none                                               | 
-+------------------------+---------------------------------------------------------+
-| Exposure Time          |      0.006 s                                            |
-+------------------------+---------------------------------------------------------+
-| Frame Rate             |      80 frames/s                                        |
-+------------------------+---------------------------------------------------------+
-| Total Collection Time  |      11.25 s                                            |
-+------------------------+---------------------------------------------------------+
-| PixelSize              |      3.18 µm                                            |
-+------------------------+---------------------------------------------------------+
-
 .. |tomo_00031| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00031.py>`
-
 
 .. _tomo_00031: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00031%2F
 
@@ -49,11 +24,87 @@ and accessible for download under tomo\_00031.
     :width: 20pt
     :height: 20pt
 
-+-------------+------------------+-----------+-------------------------+
-| Tomo ID     | Sample Name      |   Image   |       Downloads         |     
-+-------------+------------------+-----------+-------------------------+ 
-| tomo_00031_ |  Dorthe_F_002    |  |00031|  |      |tomo_00031|       |
-+-------------+------------------+-----------+-------------------------+
++------------------------+------------------------------------+
+| tomo_ID                |       00031                        | 
++========================+====================================+
+| Image preview          |      |00031|                       | 
++------------------------+------------------------------------+
+| Downloads              |      tomo_00031_, |tomo_00031|     |  
++------------------------+------------------------------------+
+| Instrument             |      APS 13-BM-D                   | 
++------------------------+------------------------------------+
+| Sample name            |      Dorthe_F_002                  | 
++------------------------+------------------------------------+
+| Energy                 |      33.269 keV                    | 
++------------------------+------------------------------------+
+| Monochromator          |      double crystal Si (1,1,1)     |  
++------------------------+------------------------------------+
+| Scan Range             |      180 degree                    | 
++------------------------+------------------------------------+
+| Number of Projections  |      900                           | 
++------------------------+------------------------------------+
+| White Fields           |      20 before                     | 
++------------------------+------------------------------------+
+| Dark Fields            |      none                          |  
++------------------------+------------------------------------+
+| Exposure Time          |      0.006 s                       | 
++------------------------+------------------------------------+
+| Frame Rate             |      80 frames/s                   | 
++------------------------+------------------------------------+
+| Total Collection Time  |      11.25 s                       | 
++------------------------+------------------------------------+
+| PixelSize              |      3.18 µm                       | 
++------------------------+------------------------------------+
+
+Lower Resolution 
+~~~~~~~~~~~~~~~~
+
+This study was optimized for temporal resolution and less for spatial resolution. 
+The experiment was originally designed to follow the propagation of a Cs solution 
+with time in a rock. The spatial resolution could be relaxed at the time of 
+the experiment to provide sufficient time resolution. 
+
+In the second phase of the project, the focus moved however towards the smaller reactive 
+inclusions and complementary techniques (x-ray microprobe and destructive chemical 
+tomography with LA-ICP-MS) have been used to investigate the distribution of different elements
+and phases in selected regions, with sometimes higher spatial resolution than in the original
+tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
+
+
+.. |tomo_00069| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00069.py>`
+
+.. _tomo_00069: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00069%2F
+
+.. |00069| image:: ../img/tomo_00069.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+-------------------------------+
+| tomo_ID                     |      00069                    | 
++=============================+===============================+
+| Image preview               |     |00069|                   | 
++-----------------------------+-------------------------------+
+| Downloads                   |     tomo_00069_, |tomo_00069| |  
++-----------------------------+-------------------------------+
+| Instrument                  |     SLS TOMCAT                | 
++-----------------------------+-------------------------------+
+| Sample name                 |     SLS_03                    | 
++-----------------------------+-------------------------------+
+| Energy                      |     36.085 keV                | 
++-----------------------------+-------------------------------+
+| Sample-to-detector distance |     few mm                    |  
++-----------------------------+-------------------------------+
+| Scan Range                  |     180 degree                | 
++-----------------------------+-------------------------------+
+| Number of Projections       |     1001                      | 
++-----------------------------+-------------------------------+
+| White Fields                |     20 (10 before - 10 after) | 
++-----------------------------+-------------------------------+
+| Dark Fields                 |     5                         |  
++-----------------------------+-------------------------------+
+| PixelSize                   |     3.7 µm                    | 
++-----------------------------+-------------------------------+
+
 
 Interlaced Scan
 ~~~~~~~~~~~~~~~
@@ -66,8 +117,25 @@ with angular sampling interlaced to the previous scan.
 Below we report the sample description and the experimental conditions for an interlace dataset
 (tomo\_00057) :cite:`trabecular-bone:15`  collected at the Elettra Syrmep beamline.
 
+
+.. |tomo_00057| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00057.py>`
+
+.. _tomo_00057: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00057%2F
+
+.. |00057| image:: ../img/tomo_00057.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |       00057                                             | 
++=============================+=========================================================+
+| Image preview               |      |00057|                                            | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00057_, |tomo_00057|                          |  
 +-----------------------------+---------------------------------------------------------+
 | Instrument                  |      Elettra Syrmep                                     |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      Bone MR                                            |
 +-----------------------------+---------------------------------------------------------+
 | Energy                      |      24 keV                                             |
 +-----------------------------+---------------------------------------------------------+
@@ -88,25 +156,7 @@ Below we report the sample description and the experimental conditions for an in
 | Exposure Time               |      0.8 s                                              |
 +-----------------------------+---------------------------------------------------------+
 
-.. |tomo_00057| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00057.py>`
 
-
-.. _tomo_00057: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00057%2F
-
-.. |00057| image:: ../img/tomo_00057.png
-    :width: 20pt
-    :height: 20pt
-
-+-------------+------------------+-----------+-------------------------+
-| Tomo ID     | Sample Name      |   Image   |       Downloads         |     
-+-------------+------------------+-----------+-------------------------+ 
-| tomo_00057_ |  Bone MR         |  |00057|  |      |tomo_00057|       |
-+-------------+------------------+-----------+-------------------------+
-
-add datasets SLS03 
-~~~~~~~~~~~~~~~~~~
-
-from https://drive.google.com/drive/folders/0B78bW1AwveI_WVdXQlBRMVBKQk0
 
 add datasets MDB
 ~~~~~~~~~~~~~~~~
