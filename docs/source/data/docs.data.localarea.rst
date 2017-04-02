@@ -1,7 +1,7 @@
 Local Area
 ----------
 
-Local Area includes a first series of 5 data sets in which the sample is larger than the field of view (see table below). The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00022 to tomo_00024. 
+Local Area includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
 
 
 +------------------------------------+------------------------------+-----------+-------------------------+
@@ -13,14 +13,18 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
 +------------------------------------+------------------------------+-----------+-------------------------+ 
 |      tomo_00024_                   | Polystyrene                  |  |00024|  |      |tomo_00024|       |
 +------------------------------------+------------------------------+-----------+-------------------------+ 
+|      tomo_00070_                   | Polystyrene                  |  |00070|  |      |tomo_00070|       |
++------------------------------------+------------------------------+-----------+-------------------------+ 
 
 .. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 .. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
 .. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00004.py>`
+.. |tomo_00070| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00070.py>`
 
 .. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F/
 .. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F/
 .. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F/
+.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F/
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -34,6 +38,9 @@ Local Area includes a first series of 5 data sets in which the sample is larger 
     :width: 20pt
     :height: 20pt
 
+.. |00070| image:: ../img/tomo_00070.png
+    :width: 20pt
+    :height: 20pt
 
 Double Bamboo Tin Wire
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -129,6 +136,42 @@ Polystyrene
 |             Number of Projections       |   1800                     |
 +-----------------------------------------+----------------------------+
 
+Electrode Particles
+~~~~~~~~~~~~~~~~~~~
+
+Detection and quantification of grey level differences of ca. 1% in the electrode particles – local
+tomography is making this challenging task even more difficult. Standard solutions used at the
+TOMCAT beamline (e.g. constant padding) :cite:`paganin:02` are not sufficient in the phase retrieved case, if small grey
+level differences need to be reliably detected.
+
++-----------------------------------------+----------------------------+
+|             tomo_ID                     | 00070                      |  
++=========================================+============================+
+|             Image preview               | |00070|                    |  
++-----------------------------------------+----------------------------+
+|             Download                    | tomo_00070_                |  
++-----------------------------------------+----------------------------+
+|             Instrument                  | SLS TOMCAT                 |  
++-----------------------------------------+----------------------------+
+|             Sample name                 | Electrode Particles        |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                | 24.999 keV                 |  
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance | 50 mm                      |  
++-----------------------------------------+----------------------------+
+|             Scan Range                  | 180 degree                 |
++-----------------------------------------+----------------------------+
+|             Number of Projections       | 1201                       |
++-----------------------------------------+----------------------------+
+|             White Fields                | 200 (100 before 100 after) | 
++-----------------------------------------+----------------------------+
+|             Dark Fields                 | 10                         |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  | 0.65 µm                    |  
++-----------------------------------------+----------------------------+
+
+TomoLab
+~~~~~~~
 
 A second series of data sets (see table below) were acquired by microfocus CT at the TomoLab station of Elettra using a cone-beam geometry. The sample description and the experimental conditions are reported in tables below under tomo_00027 to tomo_00030.
 
@@ -173,7 +216,7 @@ A second series of data sets (see table below) were acquired by microfocus CT at
 
 
 Bone  local
-~~~~~~~~~~~
+___________
 
 +------------------------------------+------------------------------+
 |    tomo_ID                         |      00027                   |
@@ -220,7 +263,7 @@ Bone  local
 +------------------------------------+------------------------------+
 
 Bone  local  stone
-~~~~~~~~~~~~~~~~~~
+__________________
 
 +------------------------------------+------------------------------+
 |    tomo_ID                         |      00028                   |
@@ -267,7 +310,7 @@ Bone  local  stone
 +------------------------------------+------------------------------+
 
 Candy  local
-~~~~~~~~~~~~
+____________
 
 +------------------------------------+------------------------------+
 |    tomo_ID                         |      00029                   |
@@ -314,7 +357,7 @@ Candy  local
 +------------------------------------+------------------------------+
 
 Smiling  sample
-~~~~~~~~~~~~~~~
+_______________
 
 +------------------------------------+------------------------------+
 |    tomo_ID                         |      00030                   |
@@ -359,9 +402,4 @@ Smiling  sample
 +------------------------------------+------------------------------+
 |    Detector vertical pixel size    |      75 µm                   |
 +------------------------------------+------------------------------+
-
-add datasets SLS02
-~~~~~~~~~~~~~~~~~~
-
-from https://drive.google.com/drive/folders/0B78bW1AwveI_WVdXQlBRMVBKQk0
 
