@@ -48,8 +48,7 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 Soft Tissue
 ~~~~~~~~~~~
 
-To limit radiation damage of soft tissue, the energy is set in the hard x-ray regime. Samples are weakly absorbing and generate severe ring artefact.
-Below is a sample measurement collected in this conditions:
+To limit radiation damage of soft tissue, the energy is set in the hard x-ray regime. Samples are weakly absorbing and generate severe ring artefact. Below are two soft tissue sample measurements collected as follows:
 
 
 +-----------------------------------------+----------------------------+
@@ -87,6 +86,51 @@ Below is a sample measurement collected in this conditions:
     :height: 20pt
 
 
++-----------------------------------------+----------------------------+
+|             tomo_ID                     | 00076                      |  
++=========================================+============================+
+|             Image preview               | |00076|                    |  
++-----------------------------------------+----------------------------+
+|             Download                    | tomo_00076_, |tomo_00076|  |  
++-----------------------------------------+----------------------------+
+|             Instrument                  | APS 2-BM                   |  
++-----------------------------------------+----------------------------+
+|             Detector                    | PCO edge                   |
++-----------------------------------------+----------------------------+
+|             Sample name                 | soft tissue                |  
++-----------------------------------------+----------------------------+
+|             X-ray energy                | braod 60-70 keV            |  
++-----------------------------------------+----------------------------+
+|             Exposure Time               | 100 ms                     |         
++-----------------------------------------+----------------------------+
+|             Scan Type                   | Fly Scan                   |
++-----------------------------------------+----------------------------+
+|             Scan Speed                  | 0.75 deg/s                 |
++-----------------------------------------+----------------------------+
+|             Shutter Mode                | Rolling                    |
++-----------------------------------------+----------------------------+
+|             Scintillator                | 10um LuAG                  |
++-----------------------------------------+----------------------------+
+|             Sample-to-detector distance | 90 mm                      |  
++-----------------------------------------+----------------------------+
+|             Scan Range                  | 180 degree                 |
++-----------------------------------------+----------------------------+
+|             Number of Projections       | 2000                       |
++-----------------------------------------+----------------------------+
+|             White Fields                | 10 pre scan                | 
++-----------------------------------------+----------------------------+
+|             Dark Fields                 | 10                         |  
++-----------------------------------------+----------------------------+
+|             Pixel size                  | 2.2  µm                    |  
++-----------------------------------------+----------------------------+
+
+.. |tomo_00076| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00076.py>`
+
+.. _tomo_00076: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00076%2F
+
+.. |00076| image:: ../img/tomo_00076.png
+    :width: 20pt
+    :height: 20pt
 
 Al Samples
 ~~~~~~~~~~
@@ -167,8 +211,7 @@ Mesurements have a different white field data collection strategy.
 White beam
 ~~~~~~~~~~
 
-To increase data collection speed on a BM source, the beamline is set in white beam mode. This data set contains mild ring artefacts and was
-collected with the following experimental conditions:
+To increase data collection speed on a BM source, the beamline is set in white beam mode. This data set contains mild ring artefacts and was collected with the following experimental conditions:
 
 
 +-----------------------------------------+----------------------------+
@@ -218,12 +261,6 @@ collected with the following experimental conditions:
     :height: 20pt
 
 
-
-
-add datasets APS03 
-~~~~~~~~~~~~~~~~~~
-
-from https://drive.google.com/drive/folders/0B78bW1AwveI_WVdXQlBRMVBKQk0
 
 add datasets APS05 
 ~~~~~~~~~~~~~~~~~~
