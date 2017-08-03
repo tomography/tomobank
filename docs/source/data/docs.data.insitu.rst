@@ -4,7 +4,7 @@ In-situ Studies
 Fatigue-corrosion 
 ~~~~~~~~~~~~~~~~~
 
-The fatigue-corrosion data sets contain micro tomography (microCT) data with 
+The fatigue-corrosion data sets :cite:`stannard_02:17` contain micro tomography (microCT) data with 
 the experimental conditions reported in the table below :cite:`stannard:17`:
 
 
