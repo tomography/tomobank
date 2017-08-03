@@ -1,8 +1,8 @@
 Spheres
 -------
 
-These sphere data sets  :cite:`stannard_01:17` contains samples with varied volume fractions of 
-borosilicate glass spheres encased in a polypropylene matrix. 
+These sphere data sets :cite:`singh:17` contains samples with varied volume fractions of 
+borosilicate glass spheres encased in a polypropylene matrix :cite:`stannard_01:17`. 
 The sphere diameter is a gaussian distribution ranging from 38-45 µm. 
 The samples were scanned at both 25 mm and 60 mm sample to detector distance  with 
 the experimental conditions reported in the table below:
