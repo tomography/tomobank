@@ -38,3 +38,4 @@ Content
    source/phantom
    source/publish
    source/credits
+   source/license
