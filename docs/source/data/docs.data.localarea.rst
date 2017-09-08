@@ -1,7 +1,7 @@
-Local Area
-----------
+Small ROI
+---------
 
-Local Area includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
+Small Region of Interest (ROI) includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
 
 .. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 .. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
