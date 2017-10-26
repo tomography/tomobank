@@ -11,8 +11,6 @@ Foam
 
 .. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
 
-.. |rec_00008| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00008.py>`
-
 .. _phan_00008: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
 
@@ -26,8 +24,6 @@ Foam
 
 .. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
 
-.. |rec_00009| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00009.py>`
-
 .. _phan_00009: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
 .. |rec00010| image:: ../img/phantom_00010_00000.png
@@ -40,8 +36,6 @@ Foam
 
 .. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
 
-.. |rec_00010| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00010.py>`
-
 .. _phan_00010: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
 .. |rec00011| image:: ../img/phantom_00011_00000.png
@@ -53,8 +47,6 @@ Foam
     :height: 20pt
 
 .. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
-
-.. |rec_00011| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00011.py>`
 
 .. _phan_00011: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
@@ -84,15 +76,15 @@ The ground truth, sinogram and projection are obtained with:
     sino = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
-|  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |                Downloads          |                             
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
-|  phan_00008_  |    XDesign     |  Foam 00008            |  |gt00008|   | |rec00008| |      |phan_00008|  |  |rec_00008| |
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
-|  phan_00009_  |    XDesign     |  Foam 00009            |  |gt00009|   | |rec00009| |      |phan_00009|  |  |rec_00009| |
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
-|  phan_00010_  |    XDesign     |  Foam 00010            |  |gt00010|   | |rec00010| |      |phan_00010|  |  |rec_00010| |
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
-|  phan_00011_  |    XDesign     |  Foam 00011            |  |gt00011|   | |rec00011| |      |phan_00011|  |  |rec_00011| |
-+---------------+----------------+------------------------+--------------+------------+--------------------+--------------+
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  phan_00008_  |    XDesign     |  Foam 00008            |  |gt00008|   | |rec00008| |      |phan_00008|  |
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  phan_00009_  |    XDesign     |  Foam 00009            |  |gt00009|   | |rec00009| |      |phan_00009|  |
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  phan_00010_  |    XDesign     |  Foam 00010            |  |gt00010|   | |rec00010| |      |phan_00010|  |
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  phan_00011_  |    XDesign     |  Foam 00011            |  |gt00011|   | |rec00011| |      |phan_00011|  |
++---------------+----------------+------------------------+--------------+------------+--------------------+
 

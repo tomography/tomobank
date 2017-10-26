@@ -11,8 +11,6 @@ Wet Circles
 
 .. |phan_00007| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00007.py>`
 
-.. |rec_00007| replace:: :download:`rec_script.py <../../../docs/demo/rec_phantom_00007.py>`
-
 .. _phan_00007: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 
@@ -37,10 +35,10 @@ The ground truth, sinogram and projection are obtained with:
     sino = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
-+---------------+----------------+------------------------+--------------+------------+-------------------+--------------+
-|  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |               Downloads          |                                
-+---------------+----------------+------------------------+--------------+------------+-------------------+--------------+
-| phan_00007_   |    XDesign     |  Wet Circles           |  |gt00007|   | |rec00007| |      |phan_00007| |  |rec_00007| |
-+---------------+----------------+------------------------+--------------+------------+-------------------+--------------+
++---------------+----------------+------------------------+--------------+------------+--------------------+
+|  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |
++---------------+----------------+------------------------+--------------+------------+--------------------+
+| phan_00007_   |    XDesign     |  Wet Circles           |  |gt00007|   | |rec00007| |      |phan_00007|  |
++---------------+----------------+------------------------+--------------+------------+--------------------+
 
 
