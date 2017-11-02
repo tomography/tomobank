@@ -7,9 +7,9 @@ to generate them (see individual phantom home page) and with the python script
 :download:`tomopy_rec.py <../../docs/demo/tomopy_rec.py>` to load and perform a basic 
 reconstruction using tomoPy  :cite:`Gursoy:14a`.
 
-Usage: ::
+Example: ::
 
-    python tomopy_rec.py /tomobank/phantom_00001.h5
+    python tomopy_rec.py phantom_00001.h5
 
 .. toctree::
 

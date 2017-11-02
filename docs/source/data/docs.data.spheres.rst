@@ -52,12 +52,20 @@ the experimental conditions reported in the table below:
 The sphere data sets includes 6 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
-.. |tomo_00058| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
-.. |tomo_00059| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
-.. |tomo_00060| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
-.. |tomo_00061| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
-.. |tomo_00062| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
-.. |tomo_00063| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00058_to_00063.py>`
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00058.h5 --axis 1427
+    python tomopy_rec.py tomo_00059.h5 --axis 1440
+    python tomopy_rec.py tomo_00060.h5 --axis 1337
+    python tomopy_rec.py tomo_00061.h5 --axis 1316.5
+    python tomopy_rec.py tomo_00062.h5 --axis 1359.5
+    python tomopy_rec.py tomo_00063.h5 --axis 1322,5
+
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 
 .. _tomo_00058: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
@@ -93,20 +101,20 @@ sample to detector distance and different concentrations as reported in the tabl
     :height: 20pt
 
 
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| Tomo ID     |  Concentration (%)    | Distance | Sample Name  |   Image   |       Downloads       |     
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00058_ |          20           |    60    | Somya_20_60  |  |00058|  |      |tomo_00058|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00059_ |          30           |    60    | Somya_30_60  |  |00059|  |      |tomo_00059|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00060_ |          30           |    25    | Somya_30_25  |  |00060|  |      |tomo_00060|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00061_ |          20           |    25    | Somya_20_25  |  |00061|  |      |tomo_00061|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00062_ |          10           |    25    | Somya_10_25  |  |00062|  |      |tomo_00062|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
-| tomo_00063_ |           5           |    25    | Somya_5_25   |  |00063|  |      |tomo_00063|     |
-+-------------+-----------------------+----------+--------------+-----------+-----------------------+ 
++-------------+-----------------------+----------+--------------+-----------+--------------+
+| Tomo ID     |  Concentration (%)    | Distance | Sample Name  |   Image   |       Axis   |     
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00058_ |          20           |    60    | Somya_20_60  |  |00058|  |       1427   |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00059_ |          30           |    60    | Somya_30_60  |  |00059|  |       1440   |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00060_ |          30           |    25    | Somya_30_25  |  |00060|  |       1337   |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00061_ |          20           |    25    | Somya_20_25  |  |00061|  |       1316.5 |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00062_ |          10           |    25    | Somya_10_25  |  |00062|  |       1359.5 |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
+| tomo_00063_ |           5           |    25    | Somya_5_25   |  |00063|  |       1322.5 |
++-------------+-----------------------+----------+--------------+-----------+--------------+ 
 
 

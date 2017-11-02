@@ -3,9 +3,6 @@ Small ROI
 
 Small Region of Interest (ROI) includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
 
-.. |tomo_00022| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
-.. |tomo_00023| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
-.. |tomo_00024| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00022.py>`
 
 .. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F
 .. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F
@@ -26,12 +23,21 @@ Small Region of Interest (ROI) includes a series of data sets in which the sampl
 Double Bamboo Tin Wire
 ~~~~~~~~~~~~~~~~~~~~~~
 
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00022.h5 --axis 980
+    python tomopy_rec.py tomo_00023.h5 --axis 893
+    python tomopy_rec.py tomo_00024.h5 --axis 972
+
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     |   00022                    |  
 +=========================================+============================+
 |             Image preview               |  |00022|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |  tomo_00022_, |tomo_00022| |  
+|             Download                    |  tomo_00022_               |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -51,7 +57,9 @@ Double Bamboo Tin Wire
 +-----------------------------------------+----------------------------+
 |             Scan Range                  |   180 degree               |
 +-----------------------------------------+----------------------------+
-|             Number of Projections       |   1800                     |
+|             Number of Projections       |   400                      |
++-----------------------------------------+----------------------------+
+|             Rotation axis location      |   980                      |
 +-----------------------------------------+----------------------------+
 
 Bamboo Wires 2
@@ -62,7 +70,7 @@ Bamboo Wires 2
 +=========================================+============================+
 |             Image preview               |  |00023|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |  tomo_00023_, |tomo_00023| |  
+|             Download                    |  tomo_00023_               |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -84,6 +92,8 @@ Bamboo Wires 2
 +-----------------------------------------+----------------------------+
 |             Number of Projections       |   1800                     |
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      |   893                      |
++-----------------------------------------+----------------------------+
 
 
 Polystyrene
@@ -94,7 +104,7 @@ Polystyrene
 +=========================================+============================+
 |             Image preview               |  |00024|                   |  
 +-----------------------------------------+----------------------------+
-|             Download                    |  tomo_00024_, |tomo_00024| |  
+|             Download                    |  tomo_00024_               |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  |   Elettra Syrmep           |  
 +-----------------------------------------+----------------------------+
@@ -114,8 +124,11 @@ Polystyrene
 +-----------------------------------------+----------------------------+
 |             Scan Range                  |   180 degree               |
 +-----------------------------------------+----------------------------+
-|             Number of Projections       |   1800                     |
+|             Number of Projections       |   400                      |
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      |   972                      |
++-----------------------------------------+----------------------------+
+
 
 Electrode Particles
 ~~~~~~~~~~~~~~~~~~~
@@ -125,12 +138,22 @@ tomography is making this challenging task even more difficult. Standard solutio
 TOMCAT beamline (e.g. constant padding) are not sufficient in the phase retrieved case :cite:`paganin:02`, 
 if small grey level differences need to be reliably detected.
 
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00070.h5 --axis 1289
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
+
+
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     | 00070                      |  
 +=========================================+============================+
 |             Image preview               | |00070|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00070_ , |tomo_00070| |  
+|             Download                    | tomo_00070_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | SLS TOMCAT                 |  
 +-----------------------------------------+----------------------------+
@@ -150,8 +173,9 @@ if small grey level differences need to be reliably detected.
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 0.65 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      |  1289.09525072             |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00070| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00070.py>`
 
 .. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F
 

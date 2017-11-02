@@ -11,7 +11,7 @@ Standard
 
 .. |phan_00001| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00001.py>`
 
-.. _phan_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00001: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00001%2F
 
 .. |rec00002| image:: ../img/phantom_00002_00000.png
     :width: 20pt
@@ -23,7 +23,7 @@ Standard
 
 .. |phan_00002| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00002.py>`
 
-.. _phan_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00002: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00002%2F
 
 .. |rec00003| image:: ../img/phantom_00003_00000.png
     :width: 20pt
@@ -35,7 +35,7 @@ Standard
 
 .. |phan_00003| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00003.py>`
 
-.. _phan_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00003: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00003%2F
 
 .. |rec00004| image:: ../img/phantom_00004_00000.png
     :width: 20pt
@@ -47,7 +47,7 @@ Standard
 
 .. |phan_00004| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00004.py>`
 
-.. _phan_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00004: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00004%2F
 
 .. |rec00005| image:: ../img/phantom_00005_00000.png
     :width: 20pt
@@ -59,7 +59,7 @@ Standard
 
 .. |phan_00005| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00005.py>`
 
-.. _phan_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00005: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00005%2F
 
 .. |rec00006| image:: ../img/phantom_00006_00000.png
     :width: 20pt
@@ -71,7 +71,7 @@ Standard
 
 .. |phan_00006| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00006.py>`
 
-.. _phan_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F/
+.. _phan_00006: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00006%2F
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 
 version `0.2.0.dev0+1d67599 <https://github.com/tomography/xdesign/tree/1d67599b8f104ebded86bac98100dbf15e251a66>`_
@@ -99,6 +99,13 @@ The ground truth, sinogram and projection are obtained with:
     
     sino = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
+
+To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script:
+
+::
+
+    python tomopy_rec.py phantom_00001.h5
 
 +---------------+----------------+------------------------+--------------+------------+--------------------+
 |  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |

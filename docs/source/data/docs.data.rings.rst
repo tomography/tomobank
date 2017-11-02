@@ -15,7 +15,7 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 +=========================================+============================+
 |             Image preview               | |00071|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00071_, |tomo_00071|  |  
+|             Download                    | tomo_00071_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | SLS TOMCAT                 |  
 +-----------------------------------------+----------------------------+
@@ -35,8 +35,18 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 0.65 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1302.50                    |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00071| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00071.py>`
+
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00071.h5 --axis 1302.50
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 .. _tomo_00071: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00071%2F
 
@@ -56,7 +66,7 @@ To limit radiation damage of soft tissue, the energy is set in the hard x-ray re
 +=========================================+============================+
 |             Image preview               | |00072|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00072_, |tomo_00072|  |  
+|             Download                    | tomo_00072_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | APS 2-BM                   |  
 +-----------------------------------------+----------------------------+
@@ -76,8 +86,9 @@ To limit radiation damage of soft tissue, the energy is set in the hard x-ray re
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 1.43 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1403                       |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00072| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00072.py>`
 
 .. _tomo_00072: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00072%2F
 
@@ -91,7 +102,7 @@ To limit radiation damage of soft tissue, the energy is set in the hard x-ray re
 +=========================================+============================+
 |             Image preview               | |00076|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00076_, |tomo_00076|  |  
+|             Download                    | tomo_00076_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | APS 2-BM                   |  
 +-----------------------------------------+----------------------------+
@@ -123,14 +134,25 @@ To limit radiation damage of soft tissue, the energy is set in the hard x-ray re
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 2.2  µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1275                       |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00076| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00076.py>`
 
 .. _tomo_00076: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00076%2F
 
 .. |00076| image:: ../img/tomo_00076.png
     :width: 20pt
     :height: 20pt
+
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00072.h5 --axis 1403 
+    python tomopy_rec.py tomo_00076.h5 --axis 1275  
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 Al Samples
 ~~~~~~~~~~
@@ -143,7 +165,7 @@ Mesurements have a different white field data collection strategy.
 +=========================================+============================+
 |             Image preview               | |00073|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00073_, |tomo_00073|  |  
+|             Download                    | tomo_00073_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | APS 2-BM                   |  
 +-----------------------------------------+----------------------------+
@@ -163,8 +185,9 @@ Mesurements have a different white field data collection strategy.
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 0.74 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1001.2                     |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00073| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00073.py>`
 
 .. _tomo_00073: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00073%2F
 
@@ -178,7 +201,7 @@ Mesurements have a different white field data collection strategy.
 +=========================================+============================+
 |             Image preview               | |00074|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00074_, |tomo_00074|  |  
+|             Download                    | tomo_00074_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | APS 2-BM                   |  
 +-----------------------------------------+----------------------------+
@@ -198,8 +221,9 @@ Mesurements have a different white field data collection strategy.
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 0.74 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1001.6                     |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00074| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00074.py>`
 
 .. _tomo_00074: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00074%2F
 
@@ -219,7 +243,7 @@ To increase data collection speed on a BM source, the beamline is set in white b
 +=========================================+============================+
 |             Image preview               | |00075|                    |  
 +-----------------------------------------+----------------------------+
-|             Download                    | tomo_00075_, |tomo_00075|  |  
+|             Download                    | tomo_00075_                |  
 +-----------------------------------------+----------------------------+
 |             Instrument                  | APS 2-BM                   |  
 +-----------------------------------------+----------------------------+
@@ -251,8 +275,9 @@ To increase data collection speed on a BM source, the beamline is set in white b
 +-----------------------------------------+----------------------------+
 |             Pixel size                  | 1.43 µm                    |  
 +-----------------------------------------+----------------------------+
+|             Rotation axis location      | 1010                       |
++-----------------------------------------+----------------------------+
 
-.. |tomo_00075| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00075.py>`
 
 .. _tomo_00075: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00075%2F
 
@@ -260,6 +285,16 @@ To increase data collection speed on a BM source, the beamline is set in white b
     :width: 20pt
     :height: 20pt
 
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00073.h5 --axis 1001.2 
+    python tomopy_rec.py tomo_00074.h5 --axis 1001.6 
+    python tomopy_rec.py tomo_00075.h5 --axis 1010  
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 
 add datasets APS05 

@@ -72,11 +72,17 @@ def read_rot_centers(fname):
         exit()
 
 
-def reconstruct(h5fname, sino, rot_center):
+def reconstruct(h5fname, sino, rot_center, blocked_views=None):
 
     # Read APS 32-BM raw data.
     proj, flat, dark, theta = dxchange.read_aps_32id(h5fname, sino=sino)
         
+    # Manage the missing angles:
+    if blocked_views is not None:
+        print("Blocked Views: ", blocked_views)
+        proj = np.concatenate((proj[0:blocked_views[0],:,:], proj[blocked_views[1]+1:-1,:,:]), axis=0)
+        theta = np.concatenate((theta[0:blocked_views[0]], theta[blocked_views[1]+1:-1]))
+
     # Flat-field correction of raw data.
     data = tomopy.normalize(proj, flat, dark, cutoff=1.4)
 
@@ -92,11 +98,89 @@ def reconstruct(h5fname, sino, rot_center):
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 27.4
 
+    # Phase retrieval for tomobank id 00058 and tomobank id 00059
+    # sample_detector_distance = 60
+    # detector_pixel_size_x = 0.65e-4
+    # monochromator_energy = 27.4
+
+    # Phase retrieval for tomobank id 00060 and tomobank id 00063
+    # sample_detector_distance = 25
+    # detector_pixel_size_x = 0.65e-4
+    # monochromator_energy = 27.4
+
+    # Phase retrieval for tomobank id 00064
+    # sample_detector_distance = 58
+    # detector_pixel_size_x = 1.4e-4
+    # monochromator_energy = 55.0
+
+    # Phase retrieval for tomobank id 00065
+    # sample_detector_distance = 158
+    # detector_pixel_size_x = 1.4e-4
+    # monochromator_energy = 55.0
+
+    # Phase retrieval for tomobank id 00066
+    # sample_detector_distance = 58
+    # detector_pixel_size_x = 1.4e-4
+    # monochromator_energy = 55.0
+
+    # Phase retrieval for tomobank id 00067
+    # sample_detector_distance = 308
+    # detector_pixel_size_x = 1.4e-4
+    # monochromator_energy = 55.0
+
+    # Phase retrieval for tomobank id 00068
+    # sample_detector_distance = 150
+    # detector_pixel_size_x = 4.1e-4
+    # monochromator_energy = 14.0
+
+    # Phase retrieval for tomobank id 00069
+    # sample_detector_distance = 4 
+    # detector_pixel_size_x = 3.7e-4
+    # monochromator_energy = 36.085
+
+    # Phase retrieval for tomobank id 00070
+    # sample_detector_distance = 8
+    # detector_pixel_size_x = 0.65e-4
+    # monochromator_energy = 24.999
+
+    # Phase retrieval for tomobank id 00071
+    # sample_detector_distance = 15
+    # detector_pixel_size_x = 0.65e-4
+    # monochromator_energy = 24.999
+
+    # Phase retrieval for tomobank id 00072
+    # sample_detector_distance = 15
+    # detector_pixel_size_x = 1.43e-4
+    # monochromator_energy = 20.0
+
+    # Phase retrieval for tomobank id 00073
+    # sample_detector_distance = 10
+    # detector_pixel_size_x = 0.74e-4
+    # monochromator_energy = 25.0
+
+    # Phase retrieval for tomobank id 00074
+    # sample_detector_distance = 10
+    # detector_pixel_size_x = 0.74e-4
+    # monochromator_energy = 25.0
+
+    # Phase retrieval for tomobank id 00075
+    # sample_detector_distance = 110
+    # detector_pixel_size_x = 1.43e-4
+    # monochromator_energy = 60
+
+    # Phase retrieval for tomobank id 00076
+    # sample_detector_distance = 90
+    # detector_pixel_size_x = 2.2e-4
+    # monochromator_energy = 65
+
     # # phase retrieval
     # data = tomopy.prep.phase.retrieve_phase(data,pixel_size=detector_pixel_size_x,dist=sample_detector_distance,energy=monochromator_energy,alpha=8e-3,pad=True)
 
-
     data = tomopy.minus_log(data)
+
+    data = tomopy.remove_nan(data, val=0.0)
+    data = tomopy.remove_neg(data, val=0.00)
+    data[np.where(data == np.inf)] = 0.00
 
     # Reconstruct object.
     rec = tomopy.recon(data, theta, center=rot_center, algorithm='gridrec')
@@ -107,7 +191,7 @@ def reconstruct(h5fname, sino, rot_center):
     return rec
         
 
-def rec_full(h5fname, rot_center):
+def rec_full(h5fname, rot_center, blocked_views):
     
     data_size = get_dx_dims(h5fname, 'data')
 
@@ -135,7 +219,7 @@ def rec_full(h5fname, rot_center):
         sino = (int(sino_chunk_start), int(sino_chunk_end))
 
         # Reconstruct.
-        rec = reconstruct(h5fname, sino, rot_center)
+        rec = reconstruct(h5fname, sino, rot_center, blocked_views)
                 
         # Write data as stack of TIFs.
         fname = os.path.dirname(h5fname) + '/' + os.path.splitext(os.path.basename(h5fname))[0]+ '_rec_full/' + 'recon'
@@ -144,7 +228,7 @@ def rec_full(h5fname, rot_center):
         strt += sino[1] - sino[0]
     
 
-def rec_slice(h5fname, nsino, rot_center):
+def rec_slice(h5fname, nsino, rot_center, blocked_views):
     
     data_size = get_dx_dims(h5fname, 'data')
     ssino = int(data_size[1] * nsino)
@@ -156,8 +240,8 @@ def rec_slice(h5fname, nsino, rot_center):
     end = start + 1
     sino = (start, end)
 
-    # Reconstruct.
-    rec = reconstruct(h5fname, sino, rot_center)
+    # Reconstruct
+    rec = reconstruct(h5fname, sino, rot_center, blocked_views)
 
     fname = os.path.dirname(h5fname) + '/' + os.path.splitext(os.path.basename(h5fname))[0]+ '_rec_slice/' + 'recon'
     dxchange.write_tiff_stack(rec, fname=fname)
@@ -187,36 +271,70 @@ def main(arg):
 
     nsino = float(args.nsino)
 
+    blocked_views = None
+
+    # Missing angles for tomobank id from 00007 to 00021
+    # uncomment "blocked_views" for the dataset you want to reconstruct
+
+    # tomo_00007 best_center = 1232; slice_first = 740; slice_last = 1700; 
+    # blocked_views = [141,226]
+
+    # tomo_00008 best_center = 1321; slice_first = 1000; slice_last = 1440; 
+    # blocked_views = [141,228]
+
+    # tomo_00009 best_center = 1219; slice_first = 550; slice_last = 1370; 
+    # blocked_views = [147,233]
+
+    # tomo_00010 best_center = 1286; slice_first = 740; slice_last = 1500; 
+    # blocked_views = [142,227]
+
+    # tomo_00011 best_center = 1292; slice_first = 620; slice_last = 1320; 
+    # blocked_views = [140,226]
+
+    # tomo_00012 best_center = 1116; slice_first = 800; slice_last = 1200; 
+    # blocked_views = [140,225]
+
+    # tomo_00013 best_center = 1314; slice_first = 610; slice_last = 1500; 
+    # blocked_views = [71,113]
+
+    # tomo_00014 best_center = 1140; slice_first = 610; slice_last = 1200; 
+    # blocked_views = [140,226]
+
+    # tomo_00015 best_center = 1124; slice_first = 740; slice_last = 1270; 
+    # blocked_views = [140,227]
+
+    # tomo_00016 best_center = 1338; slice_first = 760; slice_last = 1180; 
+    # blocked_views = [140,227]
+
+    # tomo_00017 best_center = 1232; slice_first = 710; slice_last = 1210; 
+    # blocked_views = [140,227]
+
+    # tomo_00018 best_center = 1292; slice_first = 700; slice_last = 1180; 
+    # blocked_views = [138,225]
+
+    # tomo_00019 best_center = 1114; slice_first = 740; slice_last = 1210; 
+    # blocked_views = [141,228]
+
+    # tomo_00020 best_center = 1352; slice_first = 750; slice_last = 1230; 
+    # blocked_views = [138, 224]
+
+    # tomo_00021 best_center = 1352; slice_first = 630; slice_last = 1100; 
+    # blocked_views = [138, 224]
+
+
+
     slice = False
     if args.type == "slice":
         slice = True
 
     if os.path.isfile(fname):       
         if slice:             
-            rec_slice(fname, nsino, rot_center)
+            rec_slice(fname, nsino, rot_center, blocked_views)
         else:
-            rec_full(fname, rot_center)
+            rec_full(fname, rot_center, blocked_views)
 
-    elif os.path.isdir(fname):
-        # Add a trailing slash if missing
-        top = os.path.join(fname, '')
-        
-        # Load the the rotation axis positions.
-        jfname = top + "rotation_axis.json"
-        
-        dictionary = read_rot_centers(jfname)
-            
-        for key in dictionary:
-            dict2 = dictionary[key]
-            for h5fname in dict2:
-                rot_center = dict2[h5fname]
-                fname = top + h5fname
-                if slice:             
-                    rec_slice(fname, nsino, rot_center)
-                else:
-                    rec_full(fname, rot_center)
     else:
-        print("Directory or File Name does not exist: ", fname)
+        print("File Name does not exist: ", fname)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

@@ -16,7 +16,12 @@ in which  the exposure time much shorter than the optimal value.
 The sample description and the experimental conditions are reported in tables below:
 and accessible for download under tomo\_00031. 
 
-.. |tomo_00031| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00031.py>`
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00031.h5 --axis 484.5
 
 .. _tomo_00031: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00031%2F
 
@@ -29,7 +34,7 @@ and accessible for download under tomo\_00031.
 +========================+====================================+
 | Image preview          |      |00031|                       | 
 +------------------------+------------------------------------+
-| Downloads              |      tomo_00031_, |tomo_00031|     |  
+| Downloads              |      tomo_00031_                   |  
 +------------------------+------------------------------------+
 | Instrument             |      APS 13-BM-D                   | 
 +------------------------+------------------------------------+
@@ -55,6 +60,8 @@ and accessible for download under tomo\_00031.
 +------------------------+------------------------------------+
 | PixelSize              |      3.18 µm                       | 
 +------------------------+------------------------------------+
+| Rotation axis location |      484.5                         |
++------------------------+------------------------------------+
 
 Lower Resolution 
 ~~~~~~~~~~~~~~~~
@@ -71,7 +78,12 @@ and phases in selected regions, with sometimes higher spatial resolution than in
 tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
 
 
-.. |tomo_00069| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00069.py>`
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00069.h5 --axis 515.50
 
 .. _tomo_00069: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00069%2F
 
@@ -84,7 +96,7 @@ tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
 +=============================+===============================+
 | Image preview               |     |00069|                   | 
 +-----------------------------+-------------------------------+
-| Downloads                   |     tomo_00069_, |tomo_00069| |  
+| Downloads                   |     tomo_00069_               |  
 +-----------------------------+-------------------------------+
 | Instrument                  |     SLS TOMCAT                | 
 +-----------------------------+-------------------------------+
@@ -92,7 +104,7 @@ tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
 +-----------------------------+-------------------------------+
 | Energy                      |     36.085 keV                | 
 +-----------------------------+-------------------------------+
-| Sample-to-detector distance |     few mm                    |  
+| Sample-to-detector distance |     4 mm                      |  
 +-----------------------------+-------------------------------+
 | Scan Range                  |     180 degree                | 
 +-----------------------------+-------------------------------+
@@ -103,6 +115,8 @@ tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
 | Dark Fields                 |     5                         |  
 +-----------------------------+-------------------------------+
 | PixelSize                   |     3.7 µm                    | 
++-----------------------------+-------------------------------+
+| Rotation axis location      |     515.500232028             |
 +-----------------------------+-------------------------------+
 
 
@@ -118,8 +132,6 @@ Below we report the sample description and the experimental conditions for an in
 (tomo\_00057) :cite:`trabecular-bone:15`  collected at the Elettra Syrmep beamline.
 
 
-.. |tomo_00057| replace:: :download:`rec_script.py <../../../docs/demo/rec_tomo_00057.py>`
-
 .. _tomo_00057: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00057%2F
 
 .. |00057| image:: ../img/tomo_00057.png
@@ -131,7 +143,7 @@ Below we report the sample description and the experimental conditions for an in
 +=============================+=========================================================+
 | Image preview               |      |00057|                                            | 
 +-----------------------------+---------------------------------------------------------+
-| Downloads                   |      tomo_00057_, |tomo_00057|                          |  
+| Downloads                   |      tomo_00057_                                        |  
 +-----------------------------+---------------------------------------------------------+
 | Instrument                  |      Elettra Syrmep                                     |
 +-----------------------------+---------------------------------------------------------+
@@ -158,7 +170,7 @@ Below we report the sample description and the experimental conditions for an in
 
 
 
-add datasets MDB
+add MDB datasets 
 ~~~~~~~~~~~~~~~~
 
 from  http://dx.doi.org/doi:10.18126/M2CC73

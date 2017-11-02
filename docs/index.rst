@@ -16,7 +16,7 @@ synchrotron facility data analysis software packages.
 Features
 --------
 
-* Tomographic datasets and phantom repository
+* Tomographic datasets and phantom repository `Globus <https://www.globus.org/>`_
 * Python scripts to read and reconstruct all data sets (:download:`tomopy_rec.py <../docs/demo/tomopy_rec.py>`)
 
 Usage: ::
@@ -54,6 +54,7 @@ Content
    :maxdepth: 1
 
    source/about
+   source/usage
    source/data
    source/phantom
    source/publish
