@@ -37,7 +37,7 @@ if __name__ == '__main__':
     tomobank_id = 'phantom_00003'
 
     # Set path to the micro-CT data to convert.
-    fname = '/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
+    fname = 'tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '.h5'    
 
     # Set meta-data
     experimenter_affiliation="Argonne National Laboratory" 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     dark = np.zeros((n_dark, ccd_y, ccd_x)) # Array filled with zeros
     flat = np.ones((n_white, ccd_y, ccd_x)) # Array filled with ones
 
-    sino = sinogram(n_proj, ccd_x, phantom)
+    sino, probe = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
     # Theta
@@ -83,7 +83,7 @@ if __name__ == '__main__':
                 
     # Write ground_truth
     ground_truth = discrete_phantom(phantom, ccd_x, prop='mass_atten')
-    fname_gt='/tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '_ground_truth'
+    fname_gt='tomobank/phantoms/' + tomobank_id + '/' + tomobank_id + '_ground_truth'
     dxchange.write_tiff(ground_truth, fname=fname_gt, dtype='float32')
 
     # Save into a data-exchange file.
