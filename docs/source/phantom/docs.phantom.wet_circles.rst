@@ -32,7 +32,7 @@ The ground truth, sinogram and projection are obtained with:
 
     ground_truth = discrete_phantom(phantom, ccd_x, prop='mass_atten')
     
-    sino = sinogram(n_proj, ccd_x, phantom)
+    sino, probe = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
 To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
