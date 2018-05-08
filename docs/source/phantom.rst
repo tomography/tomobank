@@ -16,4 +16,4 @@ Example: ::
    phantom/docs.phantom.standard
    phantom/docs.phantom.wet_circles
    phantom/docs.phantom.foams
-..   phantom/docs.phantom.bio
+   phantom/docs.phantom.magnetic
