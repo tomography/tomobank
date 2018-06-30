@@ -10,8 +10,8 @@ were conducted using our Tomosaic protocol [1]. A full dataset stitched from a 4
 tile grid is available here.
 
 Metadata files in the repository include:
-.. * `center_pos.txt`: Center positions for each of the 4 rows of tiles.
-.. * `shifts.txt`: Relative positions of all 16 tiles. The 6 columns in the file provide information
+  * `center_pos.txt`: Center axis positions for each of the 4 rows of tiles.
+  * `shifts.txt`: Relative positions of all 16 tiles. The 6 columns in the file provide information
 of: tile position y, tile position x, relative shift y to right neightbor, 
 relative shift x to right neightbor, relative shift y to bottom neightbor, 
 relative shift x to bottom neightbor.
@@ -61,5 +61,20 @@ open-source project which can be found here: tomosaic_
 +-----------------------------------------+----------------------------+
 |             Rotation axis location      | See globus                 |
 +-----------------------------------------+----------------------------+
+
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script. Check `center_pos.txt` for rotation axis positions.
+
+Example: ::
+
+    python tomopy_rec.py tomo_00078.h5 --axis 3316
+
+To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
+
+To find the correct axis value in `center_pos.txt` to use, you need to first figure out which row the slice you want
+to reconstruct belong to. You can do this with the aid of `shifts.txt`. For example, the y-shift of the second row
+of tile relative to the first row is 997, and that of the third row relative to the second row is 996. So slice
+997 to 1993 will be on the second row, corresponding to an axis of 3324. The most convenient way to reconstruct
+this dataset is to use the `recon_hdf5` function in Tomosaic. The source codes of Tomosaic can be found here: tomosaic_
 
 [1] R. Vescovi, M. Du, V. de Andrade, W. Scullin, D. Gursoy, and C. Jacobsen. (n.d.). Tomosaic: efficient acquisition and reconstruction of teravoxel tomography data using limited-size synchrotron x-ray beams. (Under review). 
