@@ -9,11 +9,24 @@ Since the sample extends beyond the field-of-view (FOV), the acquisition and rec
 were conducted using our Tomosaic protocol [1]. A full dataset stitched from a 4 by 4 mosaic
 tile grid is available here.
 
-.. image:: ../img/tomo_00078.png
-   :width: 320px
+Metadata files in the repository include:
+.. * `center_pos.txt`: Center positions for each of the 4 rows of tiles.
+.. * `shifts.txt`: Relative positions of all 16 tiles. The 6 columns in the file provide information
+of: tile position y, tile position x, relative shift y to right neightbor, 
+relative shift x to right neightbor, relative shift y to bottom neightbor, 
+relative shift x to bottom neightbor.
+
+Tomosaic, the software used to for processing and reconstructing the mosaic dataset, is an
+open-source project which can be found here: tomosaic_
+
+
+
+.. |00078| image:: ../img/tomo_00078.png
+   :width: 20px
    :alt: project
    :align: center
-
+.. _tomo_00078: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00078%2F
+.. _tomosaic: https://github.com/mdw771/tomosaic2.git
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     | 00078                      |  
@@ -22,9 +35,9 @@ tile grid is available here.
 +-----------------------------------------+----------------------------+
 |             Download                    | tomo_00078_                |  
 +-----------------------------------------+----------------------------+
-|             Instrument                  |                            |  
+|             Instrument                  | APS 32-ID-C                |  
 +-----------------------------------------+----------------------------+
-|             Sample name                 |                            |  
+|             Sample name                 | Charcoal                   |  
 +-----------------------------------------+----------------------------+
 |             X-ray energy                | 25.0 keV                   |  
 +-----------------------------------------+----------------------------+
