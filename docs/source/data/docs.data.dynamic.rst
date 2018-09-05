@@ -168,6 +168,66 @@ Below we report the sample description and the experimental conditions for an in
 | Exposure Time               |      0.8 s                                              |
 +-----------------------------+---------------------------------------------------------+
 
+Foam data
+~~~~~~~~~~~~~~~
+
+In this study, we investigate the rheology of liquid foams by fast synchrotron X-ray tomographic microscopy :cite:`Raufaste_EPL2015`. Foams are complex cellular systems which require artifact free tomographic reconstruction for a reliable quantification of their time-dependent properties such as deformation fields of bubbles. In our example we acquire X-ray projections of the liquid foam flowing through a constriction and being rotated around the tomographic axis. 
+The experiment was performed at the TOMCAT beamline of the Swiss Light Source using the fast acquisition setup :cite:`Mokso_JSR2017`.
+
+To load the data sets and perform reconstruction use the :download:`tomopy_rectv.py <../../demo/tomopy_rectv.py>` python script.
+
+Reconstruction by Gridrec ::
+
+        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type gridrec --frame 95
+Reconstruction by the method with suppressing motion artifacts [Nikitin et. al] available at https://github.com/math-vrn/rectv_gpu ::
+
+        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type tv --frame 95
+
+
+.. _tomo_00080: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00080%2F
+
+.. |00080_0| image:: ../img/tomo_00080_0.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00080_1| image:: ../img/tomo_00080_1.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |      00080                                              | 
++=============================+=========================================================+
+| Image preview               |      |00080_0| |00080_1|                                | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00080_                                        |  
++-----------------------------+---------------------------------------------------------+
+| Instrument                  |      SLS TOMCAT                                         |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      dk_MCFG_1_p_s1                                     |
++-----------------------------+---------------------------------------------------------+
+| Energy                      |      16 keV                                             |
++-----------------------------+---------------------------------------------------------+
+| Sample-to-detector Distance |      250 mm                                             |
++-----------------------------+---------------------------------------------------------+
+| Scan Range                  |      180 degree                                         |
++-----------------------------+---------------------------------------------------------+
+| Continuous Data Collection  |      300 projections x 130 (0-180 deg) iteration        |
++-----------------------------+---------------------------------------------------------+
+| Total Projections           |      39000                                              |
++-----------------------------+---------------------------------------------------------+
+| White Fields                |      512                                                |
++-----------------------------+---------------------------------------------------------+
+| Dark Fields                 |      512                                                | 
++-----------------------------+---------------------------------------------------------+
+| Exposure Time               |      0.7 ms                                             |
++-----------------------------+---------------------------------------------------------+
+| Frame rate                  |      840 deg/s                                          |
++-----------------------------+---------------------------------------------------------+
+| PixelSize                   |      3 µm                                               | 
++-----------------------------+---------------------------------------------------------+
+| Rotation axis location      |      1008                                               |
++-----------------------------+---------------------------------------------------------+
+
 
 
 add MDB datasets 
