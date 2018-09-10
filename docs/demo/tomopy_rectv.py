@@ -160,7 +160,7 @@ def rec_full(h5fname, nframes, frame, nproj, binning, tv):
 	        fname = os.path.dirname(os.path.abspath(h5fname)) + '/' + os.path.splitext(os.path.basename(h5fname))[0]+ '_rec_full/' + 'recon' + str(frame-nframes/2+time_frame) + '_'
 	        print("Reconstructions: ", fname)	
 	        dxchange.write_tiff_stack(rec[time_frame], fname=fname, start=strt)
-        strt += (sino[1] - sino[0])/pow(2,2)#########
+        strt += (sino[1] - sino[0])/pow(2,binning)
 
 def rec_subset(h5fname, nsino, nframes, frame, nproj, binning, tv):
     
