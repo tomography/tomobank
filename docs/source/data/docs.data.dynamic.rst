@@ -169,7 +169,7 @@ Below we report the sample description and the experimental conditions for an in
 +-----------------------------+---------------------------------------------------------+
 
 Foam data
-~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 In this study, we investigate the rheology of liquid foams by fast synchrotron X-ray tomographic microscopy :cite:`Raufaste_EPL2015`. Foams are complex cellular systems which require artifact free tomographic reconstruction for a reliable quantification of their time-dependent properties such as deformation fields of bubbles. In our example we acquire X-ray projections of the liquid foam flowing through a constriction and being rotated around the tomographic axis. 
 The experiment was performed at the TOMCAT beamline of the Swiss Light Source using the fast acquisition setup :cite:`Mokso_JSR2017`.
@@ -228,11 +228,3 @@ Reconstruction by the method with suppressing motion artifacts [Nikitin et. al] 
 | Rotation axis location      |      1008                                               |
 +-----------------------------+---------------------------------------------------------+
 
-
-
-add MDB datasets 
-~~~~~~~~~~~~~~~~
-
-from  http://dx.doi.org/doi:10.18126/M2CC73
-
-from  http://dx.doi.org/doi:10.18126/M2301J
