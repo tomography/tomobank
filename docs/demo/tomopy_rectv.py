@@ -17,7 +17,7 @@ import collections
 import h5py
 import tomopy
 import dxchange
-import rectv
+
    
 def get_dx_dims(fname, dataset):
     """
@@ -96,6 +96,7 @@ def reconstruct(h5fname, sino, nframes, frame, nproj, binning, tv):
     theta = np.linspace(0,np.pi*nframes,nproj*nframes,endpoint=False)
 
     if tv:
+	import rectv
 	# Reconstruct. Iterative TV.
 	[Ntheta,Nz,N] = data.shape
 	Nzp = 4 # number of slices to process simultaniously by gpus
