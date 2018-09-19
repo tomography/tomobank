@@ -215,7 +215,7 @@ def main(arg):
     parser.add_argument("fname", help="file name of a tomographic dataset")
     parser.add_argument("--type", nargs='?', type=str, default="slice", help="reconstruction type: full (default slice)")
     parser.add_argument("--nsino", nargs='?', type=restricted_float, default=0.5, help="location of the sinogram used by slice reconstruction (0 top, 1 bottom): 0.5 (default 0.5)")
-    parser.add_argument("--algorithm_type", nargs='?', type=str, default="tv", help="algorithm for reconstruction: tv (default tv)")
+    parser.add_argument("--tv", nargs='?', type=bool, default=False, help="Use Total variation reconstruction method (Gridrec otherwise): False (default False)")
     parser.add_argument("--binning", nargs='?', type=str, default=0, help="binning projections: 0 (default 0)")
     parser.add_argument("--frame", nargs='?', type=str, default=92, help="time frame with motion: 92 (default 92)")
 
@@ -227,7 +227,9 @@ def main(arg):
     nsino = float(args.nsino)
     binning = int(args.binning)
     frame = int(args.frame)
+    tv = args.tv
 
+    print(tv)
     nframes = 8 #number of time frames for reconstruction
     nproj = 300 #number of projections per 180 degrees interval
     
@@ -239,10 +241,6 @@ def main(arg):
     if args.type == "subset":
         subset = True
 
-
-    tv = False
-    if args.algorithm_type == "tv":
-        tv = True
 
     if os.path.isfile(fname):       
         if slice:             
