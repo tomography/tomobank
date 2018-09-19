@@ -176,10 +176,11 @@ The experiment was performed at the TOMCAT beamline of the Swiss Light Source us
 
 To load the data sets and perform reconstruction use the :download:`tomopy_rectv.py <../../demo/tomopy_rectv.py>` python script.
 
-Reconstruction by Gridrec ::
+Reconstruction by Gridrec can be done by specifying '--algorithm_type gridrec' ::
 
         python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type gridrec --frame 95
-Reconstruction by the method with suppressing motion artifacts [Nikitin et. al] available at https://github.com/math-vrn/rectv_gpu ::
+        
+Reconstruction by the method with suppressing motion artifacts [Nikitin et. al, 2018] requires module `rectv` that can be installed from https://github.com/math-vrn/rectv_gpu. In this case, the algorithm run with option '--algorithm_type tv' ::
 
         python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type tv --frame 95
 
