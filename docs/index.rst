@@ -13,14 +13,16 @@ beamline scientists and experimentalists, to accelerate the development of tomog
 reconstruction and 3D visualization methods and to speed up their implementation in the various 
 synchrotron facility data analysis software packages.
 
-If you use the tomoBank Toolbox for your research, we would appreciate it if you would refer to the following papers:
+If you use the tomoBank Toolbox for your research, we would appreciate it if you would refer to the following papers :cite:`decarlo:01`:
 
 	De Carlo, Francesco, et al. "TomoBank: a tomographic data repository for computational x-ray science." Measurement Science and Technology 29.3 (2018): 034004. http://www.doi.org/10.1088/1361-6501/aa9c19
 
 Features
 --------
 
-* Tomographic datasets and phantom repository `Globus <https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2F>`_
+* Tomographic datasets and phantom repository `Globus <https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F>`_
+
+
 * Python scripts to read and reconstruct all data sets (:download:`tomopy_rec.py <../docs/demo/tomopy_rec.py>`)
 
 Usage: ::
