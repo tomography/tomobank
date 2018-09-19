@@ -49,9 +49,8 @@ Example: ::
 Contribute
 ----------
 
-* Documentation: https://github.com/tomography/tomobank/tree/master/doc
-* Issue Tracker: https://github.com/tomography/tomobank/docs/issues
-* Source Code: https://github.com/tomography/tomobank/project
+* Documentation: https://github.com/tomography/tomobank/tree/master/
+* Issue Tracker: https://github.com/tomography/tomobank/issues
 
 Content
 -------
