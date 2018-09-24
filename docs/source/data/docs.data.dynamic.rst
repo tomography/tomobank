@@ -178,10 +178,11 @@ To load the data sets and perform reconstruction use the :download:`tomopy_rectv
 
 Reconstruction by Gridrec ::
 
-        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type gridrec --frame 95
-Reconstruction by the method with suppressing motion artifacts [Nikitin et. al] available at https://github.com/math-vrn/rectv_gpu ::
+        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --frame 95
+        
+Reconstruction by the method with suppressing motion artifacts [Nikitin et. al, 2018] requires module `rectv` that can be installed from https://github.com/math-vrn/rectv_gpu. In this case, the algorithm run with option `--tv True` ::
 
-        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --algorithm_type tv --frame 95
+        python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --tv True --frame 95
 
 
 .. _tomo_00080: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00080%2F
