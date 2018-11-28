@@ -17,3 +17,4 @@ Example: ::
    phantom/docs.phantom.wet_circles
    phantom/docs.phantom.foams
    phantom/docs.phantom.magnetic
+   phantom/docs.phantom.dynamic
