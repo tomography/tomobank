@@ -14,88 +14,88 @@ The method of Time-domain decomposition + regularization in turn suppresses all 
 Reconstruction by the method with suppressing motion artifacts requires module `rectv` that can be installed from https://github.com/math-vrn/rectv_gpu. 
 To perform reconstruction use the :download:`rec_phantom_00015.py <../../demo/rec_phantom_00015.py>` python script::
 
-        python rec_phantom_00015.py python rec_dyn.py phantom_dyn_data_00000.tiff
+        python rec_phantom_00015.py phantom_00015_00000.tiff
         
 
 .. _phantom_00015: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00015%2F
 
-.. |gt00000| image:: ../img/phantom_dyn/f_00000.png
+.. |gt00000| image:: ../img/phantom_00015/f_00000.png
     :width: 100pt
     :height: 100pt
-.. |rec00000| image:: ../img/phantom_dyn/rec_0_00000.png
+.. |rec00000| image:: ../img/phantom_00015/rec_0_00000.png
     :width: 100pt
     :height: 100pt
-.. |rectv00000| image:: ../img/phantom_dyn/recb16tv_0_00000.png
-    :width: 100pt
-    :height: 100pt
-
-.. |gt00001| image:: ../img/phantom_dyn/f_00001.png
-    :width: 100pt
-    :height: 100pt
-.. |rec00001| image:: ../img/phantom_dyn/rec_1_00000.png
-    :width: 100pt
-    :height: 100pt
-.. |rectv00001| image:: ../img/phantom_dyn/recb16tv_1_00000.png
+.. |rectv00000| image:: ../img/phantom_00015/recb16tv_0_00000.png
     :width: 100pt
     :height: 100pt
 
-.. |gt00002| image:: ../img/phantom_dyn/f_00002.png
+.. |gt00001| image:: ../img/phantom_00015/f_00001.png
     :width: 100pt
     :height: 100pt
-.. |rec00002| image:: ../img/phantom_dyn/rec_2_00000.png
+.. |rec00001| image:: ../img/phantom_00015/rec_1_00000.png
     :width: 100pt
     :height: 100pt
-.. |rectv00002| image:: ../img/phantom_dyn/recb16tv_2_00000.png
-    :width: 100pt
-    :height: 100pt
-
-.. |gt00003| image:: ../img/phantom_dyn/f_00003.png
-    :width: 100pt
-    :height: 100pt
-.. |rec00003| image:: ../img/phantom_dyn/rec_3_00000.png
-    :width: 100pt
-    :height: 100pt
-.. |rectv00003| image:: ../img/phantom_dyn/recb16tv_3_00000.png
+.. |rectv00001| image:: ../img/phantom_00015/recb16tv_1_00000.png
     :width: 100pt
     :height: 100pt
 
-.. |gt00004| image:: ../img/phantom_dyn/f_00004.png
+.. |gt00002| image:: ../img/phantom_00015/f_00002.png
     :width: 100pt
     :height: 100pt
-.. |rec00004| image:: ../img/phantom_dyn/rec_4_00000.png
+.. |rec00002| image:: ../img/phantom_00015/rec_2_00000.png
     :width: 100pt
     :height: 100pt
-.. |rectv00004| image:: ../img/phantom_dyn/recb16tv_4_00000.png
-    :width: 100pt
-    :height: 100pt
-
-.. |gt00005| image:: ../img/phantom_dyn/f_00005.png
-    :width: 100pt
-    :height: 100pt
-.. |rec00005| image:: ../img/phantom_dyn/rec_5_00000.png
-    :width: 100pt
-    :height: 100pt
-.. |rectv00005| image:: ../img/phantom_dyn/recb16tv_5_00000.png
+.. |rectv00002| image:: ../img/phantom_00015/recb16tv_2_00000.png
     :width: 100pt
     :height: 100pt
 
-.. |gt00006| image:: ../img/phantom_dyn/f_00006.png
+.. |gt00003| image:: ../img/phantom_00015/f_00003.png
     :width: 100pt
     :height: 100pt
-.. |rec00006| image:: ../img/phantom_dyn/rec_6_00000.png
+.. |rec00003| image:: ../img/phantom_00015/rec_3_00000.png
     :width: 100pt
     :height: 100pt
-.. |rectv00006| image:: ../img/phantom_dyn/recb16tv_6_00000.png
+.. |rectv00003| image:: ../img/phantom_00015/recb16tv_3_00000.png
     :width: 100pt
     :height: 100pt
 
-.. |gt00007| image:: ../img/phantom_dyn/f_00007.png
+.. |gt00004| image:: ../img/phantom_00015/f_00004.png
     :width: 100pt
     :height: 100pt
-.. |rec00007| image:: ../img/phantom_dyn/rec_7_00000.png
+.. |rec00004| image:: ../img/phantom_00015/rec_4_00000.png
     :width: 100pt
     :height: 100pt
-.. |rectv00007| image:: ../img/phantom_dyn/recb16tv_7_00000.png
+.. |rectv00004| image:: ../img/phantom_00015/recb16tv_4_00000.png
+    :width: 100pt
+    :height: 100pt
+
+.. |gt00005| image:: ../img/phantom_00015/f_00005.png
+    :width: 100pt
+    :height: 100pt
+.. |rec00005| image:: ../img/phantom_00015/rec_5_00000.png
+    :width: 100pt
+    :height: 100pt
+.. |rectv00005| image:: ../img/phantom_00015/recb16tv_5_00000.png
+    :width: 100pt
+    :height: 100pt
+
+.. |gt00006| image:: ../img/phantom_00015/f_00006.png
+    :width: 100pt
+    :height: 100pt
+.. |rec00006| image:: ../img/phantom_00015/rec_6_00000.png
+    :width: 100pt
+    :height: 100pt
+.. |rectv00006| image:: ../img/phantom_00015/recb16tv_6_00000.png
+    :width: 100pt
+    :height: 100pt
+
+.. |gt00007| image:: ../img/phantom_00015/f_00007.png
+    :width: 100pt
+    :height: 100pt
+.. |rec00007| image:: ../img/phantom_00015/rec_7_00000.png
+    :width: 100pt
+    :height: 100pt
+.. |rectv00007| image:: ../img/phantom_00015/recb16tv_7_00000.png
     :width: 100pt
     :height: 100pt
 
