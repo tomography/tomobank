@@ -17,7 +17,7 @@ To perform reconstruction use the :download:`rec_phantom_dyn.py <../../demo/rec_
         python rec_phantom_dyn.py python rec_dyn.py phantom_dyn_data_00000.tiff
         
 
-.. _phan_dyn_00000: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00000%2F
+.. _phan_dyn_00000: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00015%2F
 
 .. |gt00000| image:: ../img/phantom_dyn/f_00000.png
     :width: 100pt
