@@ -61,6 +61,7 @@ Content
    source/about
    source/usage
    source/data
+   source/dagstuhl
    source/phantom
    source/publish
    source/credits
