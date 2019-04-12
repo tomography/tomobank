@@ -1,7 +1,7 @@
 Dagstuhl Seminar 19151 
 ======================
 
-This repository contains a series of datasets representing the four challanges as discussed at the Dagstuhl Seminar 19151 on
+This repository contains a series of datasets representing the four challenges as discussed at the Dagstuhl Seminar 19151 on
 Visual Computing in Material Science | April 7-12, 2019
 
 You can upload a data set `here <https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2Fdagstuhl_2019%2F>`_.
