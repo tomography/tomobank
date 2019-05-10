@@ -94,82 +94,82 @@ def reconstruct(h5fname, sino, rot_center, blocked_views=None):
 
 
     # Phase retrieval for tomobank id from 00032 to 00056
-    # sample_detector_distance = 60
+    # sample_detector_distance = 6.0
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 27.4
 
     # Phase retrieval for tomobank id 00058 and tomobank id 00059
-    # sample_detector_distance = 60
+    # sample_detector_distance = 6.0
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 27.4
 
     # Phase retrieval for tomobank id 00060 and tomobank id 00063
-    # sample_detector_distance = 25
+    # sample_detector_distance = 2.5
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 27.4
 
     # Phase retrieval for tomobank id 00064
-    # sample_detector_distance = 58
+    # sample_detector_distance = 0.8
     # detector_pixel_size_x = 1.4e-4
     # monochromator_energy = 55.0
 
     # Phase retrieval for tomobank id 00065
-    # sample_detector_distance = 158
+    # sample_detector_distance = 5.8
     # detector_pixel_size_x = 1.4e-4
     # monochromator_energy = 55.0
 
     # Phase retrieval for tomobank id 00066
-    # sample_detector_distance = 58
+    # sample_detector_distance = 15.8
     # detector_pixel_size_x = 1.4e-4
     # monochromator_energy = 55.0
 
     # Phase retrieval for tomobank id 00067
-    # sample_detector_distance = 308
+    # sample_detector_distance = 30.8
     # detector_pixel_size_x = 1.4e-4
     # monochromator_energy = 55.0
 
     # Phase retrieval for tomobank id 00068
-    # sample_detector_distance = 150
+    # sample_detector_distance = 15.0
     # detector_pixel_size_x = 4.1e-4
     # monochromator_energy = 14.0
 
     # Phase retrieval for tomobank id 00069
-    # sample_detector_distance = 4 
+    # sample_detector_distance = 0.4 
     # detector_pixel_size_x = 3.7e-4
     # monochromator_energy = 36.085
 
     # Phase retrieval for tomobank id 00070
-    # sample_detector_distance = 8
+    # sample_detector_distance = 5.0
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 24.999
 
     # Phase retrieval for tomobank id 00071
-    # sample_detector_distance = 15
+    # sample_detector_distance = 1.5
     # detector_pixel_size_x = 0.65e-4
     # monochromator_energy = 24.999
 
     # Phase retrieval for tomobank id 00072
-    # sample_detector_distance = 15
+    # sample_detector_distance = 1.5
     # detector_pixel_size_x = 1.43e-4
     # monochromator_energy = 20.0
 
     # Phase retrieval for tomobank id 00073
-    # sample_detector_distance = 10
+    # sample_detector_distance = 1.0
     # detector_pixel_size_x = 0.74e-4
     # monochromator_energy = 25.0
 
     # Phase retrieval for tomobank id 00074
-    # sample_detector_distance = 10
+    # sample_detector_distance = 1.0
     # detector_pixel_size_x = 0.74e-4
     # monochromator_energy = 25.0
 
     # Phase retrieval for tomobank id 00075
-    # sample_detector_distance = 110
+    # sample_detector_distance = 11.0
     # detector_pixel_size_x = 1.43e-4
     # monochromator_energy = 60
 
     # Phase retrieval for tomobank id 00076
-    # sample_detector_distance = 90
+    # sample_detector_distance = 9.0
     # detector_pixel_size_x = 2.2e-4
     # monochromator_energy = 65
 
