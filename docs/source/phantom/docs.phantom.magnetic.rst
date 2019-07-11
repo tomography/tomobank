@@ -24,7 +24,7 @@ described in `vector reconstruction algorithm <https://tomopy.readthedocs.io/en/
 |             Scan Range                  | -90 tp +90 deg             |
 +-----------------------------------------+----------------------------+
 
-.. _phan_00012: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00012%2F
+.. _phan_00012: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00012%2F
 
 .. |00012| image:: ../img/phantom_00012.png
     :width: 20pt
@@ -55,7 +55,7 @@ The tomographic reconstruction can be performed using the
 |             Scan Range                  | -90 tp +90 deg             |
 +-----------------------------------------+----------------------------+
 
-.. _phan_00013: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00013%2F
+.. _phan_00013: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00013%2F
 
 .. |00013| image:: ../img/phantom_00013.png
     :width: 20pt
@@ -82,7 +82,7 @@ The projections and the tomographic reconstruction can be computed using the met
 |             Scan Range                  | -90 tp +90 deg             |
 +-----------------------------------------+----------------------------+
 
-.. _phan_00014: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00014%2F
+.. _phan_00014: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00014%2F
 
 .. |00014| image:: ../img/phantom_00014.png
     :width: 20pt

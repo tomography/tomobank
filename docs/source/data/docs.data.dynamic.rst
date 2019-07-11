@@ -23,7 +23,7 @@ Example: ::
 
     python tomopy_rec.py tomo_00031.h5 --axis 484.5
 
-.. _tomo_00031: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00031%2F
+.. _tomo_00031: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00031%2F
 
 .. |00031| image:: ../img/tomo_00031.png
     :width: 20pt
@@ -85,7 +85,7 @@ Example: ::
 
     python tomopy_rec.py tomo_00069.h5 --axis 515.50
 
-.. _tomo_00069: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00069%2F
+.. _tomo_00069: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00069%2F
 
 .. |00069| image:: ../img/tomo_00069.png
     :width: 20pt
@@ -132,7 +132,7 @@ Below we report the sample description and the experimental conditions for an in
 (tomo\_00057) :cite:`trabecular-bone:15`  collected at the Elettra Syrmep beamline.
 
 
-.. _tomo_00057: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00057%2F
+.. _tomo_00057: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00057%2F
 
 .. |00057| image:: ../img/tomo_00057.png
     :width: 20pt
@@ -185,7 +185,7 @@ Reconstruction by the method with suppressing motion artifacts [Nikitin et. al, 
         python tomopy_rectv.py dk_MCFG_1_p_s1_.h5 --type subset --nsino 0.75 --binning 2 --tv True --frame 95
 
 
-.. _tomo_00080: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00080%2F
+.. _tomo_00080: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00080%2F
 
 .. |00080_0| image:: ../img/tomo_00080_0.png
     :width: 20pt
