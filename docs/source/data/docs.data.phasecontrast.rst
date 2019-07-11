@@ -68,10 +68,10 @@ To enable phase retrieval un-comment the appropriate setting in :download:`tomop
 
 
 
-.. _tomo_00064: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00065: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00066: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00067: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00064: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00065: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00066: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00067: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
 
 
 .. |00064| image:: ../img/tomo_00064.png
@@ -122,7 +122,7 @@ Example: ::
 
     python tomopy_rec.py tomo_00068.h5 --axis 1463.5
 
-.. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F
+.. _tomo_00068: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F
 
 .. |00068| image:: ../img/tomo_00068.png
     :width: 20pt

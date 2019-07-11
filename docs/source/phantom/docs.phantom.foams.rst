@@ -11,7 +11,7 @@ Foam
 
 .. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
 
-.. _phan_00008: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00008%2F
+.. _phan_00008: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00008%2F
 
 
 .. |rec00009| image:: ../img/phantom_00009_00000.png
@@ -24,7 +24,7 @@ Foam
 
 .. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
 
-.. _phan_00009: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00009%2F
+.. _phan_00009: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00009%2F
 
 .. |rec00010| image:: ../img/phantom_00010_00000.png
     :width: 20pt
@@ -36,7 +36,7 @@ Foam
 
 .. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
 
-.. _phan_00010: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00010%2F
+.. _phan_00010: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00010%2F
 
 .. |rec00011| image:: ../img/phantom_00011_00000.png
     :width: 20pt
@@ -48,7 +48,7 @@ Foam
 
 .. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
 
-.. _phan_00011: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00011%2F
+.. _phan_00011: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00011%2F
 
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 
