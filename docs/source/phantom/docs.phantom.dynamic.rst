@@ -7,7 +7,7 @@ in the interval of the size :math:`\pi`.
 
 The movement of the particles is captured in 8 intervals of each consisting by angular views across :math:`\pi`. 
 The model has sizes :math:`(N,N,N_t)=(256,256,8)`, and the projection data has sizes :math:`(N_\theta,N)=(128\times 8,256)=(1024,256)`, where :math:`128` is the number of projections for covering the interval :math:`[0,\pi)`.
-Reconstructions are also performed by using the standard FBP method for intervals :math:`[0,\pi)`, :math:`[\pi,2\pi)`, and so on, and by the proposed time-domain decomposition + regularization approach :cite:`Nikitin:2018` with :math:`M=16` Fourier basis functions for decomposition. 
+Reconstructions are also performed by using the standard FBP method for intervals :math:`[0,\pi)`, :math:`[\pi,2\pi)`, and so on, and by the proposed time-domain decomposition + regularization approach :cite:`Nikitin:2019` with :math:`M=16` Fourier basis functions for decomposition. 
 Motion artifacts in the FBP reconstruction are clearly visible and significantly distort reconstructions with increasing the motion velocity. 
 The method of Time-domain decomposition + regularization in turn suppresses all motion artifacts.
 
