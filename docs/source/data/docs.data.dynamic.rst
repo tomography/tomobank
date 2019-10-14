@@ -251,7 +251,7 @@ Flow field (FF) is carbon based material, gas diffusion layer (GDL) is carbon fi
 is polymer, coated with Pt based catalyst.  Image courtesy of Hong Xu (Paul Scherrer Institut).
 
 
-To load the dataset and perform basic reconstruction use the the :download:`tomopy_rectv.py <../../demo/tomopy_rectv_fc.py>` 
+To load the dataset and perform basic reconstruction use the the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
 python script ::
 
     python tomopy_rectv_fc.py fuelcell_i1.h5 --axis 702.00
@@ -302,7 +302,7 @@ python script ::
 In addition to the dynamic datasets, a high-quality post operando scan of the fuel cell in dry state 
 is provided. The scan parameters are specified in the table below.
 
-To load the high-quality dataset and perform basic reconstruction use the :download:`tomopy_rectv.py <../../demo/tomopy_rectv_fc.py>` 
+To load the high-quality dataset and perform basic reconstruction use the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
 python script::
 
     python tomopy_rectv_fc.py fuelcell_dryHQ_i1.h5 --axis 702.00 --nproj 1001 --ntframes 1
