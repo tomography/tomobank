@@ -2,6 +2,10 @@
 
 from setuptools import setup, find_packages
 
+python:
+    version: 3.5
+
+    
 setup(
     name='tomobank',
     author='Francesco De Carlo',
