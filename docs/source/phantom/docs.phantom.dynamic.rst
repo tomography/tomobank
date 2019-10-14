@@ -1,5 +1,6 @@
 Dynamic
-~~~~~~~~~~~~~~~
+~~~~~~~
+
 The dynamic phantom model was generated and customized for two spatial variables :math:`x,y` by employing the TomoPhantom toolbox :cite:`kazantsev:18`. 
 It contains three types of the particle motion: rotation, shifting, and expansion. 
 In addition to different motion types, we also analyze different motion velocities chosen according to the pixel size and the time spent for measuring projections 
@@ -15,7 +16,7 @@ Reconstruction by the method with suppressing motion artifacts requires module `
 To perform reconstruction use the :download:`rec_phantom_00015.py <../../demo/rec_phantom_00015.py>` python script::
 
         python rec_phantom_00015.py phantom_00015_00000.tiff
-        
+
 
 .. _phantom_00015: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00015%2F
 
