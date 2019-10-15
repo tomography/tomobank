@@ -230,3 +230,118 @@ Reconstruction by the method with suppressing motion artifacts :cite:`Nikitin:20
 +-----------------------------+---------------------------------------------------------+
 
 
+Fuel cell data
+~~~~~~~~~~~~~~
+
+Sub-second X-ray tomographic microscopy was exploited to investigate liquid water dynamics in a fuel cell during operation. 
+During the experiment, the cell was rotated continuously around the tomographic axis and three tomographic datasets, each 
+consisting of 60 consecutive scans, were acquired. Each of the three datasets (60 scans) were acquired within 6 seconds, 
+waiting period between each dataset was approximately 7 seconds. The outer boundaries of the cell were slightly outside of 
+the field-of-view, leading to interior tomography. The experiment was performed at the TOMCAT beamline of the Swiss Light 
+Source using the fast acquisition setup coupled with high-numerical-aperture macroscope optics :cite:`Buhrer:pp5135`.
+
+At the start of the experiment the cell was completely dry. During operation, water generated on the surface of catalyst 
+layer (Pt based, bright area in image preview) started to propagate through the porous fiber layer (carbon based gas diffusion 
+layer located between the four channels), emerging in the channels. A large water droplet can be clearly visually detected 
+from the reconstructed channel region after 115th time step (e.g. slice 364).
+
+
+The image preview is an example of a fuel cell slice reconstructed by Gridrec :cite:`dowd:99` from phase retrieved projections. 
+Flow field (FF) is carbon based material, gas diffusion layer (GDL) is carbon fiber based and catalyst coated membrane (CCM) 
+is polymer, coated with Pt based catalyst.  Image courtesy of Hong Xu (Paul Scherrer Institut).
+
+
+To load the dataset and perform basic reconstruction use the the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
+python script ::
+
+    python tomopy_rectv_fc.py fuelcell_i1.h5 --axis 702.00
+
+
+.. _tomo_00081: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00081%2F
+
+.. |00081| image:: ../img/tomo_00081.png
+    :width: 20pt
+    :height: 20pt
+
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |      00081                                              | 
++=============================+=========================================================+
+| Image preview               |      |00081|                                            | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00081_                                        |  
++-----------------------------+---------------------------------------------------------+
+| Instrument                  |      SLS TOMCAT                                         |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      fuelcell_i1, fuelcell_i2, fuelcell_i3              |
++-----------------------------+---------------------------------------------------------+
+| Energy                      |      Polychromatic radiation (filtered, mean ~ 30 keV)  |
++-----------------------------+---------------------------------------------------------+
+| Sample-to-detector Distance |      30 mm                                              |
++-----------------------------+---------------------------------------------------------+
+| Scan Range                  |      180 degree                                         |
++-----------------------------+---------------------------------------------------------+
+| Continuous Data Collection  |      301 projections x 60 (0-180 deg) iteration         |
++-----------------------------+---------------------------------------------------------+
+| Total Projections           |      18060                                              |
++-----------------------------+---------------------------------------------------------+
+| White Fields                |      100                                                |
++-----------------------------+---------------------------------------------------------+
+| Dark Fields                 |      10                                                 | 
++-----------------------------+---------------------------------------------------------+
+| Exposure Time               |      0.3 ms                                             |
++-----------------------------+---------------------------------------------------------+
+| Frame Time                  |      0.33 ms                                            |
++-----------------------------+---------------------------------------------------------+
+| PixelSize                   |      2.75 µm                                            | 
++-----------------------------+---------------------------------------------------------+
+| Rotation axis location      |      702                                                |
++-----------------------------+---------------------------------------------------------+
+
+
+In addition to the dynamic datasets, a high-quality post operando scan of the fuel cell in dry state 
+is provided. The scan parameters are specified in the table below.
+
+To load the high-quality dataset and perform basic reconstruction use the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
+python script::
+
+    python tomopy_rectv_fc.py fuelcell_dryHQ_i1.h5 --axis 702.00 --nproj 1001 --ntframes 1
+
+
+.. _tomo_00082: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00082%2F
+
+.. |00082| image:: ../img/tomo_00082.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |      00082                                              | 
++=============================+=========================================================+
+| Image preview               |      |00082|                                            | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00082_                                        |  
++-----------------------------+---------------------------------------------------------+
+| Instrument                  |      SLS TOMCAT                                         |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      fuelcell_dryHQ_i1                                  |
++-----------------------------+---------------------------------------------------------+
+| Energy                      |      Polychromatic radiation (filtered, mean ~ 30 keV)  |
++-----------------------------+---------------------------------------------------------+
+| Sample-to-detector Distance |      30 mm                                              |
++-----------------------------+---------------------------------------------------------+
+| Scan Range                  |      180 degree                                         |
++-----------------------------+---------------------------------------------------------+
+| Total Projections           |      1001                                               |
++-----------------------------+---------------------------------------------------------+
+| White Fields                |      100                                                |
++-----------------------------+---------------------------------------------------------+
+| Dark Fields                 |      10                                                 | 
++-----------------------------+---------------------------------------------------------+
+| Exposure Time               |      1 ms                                               |
++-----------------------------+---------------------------------------------------------+
+| PixelSize                   |      2.75 µm                                            | 
++-----------------------------+---------------------------------------------------------+
+| Rotation axis location      |      702                                                |
++-----------------------------+---------------------------------------------------------+
+
+
