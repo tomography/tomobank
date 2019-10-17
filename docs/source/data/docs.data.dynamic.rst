@@ -233,22 +233,12 @@ Reconstruction by the method with suppressing motion artifacts :cite:`Nikitin:20
 Fuel cell data
 ~~~~~~~~~~~~~~
 
-Sub-second X-ray tomographic microscopy was exploited to investigate liquid water dynamics in a fuel cell during operation. 
-During the experiment, the cell was rotated continuously around the tomographic axis and three tomographic datasets, each 
-consisting of 60 consecutive scans, were acquired. Each of the three datasets (60 scans) were acquired within 6 seconds, 
-waiting period between each dataset was approximately 7 seconds. The outer boundaries of the cell were slightly outside of 
-the field-of-view, leading to interior tomography. The experiment was performed at the TOMCAT beamline of the Swiss Light 
-Source using the fast acquisition setup coupled with high-numerical-aperture macroscope optics :cite:`Buhrer:pp5135`.
+Sub-second X-ray tomographic microscopy was exploited to investigate liquid water dynamics in a fuel cell during operation. During the experiment, the cell was rotated continuously around the tomographic axis and three tomographic datasets, each consisting of 60 consecutive scans, were acquired. Each of the three datasets (60 scans) was acquired within 6 seconds, the interval period between each dataset was approximately 7 seconds. The outer boundaries of the cell were slightly outside of the field-of-view, leading to interior tomography. The experiment was performed at the TOMCAT beamline of the Swiss Light Source using the fast acquisition setup coupled with high-numerical-aperture macroscope optics :cite:`Buhrer:pp5135`.
 
-At the start of the experiment the cell was completely dry. During operation, water generated on the surface of catalyst 
-layer (Pt based, bright area in image preview) started to propagate through the porous fiber layer (carbon based gas diffusion 
-layer located between the four channels), emerging in the channels. A large water droplet can be clearly visually detected 
-from the reconstructed channel region after 115th time step (e.g. slice 364).
+At the start of the experiment the cell was completely dry. During operation, water generated on the surface of the catalyst layer (Pt based, bright area in Figure 1) started to propagate through the porous fiber layer (carbon based gas diffusion layer located between the four channels), emerging in the channels. A large water droplet can be clearly visually detected in the reconstructed channel region after the 115th time step (e.g. slice 364). 
 
 
-The image preview is an example of a fuel cell slice reconstructed by Gridrec :cite:`dowd:99` from phase retrieved projections. 
-Flow field (FF) is carbon based material, gas diffusion layer (GDL) is carbon fiber based and catalyst coated membrane (CCM) 
-is polymer, coated with Pt based catalyst.  Image courtesy of Hong Xu (Paul Scherrer Institut).
+The image preview is an example of a fuel cell slice reconstructed by Gridrec from phase retrieved :cite:`dowd:99` projections and cropped to the region of interest. The flow field (FF) consists of carbon based material, the gas diffusion layer (GDL) of carbon fiber and the catalyst coated membrane (CCM) of a polymer, coated with a Pt based catalyst. Image courtesy of Hong Xu (Paul Scherrer Institut).
 
 
 To load the dataset and perform basic reconstruction use the the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
