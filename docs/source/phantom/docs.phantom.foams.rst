@@ -54,7 +54,11 @@ resulting in projections of 1080x1280 pixels. Data is provided for multiple simu
 types of data limitations. For one sample (Foam 1), data is provided for all data limitations, in addition to
 a high-quality dataset with many projections and limited noise. For other samples, only limited data is given.
 
-Data for the following acquisition modes are included:
+Each dataset consists of a HDF5 file with two entries: :code:`projs` is the projections data (already flatfielded and
+linearized) and :code:`angs` is a list of projection angles in radians. An example script that reconstructs a
+dataset with the ASTRA toolbox is available `here <https://github.com/tomochallenge/tomochallenge_utils/blob/master/foam_phantom_reconstruct_astra.py>`_.
+
+Data for the following acquisition modes are included: 
 
 +------------------+-----------------------+-------------+---------------------------------------------------------+---------------------------------------------------------+
 | Acquisition mode | Number of projections | Noise level | Image                                                   |   Comments                                              |
