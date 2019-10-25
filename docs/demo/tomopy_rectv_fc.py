@@ -228,7 +228,7 @@ def main(arg):
     parser.add_argument("--frame", nargs='?', type=str, default=92, help="time frame with motion: 92 (default 92)")
     parser.add_argument("--axis", nargs='?', type=str, default="0", help="rotation axis location: 1024.0 (default 1/2 image horizontal size)")
     parser.add_argument("--ntframes", nargs='?', type=str, default=60, help="total number of time frames (default 60)")
-    parser.add_argument("--nproj", nargs='?', type=str, default=301, help="number of projections per time frame (default 301)")
+    parser.add_argument("--nproj", nargs='?', type=str, default=300, help="number of projections per time frame (default 300)”)
     
     args = parser.parse_args()
 
