@@ -233,6 +233,8 @@ Reconstruction by the method with suppressing motion artifacts :cite:`Nikitin:20
 Fuel cell data
 ~~~~~~~~~~~~~~
 
+This data was first provided to TomoBank to be used as part of TomoChallenge, please see 
+https://tomochallenge.github.io/ for more details and for information about how you can participate.
 Sub-second X-ray tomographic microscopy was exploited to investigate liquid water dynamics in a fuel cell during operation. 
 During the experiment, the cell was rotated continuously around the tomographic axis and three tomographic datasets, each 
 consisting of 60 consecutive scans, were acquired. Each of the three datasets (60 scans) was acquired within 6 seconds, 
