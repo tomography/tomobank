@@ -48,7 +48,9 @@ Challenge
 .. _phan_00028: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00028%2F
 
 
-These phantoms were generated using the `foam_ct_phantom <https://github.com/dmpelt/foam_ct_phantom>`_ 
+These phantoms were first added to TomoBank to be used as part of TomoChallenge, please see 
+https://tomochallenge.github.io/ for more details and for information about how you can participate.
+The phantoms were generated using the `foam_ct_phantom <https://github.com/dmpelt/foam_ct_phantom>`_ 
 package, version 1.0.0. Projection data was generated for a virtual PCO.edge 5.5 detector in 2x2 binning mode,
 resulting in projections of 1080x1280 pixels. Data is provided for multiple simulated phantoms, with various
 types of data limitations. For one sample (Foam 1), data is provided for all data limitations, in addition to
