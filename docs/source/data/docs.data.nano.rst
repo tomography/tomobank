@@ -1,6 +1,65 @@
 Nano CT
 -------
 
+Zernike
+~~~~~~~
+
+This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+
+This sample consists of a polymer electrolyte membrane fuel cell cathode as electrodes with Pt group metal free (PGM-free) catalyst. PGM-free electrodes are porous composite materials made of pyrolyzed Fe-N-C complex and proton conducting perfluoro-sulfonic acid (PFSA) ionomer.
+
+The electrode layer in these samples is formed by spraying the catalyst ink on gas diffusion layer. The catalyst ink is prepared by mixing Fe-N-C catalyst deionized water and Nafion ionomer solution. In these two samples we study the effect of ionomer-water weight ratio in ink to the electrode morphology.
+
+Sample has been measured with the Zernike phase contrast approach, i.e. with the use of an optical mechanism (phase ring) to translate minute variations in phase into corresponding changes in amplitude, which can be visualized as differences in image contrast. The same sample has also been measured in absorption mode, i.e. with the phase ring removed from the optical path.
+
+The challenge here is to apply phase retrieval or some image treatment to reduce Zernike artefacts such as halo effects around objects.
+
+The pixel size is 22.3 nm, but the resolving power of the microscope is between 45 and 50 nm. Therefore, 2x2 binning increasing the statistic without damaging  much the spatial resolution.
+
+
++-----------------------------------------+-------------------------------+
+|             tomo_ID                     |   00083                       |  
++=========================================+===============================+
+|             Image preview               |  |00083|                      |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |   tomo_00083_                 |  
++-----------------------------------------+-------------------------------+
+|             Instrument                  |   APS 32-ID TXM               |  
++-----------------------------------------+-------------------------------+
+|             Sample name                 |   GDE_45IC_H2Orich            |  
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |   8 keV                       |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |   3400 mm                     |  
++-----------------------------------------+-------------------------------+
+|             Pixel size                  |   22.3 nm                     |  
++-----------------------------------------+-------------------------------+
+|             Scan Range                  |   180 degree                  |
++-----------------------------------------+-------------------------------+
+|             Number of Projections       |   1210                        |
++-----------------------------------------+-------------------------------+
+|             White Fields                |   40 (20 before - 20 after)   |
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |   50 nm                       |
++-----------------------------------------+-------------------------------+
+|             Rotation axis location      |   1230                        |
++-----------------------------------------+-------------------------------+
+
+.. _tomo_00083: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00083%2F
+
+.. |00083| image:: ../img/tomo_00083.png
+    :width: 20pt
+    :height: 20pt
+
+
+
+.. _tomo_00084: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_0008%2F
+
+.. |00084| image:: ../img/tomo_00084.png
+    :width: 20pt
+    :height: 20pt
+
+
 Drift 
 ~~~~~
 
@@ -57,4 +116,8 @@ To enable phase retrieval un-comment the appropriate setting in :download:`tomop
 .. |00077| image:: ../img/tomo_00077.png
     :width: 20pt
     :height: 20pt
+
+
+
+
 
