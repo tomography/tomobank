@@ -60,6 +60,8 @@ This data was first provided to TomoBank to be used as part of TomoChallenge, pl
 This dataset corresponds to a portion of an electronic circuit with some features known to be smaller than 20 nm. The challenge would be to assess the point spread function (PSF) of the microscope to perform high quality PSF deconvolution. There is no ground truth on this dataset, however, the geometry of such circuitry is relatively simple and PSF deconvolution should enable separation of some copper wires or copper objects embedded in silicon. In addition, a radiograph of a Siemens star acquired in following conditions:
 
 +-----------------------------------------+-------------------------------+
+|             Sample name                 |   Siemens Star                |  
++-----------------------------------------+-------------------------------+
 |             X-ray energy                |   9.1 keV                     |  
 +-----------------------------------------+-------------------------------+
 |             Downloads                   |   tomo_00084_                 |  
