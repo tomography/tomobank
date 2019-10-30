@@ -62,7 +62,6 @@ This dataset corresponds to a portion of an electronic circuit with some feature
 The pixel size is 16.8 nm, but the resolving power of the microscope is between 35 and 40 nm. Therefore, 2x2 binning increasing the statistic without damaging  much the spatial resolution.
 
 
-
 +-----------------------------------------+-------------------------------+
 |             tomo_ID                     |   00084                       |  
 +=========================================+===============================+
@@ -93,7 +92,7 @@ The pixel size is 16.8 nm, but the resolving power of the microscope is between 
 
 
 
-.. _tomo_00084: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_0008%2F
+.. _tomo_00084: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00084%2F
 
 .. |00084| image:: ../img/tomo_00084.png
     :width: 20pt
