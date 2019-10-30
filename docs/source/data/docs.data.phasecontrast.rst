@@ -128,7 +128,6 @@ Example: ::
     :width: 20pt
     :height: 20pt
 
-1463.5
 
 +-----------------------------------------+-------------------------------+
 |             tomo_ID                     |   00068                       |  
@@ -173,11 +172,11 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
 
 
 +-----------------------------------------+-------------------------------+
-|             tomo_ID                     |   00068                       |  
+|             tomo_ID                     |   00083                       |  
 +=========================================+===============================+
-|             Image preview               |  |00068|                      |  
+|             Image preview               |  |00083|                      |  
 +-----------------------------------------+-------------------------------+
-|             Downloads                   |   tomo_00068_                 |  
+|             Downloads                   |   tomo_00083_                 |  
 +-----------------------------------------+-------------------------------+
 |             Instrument                  |   APS 32-ID TXM               |  
 +-----------------------------------------+-------------------------------+
@@ -199,4 +198,21 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
 +-----------------------------------------+-------------------------------+
 |             Rotation axis location      |   1230                        |
 +-----------------------------------------+-------------------------------+
+
+.. _tomo_00083: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00083%2F
+
+.. |00083| image:: ../img/tomo_00083.png
+    :width: 20pt
+    :height: 20pt
+
+
+
+.. _tomo_00084: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_0008%2F
+
+.. |00084| image:: ../img/tomo_00084.png
+    :width: 20pt
+    :height: 20pt
+
+
+
 
