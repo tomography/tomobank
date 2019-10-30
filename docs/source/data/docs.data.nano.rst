@@ -57,7 +57,19 @@ PSF
 
 This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
 
-This dataset corresponds to a portion of an electronic circuit with some features known to be smaller than 20 nm. The challenge would be to assess the point spread function (PSF) of the microscope to perform high quality PSF deconvolution. There is no ground truth on this dataset, however, the geometry of such circuitry is relatively simple and PSF deconvolution should enable separation of some copper wires or copper objects embedded in silicon. In addition, a radiograph of a Siemens star acquired in similar conditions as the tomogram is provided. The Siemens star is not thick enough to completely absorb hard X-ray but the walls of this test object are vertical.
+This dataset corresponds to a portion of an electronic circuit with some features known to be smaller than 20 nm. The challenge would be to assess the point spread function (PSF) of the microscope to perform high quality PSF deconvolution. There is no ground truth on this dataset, however, the geometry of such circuitry is relatively simple and PSF deconvolution should enable separation of some copper wires or copper objects embedded in silicon. In addition, a radiograph of a Siemens star acquired in following conditions:
+
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |   9.1 keV                     |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |   tomo_00084_                 |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |   3400 mm                     |  
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |   40 nm                       |
++-----------------------------------------+-------------------------------+
+
+similar as the tomogram is provided. The Siemens star is not thick enough to completely absorb hard X-ray but the walls of this test object are vertical.
 
 The pixel size is 16.8 nm, but the resolving power of the microscope is between 35 and 40 nm. Therefore, 2x2 binning increasing the statistic without damaging  much the spatial resolution.
 
