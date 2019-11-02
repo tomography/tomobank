@@ -147,6 +147,96 @@ The pixel size is 16.8 nm, but the resolving power of the microscope is between 
     :width: 20pt
     :height: 20pt
 
+
+Sparse angles
+~~~~~~~~~~~~~
+
+This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+
+
+One of the main challenge in nanotomgraphy consists in limiting the total dose deposited into a sample in order to speed up acquisitions and limit beam damage inducing sample deformation. The challenge here would consist in reconstructing electrode made of lithium nickel manganese cobalt oxide (NMC) particles surrounded by binder. 202 projections out of 1210 projections has been kept.
+The pixel size is 23.2 nm, but the resolving power of the microscope is between 45 and 50 nm. Therefore, 2x2 binning increases the statistic without damaging  much the spatial resolution.
+
+    
++-----------------------------------------+-------------------------------+
+|             tomo_ID                     |   00086                       |  
++=========================================+===============================+
+|             Image preview               |  |00086|                      |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |   tomo_00086_                 |  
++-----------------------------------------+-------------------------------+
+|             Instrument                  |   APS 32-ID TXM               |  
++-----------------------------------------+-------------------------------+
+|             Sample name                 |   NMC 02                      |  
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |   8.3 keV                     |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |   3400 mm                     |  
++-----------------------------------------+-------------------------------+
+|             Scan Range                  |   179.4 degree                |
++-----------------------------------------+-------------------------------+
+|             Number of Projections       |   202                         |
++-----------------------------------------+-------------------------------+
+|             White Fields                |   40 (20 before - 20 after)   |
++-----------------------------------------+-------------------------------+
+|             Pixel size                  |   23.2 nm                     |  
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |   50 nm                       |
++-----------------------------------------+-------------------------------+
+|             Rotation axis location      |   1227                        |
++-----------------------------------------+-------------------------------+
+
+.. _tomo_00086: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00086%2F
+
+.. |00086| image:: ../img/tomo_00086.png
+    :width: 20pt
+
+
+
+Wedge
+~~~~~
+
+This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+
+
+Electrode made of lithium nickel manganese cobalt oxide (NMC) particles surrounded by binder. Projections from a complete 180 degrees dataset were removed to create an artificial missing wedge. Obtaining good reconstructions from dataset with 40 degrees missing wedge would improve our ability to image batteries in operando, where walls of pouch cells are preventing full 180 degrees acquisitions.
+The pixel size is 23.2 nm, but the resolving power of the microscope is between 45 and 50 nm. Therefore, 2x2 binning increases the statistic without damaging  much the spatial resolution.
+
++-----------------------------------------+-------------------------------+
+|             tomo_ID                     |   00087                       |  
++=========================================+===============================+
+|             Image preview               |  |00087|                      |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |   tomo_00087_                 |  
++-----------------------------------------+-------------------------------+
+|             Instrument                  |   APS 32-ID TXM               |  
++-----------------------------------------+-------------------------------+
+|             Sample name                 |   NMC 01                      |  
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |   8.3 keV                     |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |   3400 mm                     |  
++-----------------------------------------+-------------------------------+
+|             Scan Range                  |   140 degree                  |
++-----------------------------------------+-------------------------------+
+|             Number of Projections       |   941                         |
++-----------------------------------------+-------------------------------+
+|             White Fields                |   40 (20 before - 20 after)   |
++-----------------------------------------+-------------------------------+
+|             Pixel size                  |   23.2 nm                     |  
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |   50 nm                       |
++-----------------------------------------+-------------------------------+
+|             Rotation axis location      |   1196                        |
++-----------------------------------------+-------------------------------+
+
+.. _tomo_00087: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00087%2F
+
+.. |00087| image:: ../img/tomo_00087.png
+    :width: 20pt
+
+
+
 Drift 
 ~~~~~
 
