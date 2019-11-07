@@ -243,7 +243,7 @@ outside of the field-of-view, leading to interior tomography. The experiment was
 the Swiss Light Source using the fast acquisition setup coupled with high-numerical-aperture macroscope optics :cite:`Buhrer:pp5135`.
 
 At the start of the experiment the cell was completely dry. During operation, water generated on the surface of the catalyst 
-layer (Pt based, bright area in Figure 1) started to propagate through the porous fiber layer (carbon based gas 
+layer (Pt based, bright area in image preview) started to propagate through the porous fiber layer (carbon based gas 
 diffusion layer located between the four channels), emerging in the channels. A large water droplet can be clearly 
 visually detected in the reconstructed channel region after the 115th time step (e.g. slice 364). 
 
@@ -257,7 +257,7 @@ catalyst. Image courtesy of Hong Xu (Paul Scherrer Institut).
 To load the dataset and perform basic reconstruction use the the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
 python script ::
 
-    python tomopy_rectv_fc.py fuelcell_i1.h5 --axis 702.00
+    python tomopy_rectv_fc.py fuelcell_i1.h5
 
 
 .. _tomo_00081: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00081%2F
