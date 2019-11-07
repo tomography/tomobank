@@ -61,7 +61,6 @@ def reconstruct(h5fname, sino, nframes, frame, nproj, binning, tv, rot_center):
     # Read APS 32-BM raw data.
     print("Read data")
     proj, flat, dark, theta = dxchange.read_aps_32id(h5fname, sino=sino)
-    print("Projection size:" + str(proj.shape))
 
     print("Processing")
     if int(frame-nframes)>0:
@@ -229,7 +228,7 @@ def main(arg):
     parser.add_argument("--frame", nargs='?', type=str, default=0, help="time frame with motion: 92 (default 92)")
     parser.add_argument("--axis", nargs='?', type=str, default="702", help="rotation axis location: 1024.0 (default 1/2 image horizontal size)")
     parser.add_argument("--ntframes", nargs='?', type=str, default=60, help="total number of time frames (default 60)")
-    parser.add_argument("--nproj", nargs='?', type=str, default=300, help="number of projections per time frame (default 301)")
+    parser.add_argument("--nproj", nargs='?', type=str, default=300, help="number of projections per time frame (default 300)")
     
     args = parser.parse_args()
 
@@ -274,5 +273,7 @@ def main(arg):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
+
+
 
 
