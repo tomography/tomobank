@@ -252,7 +252,7 @@ def rec_slice(h5fname, nsino, rot_center, blocked_views):
 def main(arg):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("fname", help="file name of a tmographic dataset: /data/sample.h5")
+    parser.add_argument("fname", help="file name of a tomographic dataset: /data/sample.h5")
     parser.add_argument("--axis", nargs='?', type=str, default="0", help="rotation axis location: 1024.0 (default 1/2 image horizontal size)")
     parser.add_argument("--type", nargs='?', type=str, default="slice", help="reconstruction type: full (default slice)")
     parser.add_argument("--nsino", nargs='?', type=restricted_float, default=0.5, help="location of the sinogram used by slice reconstruction (0 top, 1 bottom): 0.5 (default 0.5)")
