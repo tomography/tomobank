@@ -32,7 +32,7 @@ Usage: ::
                      fname
 
 	positional arguments:
-  		fname            file name of a tmographic dataset: /data/sample.h5
+  		fname            file name of a tomographic dataset: /data/sample.h5
 
 	optional arguments:
   		-h, --help       show this help message and exit
