@@ -17,6 +17,10 @@ If you use the tomoBank Toolbox for your research, we would appreciate it if you
 
 	De Carlo, Francesco, et al. "TomoBank: a tomographic data repository for computational x-ray science." Measurement Science and Technology 29.3 (2018): 034004. http://www.doi.org/10.1088/1361-6501/aa9c19
 
+TomoBank relies on `Petrel <http://petrel.alcf.anl.gov/>`_ :cite:`petrel:19`, a resource of the 
+`Argonne Leadership Computing Facility <https://www.alcf.anl.gov>`_, which is a DOE Office of Science User Facility
+supported under Contract DE-AC02-06CH11357.
+
 Features
 --------
 
