@@ -2,6 +2,7 @@
 TomoBank
 ========
 
+.. warning:: COVID-19 Update: The server hosting tomobank is currently down. Please check back here for updates.
 
 .. image:: source/img/tomobank-logo.png
    :width: 320px
