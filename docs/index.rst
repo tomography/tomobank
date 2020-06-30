@@ -2,7 +2,9 @@
 TomoBank
 ========
 
-.. warning:: updated June 3, 2020. The server hosting tomobank (petrel) is currently down. The ALCF operations team investigated the issues with the ALCF Petrel data service and determined that some files were lost. The team is working on restoring as many files as possible, making a list of lost files, and moving all data to another ALCF filesystem. When the migration is done and Petrel is back online, a list of any lost files for each project will be sent to the project groups. At this point an exact ETA to complete the migration of all data is not known, but it may take several weeks. We have 2 backup copies of tomobank data on non-spinning disks. once petrel is restored we will be able to recover any damaged file. Please check back here for updates.
+.. warning:: updated June 30, 2020. The server hosting tomobank (petrel) is currently down. The ALCF operations team has completed restoring the data and several files have been identified as possibly being corrupted. We are currently evaluateing each of these files to determine if they are “ok”
+If not, we have 2 backup copies of tomobank data on non-spinning disks and we will be able to recover any damaged file. 
+Please check back here for updates.
 
 
 .. image:: source/img/tomobank-logo.png
