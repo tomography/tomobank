@@ -2,9 +2,7 @@
 TomoBank
 ========
 
-.. warning:: updated June 30, 2020. The server hosting tomobank (petrel) is currently down. The ALCF operations team has completed restoring the data and several files have been identified as possibly being corrupted. We are currently evaluateing each of these files to determine if they are “ok”
-If not, we have 2 backup copies of tomobank data on non-spinning disks and we will be able to recover any damaged file. 
-Please check back here for updates.
+.. warning:: updated July 21, 2020. The server hosting tomobank (petrel) is currently up and all data have been restored. 
 
 
 .. image:: source/img/tomobank-logo.png
