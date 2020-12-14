@@ -2,8 +2,6 @@
 TomoBank
 ========
 
-.. warning:: updated July 21, 2020. The server hosting tomobank (petrel) is currently up and all data have been restored. 
-
 
 .. image:: source/img/tomobank-logo.png
    :width: 320px
