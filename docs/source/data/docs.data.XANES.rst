@@ -8,12 +8,11 @@ add here a sample/problem description (including refs)
 This dataset contains an ..... sample that is approximately .... mm in diameter. 
 
 
-.. |00078| image:: ../img/tomo_00089.png
+.. |00089| image:: ../img/tomo_00089.png
     :width: 20pt
     :height: 20pt
 
 .. _tomo_00089: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00089%2F
-
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     | 00089                      |  
