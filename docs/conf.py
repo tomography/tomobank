@@ -38,6 +38,11 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinx.ext.viewcode']
 
+bibtex_bibfiles = [
+    'source/bibtex/ref.bib',
+    'source/bibtex/cite.bib'
+    ]
+
 # Napoleon settings
 napoleon_google_docstring = True
 napoleon_numpy_docstring = True
