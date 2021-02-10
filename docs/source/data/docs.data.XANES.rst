@@ -4,7 +4,7 @@ XANES
 SSRL XANES tomography
 ~~~~~~~~~~~~~~~~~~~~~
 
-This spectro-tomography dataset contains 67 tomograms of an NMC battery cathode particle at different x-ray energies. For each tomogram, 180 projection images were acquired at different angles. The x-ray energy points were selected such that we will be able to reconstruct the elemental maps of Mn, Co, and Ni (6 energies, one above and one below the respective K-edges of Mn, Co, and Ni), and a XANES scan across the Ni K-edge (for valence state distribution). The idea is to correlate the compositional heterogeneity with the redox heterogeneity.
+This spectro-tomography dataset contains 67 tomograms of an NMC battery cathode particle at different x-ray energies. For each tomogram, 180 projection images were acquired at different angles. The x-ray energy points were selected such that we will be able to reconstruct the elemental maps of Mn, Co, and Ni (6 energies, one above and one below the respective K-edges of Mn, Co, and Ni), and a XANES scan across the Ni K-edge (for valence state distribution). The idea is to correlate the compositional heterogeneity with the redox heterogeneity.  To read the data use :download:`read_xrm_script.py <../../demo/read_xrm_script.py>` python script.
 
 There are two independent image alignment tasks: 1) we need to correct the image jitter in a tomography dataset and 2) we need to register the tomograms at different x-ray energies.
 
