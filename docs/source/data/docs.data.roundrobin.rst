@@ -9,7 +9,7 @@ To load the data sets and perform a basic reconstruction using tomoPy  :cite:`Gu
 
 Example: ::
 
-    python tomopy_rec.py /tomobank/tomo_00001.h5 --axis 1024
+    tomopy recon --file-name /tomobank/tomo_00001.h5 --rotation-axis 1024
 
 
 .. |d00001| image:: ../img/tomo_00001.png

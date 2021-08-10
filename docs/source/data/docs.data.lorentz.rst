@@ -45,10 +45,9 @@ The Lorenz data set is part of a demo data collection perfomed at the
 |             Rotation axis location      | 1226.0                     |
 +-----------------------------------------+----------------------------+
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script. 
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  
 
-Example: ::
+::
 
-    python tomopy_rec.py tomo_00088.h5 --axis 1226.0
+    tomopy recon --file-name tomo_00088.h5 --rotation-axis 1226.0
 

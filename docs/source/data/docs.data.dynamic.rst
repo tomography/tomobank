@@ -16,12 +16,9 @@ in which  the exposure time much shorter than the optimal value.
 The sample description and the experimental conditions are reported in tables below:
 and accessible for download under tomo\_00031. 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00031.h5 --axis 484.5
+    tomopy recon --file-name tomo_00031.h5 --rotation-axis 484.5
 
 .. _tomo_00031: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00031%2F
 
@@ -78,12 +75,9 @@ and phases in selected regions, with sometimes higher spatial resolution than in
 tomographic dataset (see :cite:`gundlach:15`, :cite:`burger:15`).
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00069.h5 --axis 515.50
+    tomopy recon --file-name tomo_00069.h5 --rotation-axis 515.50
 
 .. _tomo_00069: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00069%2F
 
@@ -308,7 +302,7 @@ is provided. The scan parameters are specified in the table below.
 To load the high-quality dataset and perform basic reconstruction use the :download:`tomopy_rectv_fc.py <../../demo/tomopy_rectv_fc.py>` 
 python script::
 
-    python tomopy_rectv_fc.py fuelcell_dryHQ_i1.h5 --axis 702.00 --nproj 1001 --ntframes 1
+    python tomopy_rectv_fc.py fuelcell_dryHQ_i1.h5 --rotation-axis 702.00 --nproj 1001 --ntframes 1
 
 
 .. _tomo_00082: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00082%2F

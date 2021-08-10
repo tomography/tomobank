@@ -23,14 +23,11 @@ Small Region of Interest (ROI) includes a series of data sets in which the sampl
 Double Bamboo Tin Wire
 ~~~~~~~~~~~~~~~~~~~~~~
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00022.h5 --axis 980
-    python tomopy_rec.py tomo_00023.h5 --axis 893
-    python tomopy_rec.py tomo_00024.h5 --axis 972
+    tomopy recon --file-name tomo_00022.h5 --rotation-axis 980
+    tomopy recon --file-name tomo_00023.h5 --rotation-axis 893
+    tomopy recon --file-name tomo_00024.h5 --rotation-axis 972
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     |   00022                    |  
@@ -138,12 +135,9 @@ tomography is making this challenging task even more difficult. Standard solutio
 TOMCAT beamline (e.g. constant padding) are not sufficient in the phase retrieved case :cite:`paganin:02`, 
 if small grey level differences need to be reliably detected.
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00070.h5 --axis 1289
+    tomopy recon --file-name tomo_00070.h5 --rotation-axis 1289
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 

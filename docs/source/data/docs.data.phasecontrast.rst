@@ -54,15 +54,12 @@ The experimental conditions reported in the table below:
 The sphere data sets includes 4 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00064.h5 --axis 175
-    python tomopy_rec.py tomo_00065.h5 --axis 175
-    python tomopy_rec.py tomo_00066.h5 --axis 175
-    python tomopy_rec.py tomo_00067.h5 --axis 175
+    tomopy recon --file-name tomo_00064.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00065.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00066.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00067.h5 --rotation-axis 175
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
@@ -115,12 +112,9 @@ Here we present a dataset in which the challange is to compensate a partial moti
 a liquid-embedded biomaterial structure causing the edges of the air bubbles to contain streaks due to motio of the air bubbles
 instead of forming a complete contour. The experimental conditions reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00068.h5 --axis 1463.5
+    tomopy recon --file-name tomo_00068.h5 --rotation-axis 1463.5
 
 .. _tomo_00068: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F
 

@@ -105,7 +105,7 @@ To load the phantom data sets and perform a basic reconstruction using `tomopy <
 
 ::
 
-    python tomopy_rec.py phantom_00001.h5
+    tomopy recon --file-name phantom_00001.h5
 
 +---------------+----------------+------------------------+--------------+------------+--------------------+
 |  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |

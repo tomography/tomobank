@@ -70,7 +70,7 @@ To load the data sets and perform a basic reconstruction using `tomopy <https://
 
 Example: ::
 
-    python tomopy_rec.py tomo_00078.h5 --axis 3316
+    tomopy recon --file-name tomo_00078.h5 --rotation-axis 3316
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 

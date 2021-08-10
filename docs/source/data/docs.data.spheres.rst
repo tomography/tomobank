@@ -52,17 +52,14 @@ the experimental conditions reported in the table below:
 The sphere data sets includes 6 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00058.h5 --axis 1427
-    python tomopy_rec.py tomo_00059.h5 --axis 1440
-    python tomopy_rec.py tomo_00060.h5 --axis 1337
-    python tomopy_rec.py tomo_00061.h5 --axis 1316.5
-    python tomopy_rec.py tomo_00062.h5 --axis 1359.5
-    python tomopy_rec.py tomo_00063.h5 --axis 1322,5
+    tomopy recon --file-name tomo_00058.h5 --rotation-axis 1427
+    tomopy recon --file-name tomo_00059.h5 --rotation-axis 1440
+    tomopy recon --file-name tomo_00060.h5 --rotation-axis 1337
+    tomopy recon --file-name tomo_00061.h5 --rotation-axis 1316.5
+    tomopy recon --file-name tomo_00062.h5 --rotation-axis 1359.5
+    tomopy recon --file-name tomo_00063.h5 --rotation-axis 1322,5
 
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 

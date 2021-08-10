@@ -42,15 +42,12 @@ Detailed information area available at :cite:`Wu:2021`.
 +---------------------------------+------------------------------------+
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00090.h5 
-    python tomopy_rec.py tomo_00091.h5 
-    python tomopy_rec.py tomo_00092.h5 
-    python tomopy_rec.py tomo_00093.h5 
+    tomopy recon --file-name tomo_00090.h5 
+    tomopy recon --file-name tomo_00091.h5 
+    tomopy recon --file-name tomo_00092.h5 
+    tomopy recon --file-name tomo_00093.h5 
 
 
 

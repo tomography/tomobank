@@ -52,14 +52,15 @@ the experimental conditions reported in the table below :cite:`stannard:17`:
 The fatigue-corrision data sets includes 25 tomographic data sets collected at different 
 fatigue cycle ranging from 750 to 14346 as reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
+    tomopy recon --file-name tomo_00032.h5 --rotation-axis 1235
 
-    python tomopy_rec.py tomo_00032.h5 --axis 1235
+To enable phase retrieval use the ``retrieve-phase`` options of `tomopy cli <https://tomopycli.readthedocs.io/en/latest/>`_ or type:: 
 
-To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
+    tomopy recon -h 
+
+for all options.
 
 .. _tomo_00032: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00032_to_00056%2F
 .. _tomo_00033: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00032_to_00056%2F
@@ -202,16 +203,15 @@ The index of the blocked view angles together with  the particles location for e
 data set (slice_first, slice_start) are reported in the table below.
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
+    tomopy recon --file-name tomo_00007.h5 --rotation-axis 1232 --nsino 0.7
 
-    python demo/tomopy_rec.py tomo_00007.h5 --axis 1232 --nsino 0.7
+To enable blocked view reconstruction use the ``blocked-views`` options of `tomopy cli <https://tomopycli.readthedocs.io/en/latest/>`_ or type:: 
 
- 
-after uncommenting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>`  the corresponding blocked_views parameter.    
-    
+    tomopy recon -h 
+
+for all options.
 
 .. _tomo_00007: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00007_to_00021%2F/
 .. _tomo_00008: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00007_to_00021%2F/
@@ -274,12 +274,9 @@ Rock Permeability
 
 The microCT data sets of these samples were acquired at the SYRMEP beamline of Elettra-Sincrotrone Trieste (Elettra), Italy in nearly-parallel beam geometry. The related sample description and the experimental conditions are reported in tables below under tomo_00025 to tomo_00026. 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00025.h5 --axis 952
+    tomopy recon --file-name tomo_00025.h5 --rotation-axis 952
 
 +------------------------------------+------------------------------+-----------+-------------------------+
 |           tomo_ID                  | Sample Name                  |   Image   |           Axis          |     

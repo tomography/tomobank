@@ -39,12 +39,9 @@ A more sophisticated flat-field correction might help for the ring artefact prob
 +-----------------------------------------+----------------------------+
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00071.h5 --axis 1302.50
+    tomopy recon --file-name tomo_00071.h5 --rotation-axis 1302.50
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
@@ -144,13 +141,10 @@ To limit radiation damage of soft tissue, the energy is set in the hard x-ray re
     :width: 20pt
     :height: 20pt
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00072.h5 --axis 1403 
-    python tomopy_rec.py tomo_00076.h5 --axis 1275  
+    tomopy recon --file-name tomo_00072.h5 --rotation-axis 1403 
+    tomopy recon --file-name tomo_00076.h5 --rotation-axis 1275  
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
@@ -285,14 +279,11 @@ To increase data collection speed on a BM source, the beamline is set in white b
     :width: 20pt
     :height: 20pt
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00073.h5 --axis 1001.2 
-    python tomopy_rec.py tomo_00074.h5 --axis 1001.6 
-    python tomopy_rec.py tomo_00075.h5 --axis 1010  
+    tomopy recon --file-name tomo_00073.h5 --rotation-axis 1001.2 
+    tomopy recon --file-name tomo_00074.h5 --rotation-axis 1001.6 
+    tomopy recon --file-name tomo_00075.h5 --rotation-axis 1010  
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
