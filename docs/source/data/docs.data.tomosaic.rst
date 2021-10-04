@@ -61,6 +61,8 @@ Each data set is collected with the following parameters:
 +=========================+========================================+===========+
 | Image preview           | |00094|                                |           |  
 +-------------------------+----------------------------------------+-----------+
+| Recon preview           | |00094_rec|                            |           |  
++-------------------------+----------------------------------------+-----------+
 | Download                | tomo_00094_                            |           |  
 +-------------------------+----------------------------------------+-----------+
 | camera_distance         | 100.00000000000011                     | mm        |
@@ -138,6 +140,10 @@ Each data set is collected with the following parameters:
 .. _tomo_00094: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00094%2F
 
 .. |00094| image:: ../img/tomo_00094.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00094_rec| image:: ../img/tomo_00094_rec.png
     :width: 20pt
     :height: 20pt
 
