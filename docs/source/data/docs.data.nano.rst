@@ -422,12 +422,11 @@ NPG is high absorbing and, due to the fact that its structural ligaments, can be
 +-----------------------------------------+----------------------------+
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
 Example: ::
 
-    python tomopy_rec.py tomo_00077.h5 --axis 344.0
+    tomopy recon --file-name tomo_00077.h5 --rotation-axis 344.0
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
