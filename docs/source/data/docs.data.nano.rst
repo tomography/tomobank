@@ -86,6 +86,149 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
     :width: 20pt
     :height: 20pt
 
+tomo_C is a pristine binder-free carbon nanotube (CNT) cathode of Li-O2 battery. Zernike Phase Contrast is used to enhance the contrast of light Z elements. An empirical Paganin-filter is applied to further improve the reconstruction quality. The pixel size of the camera is 27nm. After applying the -log to the reconstruction, the nanotubes have light grey color. Other residuals glassy fibers issued from the synthesis and inclusions are darker than the CNT. The challenge of the reconstruction of this data is the CNT which has roughly a sub-pixel diameter (20nm in average).
+
++-----------------------------------------+------------------------------------+
+|             tomo_ID                     |   00C                              |  
++=========================================+====================================+
+|             Image preview               |  |00C|                             |  
++-----------------------------------------+------------------------------------+
+|             Downloads                   |  tomo_00C                          |
++-----------------------------------------+------------------------------------+
+|             Instrument                  |  APS 32-ID TXM                     |  
++-----------------------------------------+------------------------------------+
+|             Sample name                 |  pristine binder-free CNT electrode|  
++-----------------------------------------+------------------------------------+
+|             X-ray energy                |  8 keV                             |  
++-----------------------------------------+------------------------------------+
+|             Sample-to-detector distance |  3400 mm                           |  
++-----------------------------------------+------------------------------------+
+|             Scan Range                  |  180 degree                        |
++-----------------------------------------+------------------------------------+
+|             Number of Projections       |  1209                              |
++-----------------------------------------+------------------------------------+
+|             White Fields                |  19 (19 before)                    |
++-----------------------------------------+------------------------------------+
+|             Pixel size                  |  26.9 nm                           |  
++-----------------------------------------+------------------------------------+
+|             Fresnel Zone Plate Δrn      |  50 nm                             |
++-----------------------------------------+------------------------------------+
+|             Rotation axis location      |  1210                              |
++-----------------------------------------+------------------------------------+
+
+.. tomo_00C_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+
+.. |00C| image:: ../img/00C_pristine.png
+    :width: 30pt
+
+
+Tomo_D is the same materials in a new batch, in which the CNT were treated first by acid then underwent one discharge-charge round-trip. This cycled binder-free CNT retrieved from the battery was chopped and mounted on a graphite pin and further sealed in a Kapton tubing in the dry room to avoid the moisture. The bright domains are the non-dissolved lithium peroxide and other side products grown on the CNT during the cycling and the dark domain correspond to the area where peroxide/side-products are dissolved.
+
++-----------------------------------------+------------------------------------+
+|             tomo_ID                     |   00D                              |  
++=========================================+====================================+
+|             Image preview               |  |00D|                             |  
++-----------------------------------------+------------------------------------+
+|             Downloads                   |  tomo_00C                          |
++-----------------------------------------+------------------------------------+
+|             Instrument                  |  APS 32-ID TXM                     |  
++-----------------------------------------+------------------------------------+
+|             Sample name                 |  cycled binder-free CNT electrode  |
++-----------------------------------------+------------------------------------+
+|             X-ray energy                |  8 keV                             |  
++-----------------------------------------+------------------------------------+
+|             Sample-to-detector distance |  3400 mm                           |  
++-----------------------------------------+------------------------------------+
+|             Scan Range                  |  180 degree                        |
++-----------------------------------------+------------------------------------+
+|             Number of Projections       |  1209                              |
++-----------------------------------------+------------------------------------+
+|             White Fields                |  15 (15 before)                    |
++-----------------------------------------+------------------------------------+
+|             Pixel size                  |  26.9 nm                           |  
++-----------------------------------------+------------------------------------+
+|             Fresnel Zone Plate Δrn      |  50 nm                             |
++-----------------------------------------+------------------------------------+
+|             Rotation axis location      |  1177                              |
++-----------------------------------------+------------------------------------+
+
+.. tomo_00D_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+
+.. |00D| image:: ../img/00D_recharged.png
+    :width: 30pt
+
+
+Absorption nano-XCT
+~~~~~~~~~~~~~~~~~~~
+
+tomo_A and tomo_B are commercial NMC532 Li-ion cathode materials. Both materials have the same composition but have different loading (thickness) during manufacturing. These samples consist of LiNi0.5Mn0.3Co0.2 oxide, carbon, and PVdF as binder. These materials are firstly cut by Zeiss Palm Micro-dissector into a cylinder and then mounted onto a graphite pin with a micromanipulator as described in [su:X]. The round big and white particles are NMC materials. And the binder and porosity are in the darker domains. With the 32-ID-C nano-XCT high resolution, the granular carbon-binder domain is visible.
+
++-----------------------------------------+-------------------------------+
+|             tomo_ID                     |   00A                         |  
++=========================================+===============================+
+|             Image preview               |  |00A|                        |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |  tomo_00A                     |
++-----------------------------------------+-------------------------------+
+|             Instrument                  |  APS 32-ID TXM                |  
++-----------------------------------------+-------------------------------+
+|             Sample name                 |  NMC532_low_loading           |  
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |  8 keV                        |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |  3400 mm                      |  
++-----------------------------------------+-------------------------------+
+|             Scan Range                  |  180 degree                   |
++-----------------------------------------+-------------------------------+
+|             Number of Projections       |  725                          |
++-----------------------------------------+-------------------------------+
+|             White Fields                |  19                           |
++-----------------------------------------+-------------------------------+
+|             Pixel size                  |  26.9 nm                      |  
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |  50 nm                        |
++-----------------------------------------+-------------------------------+
+|             Rotation axis location      |  1254                         |
++-----------------------------------------+-------------------------------+
+
++-----------------------------------------+-------------------------------+
+|             tomo_ID                     |   00B                         |  
++=========================================+===============================+
+|             Image preview               |  |00B|                        |  
++-----------------------------------------+-------------------------------+
+|             Downloads                   |  tomo_00B                     |
++-----------------------------------------+-------------------------------+
+|             Instrument                  |  APS 32-ID TXM                |  
++-----------------------------------------+-------------------------------+
+|             Sample name                 |  NMC532_high_loading          |  
++-----------------------------------------+-------------------------------+
+|             X-ray energy                |  8 keV                        |  
++-----------------------------------------+-------------------------------+
+|             Sample-to-detector distance |  3400 mm                      |  
++-----------------------------------------+-------------------------------+
+|             Scan Range                  |  180 degree                   |
++-----------------------------------------+-------------------------------+
+|             Number of Projections       |  725                          |
++-----------------------------------------+-------------------------------+
+|             White Fields                |  19                           |
++-----------------------------------------+-------------------------------+
+|             Pixel size                  |  26.9 nm                      |  
++-----------------------------------------+-------------------------------+
+|             Fresnel Zone Plate Δrn      |  50 nm                        |
++-----------------------------------------+-------------------------------+
+|             Rotation axis location      |  1176                         |
++-----------------------------------------+-------------------------------+
+
+.. tomo_00A_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+
+.. |00A| image:: ../img/00A_NMC1_low_loading.png
+    :width: 30pt
+
+.. tomo_00B_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+
+.. |00B| image:: ../img/00B_NMC2_high_loading.png
+    :width: 30pt
+
 
 PSF
 ~~~
@@ -280,6 +423,8 @@ NPG is high absorbing and, due to the fact that its structural ligaments, can be
 
 
 To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
+
+Example: ::
 
     tomopy recon --file-name tomo_00077.h5 --rotation-axis 344.0
 
