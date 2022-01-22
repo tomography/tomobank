@@ -4,7 +4,10 @@ Nano CT
 Zernike
 ~~~~~~~
 
-This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+Polymer
++++++++
+
+This data was first provided to TomoBank to be used as part of **TomoChallenge**, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
 
 This sample consists of a polymer electrolyte membrane fuel cell cathode as electrodes with Pt group metal free (PGM-free) catalyst. PGM-free electrodes are porous composite materials made of pyrolyzed Fe-N-C complex and proton conducting perfluoro-sulfonic acid (PFSA) ionomer.
 
@@ -86,14 +89,18 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
     :width: 20pt
     :height: 20pt
 
-tomo_C is a pristine binder-free carbon nanotube (CNT) cathode of Li-O2 battery. Zernike Phase Contrast is used to enhance the contrast of light Z elements. An empirical Paganin-filter is applied to further improve the reconstruction quality. The pixel size of the camera is 27nm. After applying the -log to the reconstruction, the nanotubes have light grey color. Other residuals glassy fibers issued from the synthesis and inclusions are darker than the CNT. The challenge of the reconstruction of this data is the CNT which has roughly a sub-pixel diameter (20nm in average).
+
+Carbon Nanotube
++++++++++++++++
+
+tomo_00095 is a pristine binder-free carbon nanotube (CNT) cathode of Li-O2 battery. Zernike Phase Contrast is used to enhance the contrast of light Z elements. An empirical Paganin-filter is applied to further improve the reconstruction quality. The pixel size of the camera is 27nm. After applying the -log to the reconstruction, the nanotubes have light grey color. Other residuals glassy fibers issued from the synthesis and inclusions are darker than the CNT. The challenge of the reconstruction of this data is the CNT which has roughly a sub-pixel diameter (20nm in average).
 
 +-----------------------------------------+------------------------------------+
-|             tomo_ID                     |   00C                              |  
+|             tomo_ID                     |   00095                            |  
 +=========================================+====================================+
-|             Image preview               |  |00C|                             |  
+|             Image preview               |  |00095|                           |  
 +-----------------------------------------+------------------------------------+
-|             Downloads                   |  tomo_00C                          |
+|             Downloads                   |  tomo_00095_                       |
 +-----------------------------------------+------------------------------------+
 |             Instrument                  |  APS 32-ID TXM                     |  
 +-----------------------------------------+------------------------------------+
@@ -116,20 +123,20 @@ tomo_C is a pristine binder-free carbon nanotube (CNT) cathode of Li-O2 battery.
 |             Rotation axis location      |  1210                              |
 +-----------------------------------------+------------------------------------+
 
-.. tomo_00C_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+.. _tomo_00095: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00095%2F
 
-.. |00C| image:: ../img/00C_pristine.png
+.. |00095| image:: ../img/tomo_00095.png
     :width: 30pt
 
 
-Tomo_D is the same materials in a new batch, in which the CNT were treated first by acid then underwent one discharge-charge round-trip. This cycled binder-free CNT retrieved from the battery was chopped and mounted on a graphite pin and further sealed in a Kapton tubing in the dry room to avoid the moisture. The bright domains are the non-dissolved lithium peroxide and other side products grown on the CNT during the cycling and the dark domain correspond to the area where peroxide/side-products are dissolved.
+Tomo_00096 is the same materials in a new batch, in which the CNT were treated first by acid then underwent one discharge-charge round-trip. This cycled binder-free CNT retrieved from the battery was chopped and mounted on a graphite pin and further sealed in a Kapton tubing in the dry room to avoid the moisture. The bright domains are the non-dissolved lithium peroxide and other side products grown on the CNT during the cycling and the dark domain correspond to the area where peroxide/side-products are dissolved.
 
 +-----------------------------------------+------------------------------------+
-|             tomo_ID                     |   00D                              |  
+|             tomo_ID                     |   00096                            |  
 +=========================================+====================================+
-|             Image preview               |  |00D|                             |  
+|             Image preview               |  |00096|                           |  
 +-----------------------------------------+------------------------------------+
-|             Downloads                   |  tomo_00C                          |
+|             Downloads                   |  tomo_00096_                       |
 +-----------------------------------------+------------------------------------+
 |             Instrument                  |  APS 32-ID TXM                     |  
 +-----------------------------------------+------------------------------------+
@@ -152,23 +159,23 @@ Tomo_D is the same materials in a new batch, in which the CNT were treated first
 |             Rotation axis location      |  1177                              |
 +-----------------------------------------+------------------------------------+
 
-.. tomo_00D_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+.. _tomo_00096: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00096%2F
 
-.. |00D| image:: ../img/00D_recharged.png
+.. |00096| image:: ../img/tomo_00096.png
     :width: 30pt
 
 
-Absorption nano-XCT
-~~~~~~~~~~~~~~~~~~~
+Absorption
+~~~~~~~~~~
 
-tomo_A and tomo_B are commercial NMC532 Li-ion cathode materials. Both materials have the same composition but have different loading (thickness) during manufacturing. These samples consist of LiNi0.5Mn0.3Co0.2 oxide, carbon, and PVdF as binder. These materials are firstly cut by Zeiss Palm Micro-dissector into a cylinder and then mounted onto a graphite pin with a micromanipulator as described in [su:X]. The round big and white particles are NMC materials. And the binder and porosity are in the darker domains. With the 32-ID-C nano-XCT high resolution, the granular carbon-binder domain is visible.
+tomo_00097 and tomo_00098 are commercial NMC532 Li-ion cathode materials. Both materials have the same composition but have different loading (thickness) during manufacturing. These samples consist of LiNi0.5Mn0.3Co0.2 oxide, carbon, and PVdF as binder. These materials are firstly cut by Zeiss Palm Micro-dissector into a cylinder and then mounted onto a graphite pin with a micromanipulator as described in :cite:`Su:2021`. The round big and white particles are NMC materials. And the binder and porosity are in the darker domains. With the 32-ID-C nano-XCT high resolution, the granular carbon-binder domain is visible.
 
 +-----------------------------------------+-------------------------------+
-|             tomo_ID                     |   00A                         |  
+|             tomo_ID                     |   00097                       |  
 +=========================================+===============================+
-|             Image preview               |  |00A|                        |  
+|             Image preview               |  |00097|                      |  
 +-----------------------------------------+-------------------------------+
-|             Downloads                   |  tomo_00A                     |
+|             Downloads                   |  tomo_00097_                  |
 +-----------------------------------------+-------------------------------+
 |             Instrument                  |  APS 32-ID TXM                |  
 +-----------------------------------------+-------------------------------+
@@ -192,11 +199,11 @@ tomo_A and tomo_B are commercial NMC532 Li-ion cathode materials. Both materials
 +-----------------------------------------+-------------------------------+
 
 +-----------------------------------------+-------------------------------+
-|             tomo_ID                     |   00B                         |  
+|             tomo_ID                     |   00098                       |  
 +=========================================+===============================+
-|             Image preview               |  |00B|                        |  
+|             Image preview               |  |00098|                      |  
 +-----------------------------------------+-------------------------------+
-|             Downloads                   |  tomo_00B                     |
+|             Downloads                   |  tomo_00098_                  |
 +-----------------------------------------+-------------------------------+
 |             Instrument                  |  APS 32-ID TXM                |  
 +-----------------------------------------+-------------------------------+
@@ -219,21 +226,21 @@ tomo_A and tomo_B are commercial NMC532 Li-ion cathode materials. Both materials
 |             Rotation axis location      |  1176                         |
 +-----------------------------------------+-------------------------------+
 
-.. tomo_00A_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+.. _tomo_00097: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00097%2F
 
-.. |00A| image:: ../img/00A_NMC1_low_loading.png
+.. |00097| image:: ../img/tomo_00097.png
     :width: 30pt
 
-.. tomo_00B_: https://app.globus.org/XXXXXX  #TODO: don't have globus link yet
+.. _tomo_00098: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00098%2F
 
-.. |00B| image:: ../img/00B_NMC2_high_loading.png
+.. |00098| image:: ../img/tomo_00098.png
     :width: 30pt
 
 
 PSF
 ~~~
 
-This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+This data was first provided to TomoBank to be used as part of **TomoChallenge**, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
 
 This dataset corresponds to a portion of an electronic circuit with some features known to be smaller than 20 nm. The challenge would be to assess the point spread function (PSF) of the microscope to perform high quality PSF deconvolution. There is no ground truth on this dataset, however, the geometry of such circuitry is relatively simple and PSF deconvolution should enable separation of some copper wires or copper objects embedded in silicon. In addition, a radiograph of a Siemens star acquired in following conditions:
 
@@ -294,7 +301,7 @@ The pixel size is 16.8 nm, but the resolving power of the microscope is between 
 Sparse angles
 ~~~~~~~~~~~~~
 
-This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+This data was first provided to TomoBank to be used as part of **TomoChallenge**, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
 
 
 One of the main challenge in nanotomgraphy consists in limiting the total dose deposited into a sample in order to speed up acquisitions and limit beam damage inducing sample deformation. The challenge here would consist in reconstructing electrode made of lithium nickel manganese cobalt oxide (NMC) particles surrounded by binder. 202 projections out of 1210 projections has been kept.
@@ -339,7 +346,7 @@ The pixel size is 23.2 nm, but the resolving power of the microscope is between 
 Wedge
 ~~~~~
 
-This data was first provided to TomoBank to be used as part of TomoChallenge, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
+This data was first provided to TomoBank to be used as part of **TomoChallenge**, please see https://tomochallenge.github.io/ for more details and for information about how you can participate. 
 
 
 Electrode made of lithium nickel manganese cobalt oxide (NMC) particles surrounded by binder. Projections from a complete 180 degrees dataset were removed to create an artificial missing wedge. Obtaining good reconstructions from dataset with 40 degrees missing wedge would improve our ability to image batteries in operando, where walls of pouch cells are preventing full 180 degrees acquisitions.
@@ -422,7 +429,7 @@ NPG is high absorbing and, due to the fact that its structural ligaments, can be
 +-----------------------------------------+----------------------------+
 
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_.
 
 Example: ::
 
