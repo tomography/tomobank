@@ -7,7 +7,7 @@ TomoBank data sets and phantoms are distributed using a
 The first time you use tomoBank you need to create a `Globus Account <https://docs.globus.org/how-to/get-started/>`_ 
 and set up you computer as a `Globus EndPoint <https://www.globus.org/globus-connect-personal>`_.
 
-To read tomoBank files and perform a basic tomographic reconstruction first, you must have `Conda <https://docs.conda.io/en/latest/miniconda.html>`_ installed. Next, install TomoPy and all its runtime dependencies into a new Conda
+To read tomoBank files and perform a basic tomographic reconstruction first, you must have `Conda <https://docs.conda.io/en/latest/miniconda.html>`_ installed. Next, install `tomoPy  <https://tomopy.readthedocs.io/en/latest/>`_ and all its runtime dependencies into a new Conda
 environment called ``tomopy`` by running::
 
     $ conda create --name tomopy --channel conda-forge tomopy
