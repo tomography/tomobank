@@ -48,7 +48,7 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
 |             Rotation axis location      |  1230                         |
 +-----------------------------------------+-------------------------------+
 
-.. _tomo_00083: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00083%2F
+.. _tomo_00083: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00083%2F
 
 .. |00083| image:: ../img/tomo_00083.png
     :width: 20pt
@@ -83,7 +83,7 @@ The pixel size is 22.3 nm, but the resolving power of the microscope is between 
 |             Rotation axis location      |  1230                         |
 +-----------------------------------------+-------------------------------+
 
-.. _tomo_00084: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00084%2F
+.. _tomo_00084: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00084%2F
 
 .. |00084| image:: ../img/tomo_00084.png
     :width: 20pt
@@ -123,7 +123,7 @@ tomo_00095 is a pristine binder-free carbon nanotube (CNT) cathode of Li-O2 batt
 |             Rotation axis location      |  1210                              |
 +-----------------------------------------+------------------------------------+
 
-.. _tomo_00095: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00095%2F
+.. _tomo_00095: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00095%2F
 
 .. |00095| image:: ../img/tomo_00095.png
     :width: 30pt
@@ -159,7 +159,7 @@ Tomo_00096 is the same materials in a new batch, in which the CNT were treated f
 |             Rotation axis location      |  1177                              |
 +-----------------------------------------+------------------------------------+
 
-.. _tomo_00096: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00096%2F
+.. _tomo_00096: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00096%2F
 
 .. |00096| image:: ../img/tomo_00096.png
     :width: 30pt
@@ -226,12 +226,12 @@ tomo_00097 and tomo_00098 are commercial NMC532 Li-ion cathode materials. Both m
 |             Rotation axis location      |  1176                         |
 +-----------------------------------------+-------------------------------+
 
-.. _tomo_00097: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00097%2F
+.. _tomo_00097: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00097%2F
 
 .. |00097| image:: ../img/tomo_00097.png
     :width: 30pt
 
-.. _tomo_00098: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00098%2F
+.. _tomo_00098: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00098%2F
 
 .. |00098| image:: ../img/tomo_00098.png
     :width: 30pt
@@ -291,7 +291,7 @@ The pixel size is 16.8 nm, but the resolving power of the microscope is between 
 
 
 
-.. _tomo_00085: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00085%2F
+.. _tomo_00085: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00085%2F
 
 .. |00085| image:: ../img/tomo_00085.png
     :width: 20pt
@@ -336,7 +336,7 @@ The pixel size is 23.2 nm, but the resolving power of the microscope is between 
 |             Rotation axis location      |   1227                        |
 +-----------------------------------------+-------------------------------+
 
-.. _tomo_00086: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00086%2F
+.. _tomo_00086: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00086%2F
 
 .. |00086| image:: ../img/tomo_00086.png
     :width: 20pt
@@ -380,7 +380,7 @@ The pixel size is 23.2 nm, but the resolving power of the microscope is between 
 |             Rotation axis location      |   1196                        |
 +-----------------------------------------+-------------------------------+
 
-.. _tomo_00087: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00087%2F
+.. _tomo_00087: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00087%2F
 
 .. |00087| image:: ../img/tomo_00087.png
     :width: 20pt
@@ -437,7 +437,7 @@ Example: ::
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
-.. _tomo_00077: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00077%2F
+.. _tomo_00077: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00077%2F
 
 .. |00077| image:: ../img/tomo_00077.png
     :width: 20pt

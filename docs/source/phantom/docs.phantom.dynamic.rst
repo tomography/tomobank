@@ -18,7 +18,7 @@ To perform reconstruction use the :download:`rec_phantom_00015.py <../../demo/re
         python rec_phantom_00015.py phantom_00015_00000.tiff
 
 
-.. _phantom_00015: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00015%2F
+.. _phantom_00015: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00015%2F
 
 .. |gt00000| image:: ../img/phantom_00015/f_00000.png
     :width: 100pt

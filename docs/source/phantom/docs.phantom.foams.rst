@@ -33,19 +33,19 @@ Challenge
     :width: 20pt
     :height: 20pt
 
-.. _phan_00016: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00016%2F
-.. _phan_00017: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00017%2F
-.. _phan_00018: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00018%2F
-.. _phan_00019: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00019%2F
-.. _phan_00020: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00020%2F
-.. _phan_00021: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00021%2F
-.. _phan_00022: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00022%2F
-.. _phan_00023: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00023%2F
-.. _phan_00024: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00024%2F
-.. _phan_00025: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00025%2F
-.. _phan_00026: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00026%2F
-.. _phan_00027: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00027%2F
-.. _phan_00028: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Fphantom_00028%2F
+.. _phan_00016: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00016%2F
+.. _phan_00017: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00017%2F
+.. _phan_00018: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00018%2F
+.. _phan_00019: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00019%2F
+.. _phan_00020: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00020%2F
+.. _phan_00021: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00021%2F
+.. _phan_00022: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00022%2F
+.. _phan_00023: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00023%2F
+.. _phan_00024: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00024%2F
+.. _phan_00025: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00025%2F
+.. _phan_00026: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00026%2F
+.. _phan_00027: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00027%2F
+.. _phan_00028: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00028%2F
 
 
 These phantoms were first added to TomoBank to be used as part of TomoChallenge, please see 
@@ -129,7 +129,7 @@ XDesign
 
 .. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
 
-.. _phan_00008: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00008%2F
+.. _phan_00008: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00008%2F
 
 
 .. |rec00009| image:: ../img/phantom_00009_00000.png
@@ -142,7 +142,7 @@ XDesign
 
 .. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
 
-.. _phan_00009: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00009%2F
+.. _phan_00009: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00009%2F
 
 .. |rec00010| image:: ../img/phantom_00010_00000.png
     :width: 20pt
@@ -154,7 +154,7 @@ XDesign
 
 .. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
 
-.. _phan_00010: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00010%2F
+.. _phan_00010: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00010%2F
 
 .. |rec00011| image:: ../img/phantom_00011_00000.png
     :width: 20pt
@@ -166,7 +166,7 @@ XDesign
 
 .. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
 
-.. _phan_00011: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00011%2F
+.. _phan_00011: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00011%2F
 
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 

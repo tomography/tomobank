@@ -65,10 +65,10 @@ To enable phase retrieval un-comment the appropriate setting in :download:`tomop
 
 
 
-.. _tomo_00064: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00065: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00066: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00067: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00064: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00065: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00066: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00067: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
 
 
 .. |00064| image:: ../img/tomo_00064.png
@@ -116,7 +116,7 @@ To load the data sets and perform a basic reconstruction using `tomopy <https://
 
     tomopy recon --file-name tomo_00068.h5 --rotation-axis 1463.5
 
-.. _tomo_00068: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F
+.. _tomo_00068: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00068%2F
 
 .. |00068| image:: ../img/tomo_00068.png
     :width: 20pt

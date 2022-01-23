@@ -137,7 +137,7 @@ Each data set is collected with the following parameters:
 +-------------------------+----------------------------------------+-----------+
 
 
-.. _tomo_00094: https://app.globus.org/file-manager?destination_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&destination_path=%2Ftomobank%2Ftomo_00094%2F
+.. _tomo_00094: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00094%2F
 
 .. |00094| image:: ../img/tomo_00094.png
     :width: 20pt
@@ -172,7 +172,7 @@ relative shift x to bottom neightbor.
     :width: 20pt
     :height: 20pt
 
-.. _tomo_00078: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00078%2F
+.. _tomo_00078: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00078%2F
 
 .. _tomosaic: https://github.com/mdw771/tomosaic2.git
 

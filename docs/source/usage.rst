@@ -3,7 +3,7 @@ Usage
 =====
 
 TomoBank data sets and phantoms are distributed using a 
-`Globus <https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F>`_ server.
+`Globus <https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F>`_ server.
 The first time you use tomoBank you need to create a `Globus Account <https://docs.globus.org/how-to/get-started/>`_ 
 and set up you computer as a `Globus EndPoint <https://www.globus.org/globus-connect-personal>`_.
 

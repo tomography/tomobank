@@ -60,8 +60,8 @@ in different thermal heat treatment conditions.
 | volume_00002_ |    AlSi_4hST_808x704x1929_Binary_aluminides_rem64  |  |v00002| |  (808 x 704 x 1929)   |
 +---------------+----------------------------------------------------+-----------+-----------------------+ 
 
-.. _volume_00001: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Fvolume_00001%2F
-.. _volume_00002: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Fvolume_00002%2F
+.. _volume_00001: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Fvolume_00001%2F
+.. _volume_00002: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Fvolume_00002%2F
 
 
 .. |v00001| image:: img/volume_00001.png
@@ -71,14 +71,4 @@ in different thermal heat treatment conditions.
 .. |v00002| image:: img/volume_00002.png
     :width: 20pt
     :height: 20pt
-
-
-
-Upload
-------
-
-You can upload more data set `here <https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Fupload%2Fdagstuhl_2019%2F>`_.
-
-To upload data from your computer to TomoBank you need to install 
-`Globus Endpoint Personal <https://www.globus.org/globus-connect-personal>`_.
 

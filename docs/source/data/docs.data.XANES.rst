@@ -16,7 +16,7 @@ For task 2, the SSRL team use TXM-Wizard to register the projection images in th
     :width: 20pt
     :height: 20pt
 
-.. _tomo_00089: https://app.globus.org/file-manager?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00089%2F
+.. _tomo_00089: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00089%2F
 
 
 
