@@ -11,10 +11,13 @@ Kitchen-Based Light Tomography (KBLT) is a DIY toolkit for advancing tomography 
 
 -- Building and collaborating on this open-source KBLT project is foreseen to aid, develop and strengthen the international tomography community.
 
+-- To reconstruct the KBLT data sets please use :download:`tomopy_rec_KBLT.py <../../demo/tomopy_rec_KBLT.py>` 
+
 .. image:: ../img/kblt_01.png
     :width: 512pt
 
 A) The KBLT setup, reconstructed slice from B) KBLT and C) X-ray microCT and D-E) 3D-renderings of B).
+
 
 References
 ~~~~~~~~~~
