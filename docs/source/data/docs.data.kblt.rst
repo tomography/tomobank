@@ -22,7 +22,8 @@ A) The KBLT setup, reconstructed slice from B) KBLT and C) X-ray microCT and D-E
 References
 ~~~~~~~~~~
 
-:cite:`Larsson:2022`
+:cite:`Larsson:2022a`, :cite:`Larsson:2022b`
+
 
 .. _tomo_00099: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00099%2F
 
