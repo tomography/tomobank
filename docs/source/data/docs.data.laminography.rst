@@ -26,6 +26,11 @@ Camera caffè
 
 The Camera caffè data set has been created using a leaf from a plant of `Epipremnum aureum <https://en.wikipedia.org/wiki/Epipremnum_aureum>`_ also known as Devil’s Ivy. The specific plant used to live at the University of Trieste, Italy in the so called "Camera Caffè" between  1987 and 1993 where a group of students (Sara, Silvano, Claudio, Federico and Francesco) enjoyed their daily cup of coffee. In 1994 the plant traveled to the Netherland, then Germany in 1995 and since 1998 is at the Advanced Photon Source at Argonne National Laboratory next to the sector 32 coffee machine. Because this plant always lived near a coffee maker we decided to dedicate the data set to the "Camera caffè" to remember and celebrate the coffee discussions with friends and colleagues this plant enjoyed through the years.
 
+
+.. image:: ../img/tomo_00100_6.png
+    :width: 512pt
+
+
 .. image:: ../img/tomo_00100_4.png
     :width: 512pt
 
