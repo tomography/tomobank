@@ -2,7 +2,7 @@ Dynamic
 ~~~~~~~
 
 TomoPhantom
-----
+-----------
 
 The dynamic phantom model was generated and customized for two spatial variables :math:`x,y` by employing the TomoPhantom toolbox :cite:`kazantsev:18`. 
 It contains three types of the particle motion: rotation, shifting, and expansion. 
@@ -127,10 +127,10 @@ Projection data, ground truth, and reconstructions: phantom_00015_
 
 
 pt4 Phantoms
-----
+------------
 
 The following phantoms have been created using `pt4 <https://github.com/StephenCatsamas/pt4>`_ 
-version `0.2.0.dev0+1d67599 <https://github.com/StephenCatsamas/pt4/tree/1d67599b8f104ebded86bac98100dbf15e251a66>`_.
+version `1.0.0 <https://github.com/StephenCatsamas/pt4/tree/8e49c0c83dc313e9d6f0936b14b4cdfbed916c08>`_.
 pt4 is a phantom description tool which is specialised for generating time-evolving 4D phantoms. More information can be found on the linked code repository or in the `software overview <https://github.com/StephenCatsamas/pt4/pt4.pdf>`_
 
 This data has been generated with
@@ -145,84 +145,175 @@ To load the phantom data sets into Python use the
     tomopy recon --file-name phantom_00008.h5
 
 
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 Spheres Translating
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 The spheres translating phantom consists of 16 spheres of equal and constant attenuation each moving independently.
 
+:download:`https://link to projection and volume data`
 
-~~~~~~~~~
+.. |sp00000| image:: ../img/pt4/spheres/2dview.png
+    :width: 300pt
+    :height: 300pt
+
++----------------------------------------------------------------------+
+| 2D projection of phantom. Blue, :math:`t = 0`. Orange, :math:`t = 1` |
++----------------------------------------------------------------------+
+| |sp00000|                                                            |
++----------------------------------------------------------------------+
+
+~~~~~~~~~~~~
 Bread Baking
-~~~~~~~~~
+~~~~~~~~~~~~
 
 The bread baking phantom takes inspiration from a loaf of bread rising during baking. Throughout its evolution it expands while voids appear that also expand. In its final state the phantom has seven voids. To emulate conservation of mass, the phantom reduces in density as it expands. This manifests as phantom's main ellipsoid decreasing in attenuation proportionally to its volume  ( :math:`\mu(t) = \mu(0) \frac{V(t)}{V(0)}`, where :math:`\mu(t)` and :math:`V(t)` are the attenuation and volume at time :math:`t` ).
 
-~~~~~~~~~
+:download:`https://link to projection and volume data`
+
+.. |bb00000| image:: ../img/pt4/bread/vol00000.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bb00001| image:: ../img/pt4/bread/vol00002.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bb00002| image:: ../img/pt4/bread/vol00004.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bb00003| image:: ../img/pt4/bread/vol00006.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bb00004| image:: ../img/pt4/bread/vol00008.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bb00005| image:: ../img/pt4/bread/vol00010.png
+    :width: 60pt
+    :height: 60pt
+
+
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|Time      |  0.0         | 0.2          | 0.4          | 0.6          | 0.8          | 1.0          |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|ZX Slice  |  |bb00000|   |  |bb00001|   |  |bb00002|   |  |bb00003|   |  |bb00004|   |  |bb00005|   |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+
+~~~~~~~~~~~~~~~~
 Tensile Fracture
-~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
-The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At $t = 0.5$, the sample fractures and the two halves begin to move away from each other.
+The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At :math:`t = 0.5`, the sample fractures and the two halves begin to move away from each other.
 
-~~~~~~~~~
+:download:`https://link to projection and volume data`
+
+.. |fd00000| image:: ../img/pt4/fracture_deform/vol00000_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+.. |fd00001| image:: ../img/pt4/fracture_deform/vol00004_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+.. |fd00002| image:: ../img/pt4/fracture_deform/vol00008_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+.. |fd00003| image:: ../img/pt4/fracture_deform/vol00012_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+.. |fd00004| image:: ../img/pt4/fracture_deform/vol00016_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+.. |fd00005| image:: ../img/pt4/fracture_deform/vol00020_ZX256.png
+    :width: 60pt
+    :height: 60pt
+
+
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|Time      |  0.0         | 0.2          | 0.4          | 0.6          | 0.8          | 1.0          |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|ZX Slice  |  |fd00000|   |  |fd00001|   |  |fd00002|   |  |fd00003|   |  |fd00004|   |  |fd00005|   |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+
+~~~~~~~~~~~~
 Brazil Crush
-~~~~~~~~~
+~~~~~~~~~~~~
 
 The Brazil crush phantom represents a sample undergoing the Brazilian test. In this test a cylindrical sample is placed between two jaws which apply compressive load to the sample. This results in a tensile load on the sample that increases until fracture. In the phantom, multiple fractures appear and close up. For simplicity, the jaws have been modelled nonphysically as they form a contiguous piece of material, however the contact points between the jaws and the sample still close with time.
 
+:download:`https://link to projection and volume data`
 
-~~~~~~~~~
+.. |bc00000| image:: ../img/pt4/brazil/vol00000.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bc00001| image:: ../img/pt4/brazil/vol00002.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bc00002| image:: ../img/pt4/brazil/vol00004.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bc00003| image:: ../img/pt4/brazil/vol00006.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bc00004| image:: ../img/pt4/brazil/vol00008.png
+    :width: 60pt
+    :height: 60pt
+
+.. |bc00005| image:: ../img/pt4/brazil/vol00010.png
+    :width: 60pt
+    :height: 60pt
+
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|Time      |  0.0         | 0.2          | 0.4          | 0.6          | 0.8          | 1.0          |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|ZX Slice  |  |bc00000|   |  |bc00001|   |  |bc00002|   |  |bc00003|   |  |bc00004|   |  |bc00005|   |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+
+~~~~~~~~~~
 Fluid Flow
-~~~~~~~~~
+~~~~~~~~~~
 
 The fluid flow phantom gives an example of fluid flowing through a porous medium. This has been implemented as the fluid level rising uniformly in time inside the porous medium.
 
+:download:`https://link to projection and volume data`
 
-.. |rec00008| image:: ../img/phantom_00008_00000.png
-    :width: 20pt
-    :height: 20pt
+.. |ff00000| image:: ../img/pt4/fluid_flow/vol00000_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
-.. |gt00008| image:: ../img/phantom_00008_ground_truth.png
-    :width: 20pt
-    :height: 20pt
+.. |ff00001| image:: ../img/pt4/fluid_flow/vol00001_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
-.. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
+.. |ff00002| image:: ../img/pt4/fluid_flow/vol00002_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
-.. _phan_00008: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00008%2F
+.. |ff00003| image:: ../img/pt4/fluid_flow/vol00003_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
+.. |ff00004| image:: ../img/pt4/fluid_flow/vol00004_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
-.. |rec00009| image:: ../img/phantom_00009_00000.png
-    :width: 20pt
-    :height: 20pt
+.. |ff00005| image:: ../img/pt4/fluid_flow/vol00005_ZX256.png
+    :width: 60pt
+    :height: 60pt
 
-.. |gt00009| image:: ../img/phantom_00009_ground_truth.png
-    :width: 20pt
-    :height: 20pt
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|Time      |  0.0         | 0.2          | 0.4          | 0.6          | 0.8          | 1.0          |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
+|ZX Slice  |  |ff00000|   |  |ff00001|   |  |ff00002|   |  |ff00003|   |  |ff00004|   |  |ff00005|   |
++----------+--------------+--------------+--------------+--------------+--------------+--------------+
 
-.. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
-
-.. _phan_00009: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00009%2F
-
-.. |rec00010| image:: ../img/phantom_00010_00000.png
-    :width: 20pt
-    :height: 20pt
-
-.. |gt00010| image:: ../img/phantom_00010_ground_truth.png
-    :width: 20pt
-    :height: 20pt
-
-.. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
-
-.. _phan_00010: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00010%2F
-
-.. |rec00011| image:: ../img/phantom_00011_00000.png
-    :width: 20pt
-    :height: 20pt
-
-.. |gt00011| image:: ../img/phantom_00011_ground_truth.png
-    :width: 20pt
-    :height: 20pt
-
-.. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
-
-.. _phan_00011: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00011%2F
