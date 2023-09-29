@@ -137,12 +137,14 @@ This data has been generated with
 ::
     pt4.exe -p -v (path to .pt4 without extension)
 
-To load the phantom data sets into Python use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script:
-
+To load the phantom data sets into Python use 
+:download:`pt4_volume.py <../../demo/pt4_volume.py>` for volumes as:
 ::
-
-    tomopy recon --file-name phantom_00008.h5
+    pt4_volumes.py (volume file name)
+and
+:download:`pt4_projection.py <../../demo/pt4_projection.py>` for projections as:
+::
+    pt4_projection.py (projections directory name)
 
 
 ~~~~~~~~~~~~~~~~~~~
