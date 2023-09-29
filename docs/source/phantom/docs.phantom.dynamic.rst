@@ -146,7 +146,6 @@ and
 ::
     pt4_projection.py (projections directory name)
 
-
 ~~~~~~~~~~~~~~~~~~~
 Spheres Translating
 ~~~~~~~~~~~~~~~~~~~
