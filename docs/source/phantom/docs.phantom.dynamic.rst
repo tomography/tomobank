@@ -1,6 +1,9 @@
 Dynamic
 ~~~~~~~
 
+TomoPhantom
+----
+
 The dynamic phantom model was generated and customized for two spatial variables :math:`x,y` by employing the TomoPhantom toolbox :cite:`kazantsev:18`. 
 It contains three types of the particle motion: rotation, shifting, and expansion. 
 In addition to different motion types, we also analyze different motion velocities chosen according to the pixel size and the time spent for measuring projections 
@@ -122,3 +125,104 @@ Projection data, ground truth, and reconstructions: phantom_00015_
 |     7    |  |gt00007|   | |rec00007| ||rectv00007||
 +----------+--------------+------------+------------+
 
+
+pt4 Phantoms
+----
+
+The following phantoms have been created using `pt4 <https://github.com/StephenCatsamas/pt4>`_ 
+version `0.2.0.dev0+1d67599 <https://github.com/StephenCatsamas/pt4/tree/1d67599b8f104ebded86bac98100dbf15e251a66>`_.
+pt4 is a phantom description tool which is specialised for generating time-evolving 4D phantoms. More information can be found on the linked code repository or in the `software overview <https://github.com/StephenCatsamas/pt4/pt4.pdf>`_
+
+This data has been generated with
+::
+    pt4.exe -p -v (path to .pt4 without extension)
+
+To load the phantom data sets into Python use the 
+:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script:
+
+::
+
+    tomopy recon --file-name phantom_00008.h5
+
+
+~~~~~~~~~
+Spheres Translating
+~~~~~~~~~
+
+The spheres translating phantom consists of 16 spheres of equal and constant attenuation each moving independently.
+
+
+~~~~~~~~~
+Bread Baking
+~~~~~~~~~
+
+The bread baking phantom takes inspiration from a loaf of bread rising during baking. Throughout its evolution it expands while voids appear that also expand. In its final state the phantom has seven voids. To emulate conservation of mass, the phantom reduces in density as it expands. This manifests as phantom's main ellipsoid decreasing in attenuation proportionally to its volume  ( :math:`\mu(t) = \mu(0) \frac{V(t)}{V(0)}`, where :math:`\mu(t)` and :math:`V(t)` are the attenuation and volume at time :math:`t` ).
+
+~~~~~~~~~
+Tensile Fracture
+~~~~~~~~~
+
+The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At $t = 0.5$, the sample fractures and the two halves begin to move away from each other.
+
+~~~~~~~~~
+Brazil Crush
+~~~~~~~~~
+
+The Brazil crush phantom represents a sample undergoing the Brazilian test. In this test a cylindrical sample is placed between two jaws which apply compressive load to the sample. This results in a tensile load on the sample that increases until fracture. In the phantom, multiple fractures appear and close up. For simplicity, the jaws have been modelled nonphysically as they form a contiguous piece of material, however the contact points between the jaws and the sample still close with time.
+
+
+~~~~~~~~~
+Fluid Flow
+~~~~~~~~~
+
+The fluid flow phantom gives an example of fluid flowing through a porous medium. This has been implemented as the fluid level rising uniformly in time inside the porous medium.
+
+
+.. |rec00008| image:: ../img/phantom_00008_00000.png
+    :width: 20pt
+    :height: 20pt
+
+.. |gt00008| image:: ../img/phantom_00008_ground_truth.png
+    :width: 20pt
+    :height: 20pt
+
+.. |phan_00008| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00008.py>`
+
+.. _phan_00008: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00008%2F
+
+
+.. |rec00009| image:: ../img/phantom_00009_00000.png
+    :width: 20pt
+    :height: 20pt
+
+.. |gt00009| image:: ../img/phantom_00009_ground_truth.png
+    :width: 20pt
+    :height: 20pt
+
+.. |phan_00009| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00009.py>`
+
+.. _phan_00009: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00009%2F
+
+.. |rec00010| image:: ../img/phantom_00010_00000.png
+    :width: 20pt
+    :height: 20pt
+
+.. |gt00010| image:: ../img/phantom_00010_ground_truth.png
+    :width: 20pt
+    :height: 20pt
+
+.. |phan_00010| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00010.py>`
+
+.. _phan_00010: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00010%2F
+
+.. |rec00011| image:: ../img/phantom_00011_00000.png
+    :width: 20pt
+    :height: 20pt
+
+.. |gt00011| image:: ../img/phantom_00011_ground_truth.png
+    :width: 20pt
+    :height: 20pt
+
+.. |phan_00011| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00011.py>`
+
+.. _phan_00011: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00011%2F
