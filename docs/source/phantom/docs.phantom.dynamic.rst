@@ -130,27 +130,31 @@ pt4 Phantoms
 ------------
 
 The following phantoms have been created using `pt4 <https://github.com/MaterialsPhysicsANU/pt4>`_ 
-version `1.0.0 <https://github.com/MaterialsPhysicsANU/pt4/tree/8e49c0c83dc313e9d6f0936b14b4cdfbed916c08>`_.
+version `1.0.0fix! <https://github.com/MaterialsPhysicsANU/pt4/tree/8e49c0c83dc313e9d6f0936b14b4cdfbed916c08>`_.
 pt4 is a phantom description tool which is specialised for generating time-evolving 4D phantoms. More information can be found on the linked code repository or in the `software overview <https://github.com/MaterialsPhysicsANU/pt4/pt4.pdf>`_
 
 This data has been generated with
 ::
+
     pt4.exe -p -v (path to .pt4 without extension)
 
 To load the phantom data sets into Python use 
 :download:`pt4_volume.py <../../demo/pt4_volume.py>` for volumes as:
 ::
+
     pt4_volumes.py (volume file name)
+
 and
 :download:`pt4_projection.py <../../demo/pt4_projection.py>` for projections as:
 ::
+
     pt4_projection.py (projections directory name)
 
 ~~~~~~~~~~~~~~~~~~~
 Spheres Translating
 ~~~~~~~~~~~~~~~~~~~
 
-The spheres translating phantom consists of 16 spheres of equal and constant attenuation each moving independently. The phantom is sampled at 10 timesteps with volumes of size :math:`256^3`. The projection data constists of 400 projections with a fixed angle and time step per projection and size :math:`256^2`. The projections cover the range :math:`[0,8pi)` where successive revolutions capture the interleaving angles.
+The spheres translating phantom consists of 16 spheres of equal and constant attenuation each moving independently. The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
 :download:`https://link to projection and volume data`
 
@@ -168,7 +172,7 @@ The spheres translating phantom consists of 16 spheres of equal and constant att
 Bread Baking
 ~~~~~~~~~~~~
 
-The bread baking phantom takes inspiration from a loaf of bread rising during baking. Throughout its evolution it expands while voids appear that also expand. In its final state the phantom has seven voids. To emulate conservation of mass, the phantom reduces in density as it expands. This manifests as phantom's main ellipsoid decreasing in attenuation proportionally to its volume  ( :math:`\mu(t) = \mu(0) \frac{V(t)}{V(0)}`, where :math:`\mu(t)` and :math:`V(t)` are the attenuation and volume at time :math:`t` ). The phantom is sampled at 10 timesteps with volumes of size :math:`256^3`. The projection data constists of 400 projections with a fixed angle and time step per projection and size :math:`256^2`. The projections cover the range :math:`[0,8pi)` where successive revolutions capture the interleaving angles.
+The bread baking phantom takes inspiration from a loaf of bread rising during baking. Throughout its evolution it expands while voids appear that also expand. In its final state the phantom has seven voids. To emulate conservation of mass, the phantom reduces in density as it expands. This manifests as phantom's main ellipsoid decreasing in attenuation proportionally to its volume  ( :math:`\mu(t) = \mu(0) \frac{V(t)}{V(0)}`, where :math:`\mu(t)` and :math:`V(t)` are the attenuation and volume at time :math:`t` ). The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
 :download:`https://link to projection and volume data`
 
@@ -207,7 +211,7 @@ The bread baking phantom takes inspiration from a loaf of bread rising during ba
 Tensile Fracture
 ~~~~~~~~~~~~~~~~
 
-The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At :math:`t = 0.5`, the sample fractures and the two halves begin to move away from each other. The phantom is sampled at 20 timesteps with volumes of size :math:`256^3`. The projection data constists of 400 projections with a fixed angle and time step per projection and size :math:`256^2`. The projections cover the range :math:`[0,8pi)` where successive revolutions capture the interleaving angles.
+The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At :math:`t = 0.5`, the sample fractures and the two halves begin to move away from each other. The phantom is sampled at 20 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
 :download:`https://link to projection and volume data`
 
@@ -246,7 +250,7 @@ The tensile failure phantom emulates a sample undergoing a tensile test to failu
 Brazil Crush
 ~~~~~~~~~~~~
 
-The Brazil crush phantom represents a sample undergoing the Brazilian test. In this test a cylindrical sample is placed between two jaws which apply compressive load to the sample. This results in a tensile load on the sample that increases until fracture. In the phantom, multiple fractures appear and close up. For simplicity, the jaws have been modelled nonphysically as they form a contiguous piece of material, however the contact points between the jaws and the sample still close with time. The phantom is sampled at 10 timesteps with volumes of size :math:`256^3`. The projection data constists of 400 projections with a fixed angle and time step per projection and size :math:`256^2`. The projections cover the range :math:`[0,8pi)` where successive revolutions capture the interleaving angles.
+The Brazil crush phantom represents a sample undergoing the Brazilian test. In this test a cylindrical sample is placed between two jaws which apply compressive load to the sample. This results in a tensile load on the sample that increases until fracture. In the phantom, multiple fractures appear and close up. For simplicity, the jaws have been modelled nonphysically as they form a contiguous piece of material, however the contact points between the jaws and the sample still close with time. The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
 :download:`https://link to projection and volume data`
 
@@ -284,7 +288,7 @@ The Brazil crush phantom represents a sample undergoing the Brazilian test. In t
 Fluid Flow
 ~~~~~~~~~~
 
-The fluid flow phantom gives an example of fluid flowing through a porous medium. This has been implemented as the fluid level rising uniformly in time inside the porous medium. The phantom is sampled at 10 timesteps with volumes of size :math:`256^3`. The projection data constists of 400 projections with a fixed angle and time step per projection and size :math:`256^2`. The projections cover the range :math:`[0,8pi)` where successive revolutions capture the interleaving angles.
+The fluid flow phantom gives an example of fluid flowing through a porous medium. This has been implemented as the fluid level rising uniformly in time inside the porous medium. The phantom is sampled at 5 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
 :download:`https://link to projection and volume data`
 
