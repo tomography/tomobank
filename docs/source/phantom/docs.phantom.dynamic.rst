@@ -130,8 +130,8 @@ pt4 Phantoms
 ------------
 
 The following phantoms have been created using `pt4 <https://github.com/MaterialsPhysicsANU/pt4>`_ 
-version `1.0.0fix! <https://github.com/MaterialsPhysicsANU/pt4/tree/8e49c0c83dc313e9d6f0936b14b4cdfbed916c08>`_.
-pt4 is a phantom description tool which is specialised for generating time-evolving 4D phantoms. More information can be found on the linked code repository or in the `software overview <https://github.com/MaterialsPhysicsANU/pt4/pt4.pdf>`_
+version `1.0.0 <https://github.com/MaterialsPhysicsANU/pt4/releases/tag/v1.0.0>`_.
+pt4 is a phantom description tool which is specialised for generating time-evolving 4D phantoms. More information can be found on the linked code repository or in the `software overview <https://github.com/MaterialsPhysicsANU/pt4/blob/master/pt4-doc.pdf>`_
 
 This data has been generated with
 ::
