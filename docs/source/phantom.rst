@@ -1,7 +1,7 @@
 Phantoms
 ========
 
-All phantom data sets are generated with `XDesign <http://myxdesign.readthedocs.io/>`_ :cite:`ching:17` 
+All phantom data sets are generated with `XDesign <http://xdesign.readthedocs.io/>`_ :cite:`ching:17` 
 and  distributed in the data exchange file format :cite:`decarlo:02` together with a python script 
 to generate them (see individual phantom home page) to load and perform a basic 
 reconstruction using tomoPy  :cite:`Gursoy:14a`
