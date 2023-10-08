@@ -4,10 +4,12 @@
 version: 2
 sphinx:
   configuration: docs/conf.py
-# Set the version of Python and other tools you might need
 python:
-  version: 3.8
   install:
     - requirements: envs/requirements-doc.txt
 submodules:
   recursive: false
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3"
