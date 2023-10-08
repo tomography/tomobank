@@ -16,6 +16,8 @@
 import sys
 import os
 
+import sphinx_rtd_theme
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -23,8 +25,8 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- General configuration ------------------------------------------------
 
-# If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+# We require sphinx >=2 because of sphinxcontrib.bibtex,
+needs_sphinx = '2.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
