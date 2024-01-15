@@ -76,6 +76,11 @@ def reconstruct(h5fname, sino, rot_center, blocked_views=None):
 
     # Read APS 32-BM raw data.
     proj, flat, dark, theta = dxchange.read_aps_32id(h5fname, sino=sino)
+
+    # Fix if theta > #projections
+    if len(theta) > proj.shape[0]:
+        print("WARNING: correcting the number of angles: " + str(len(theta)) + " -> " + str(proj.shape[0]))
+        theta = theta[0:proj.shape[0]]
         
     # Manage the missing angles:
     if blocked_views is not None:
