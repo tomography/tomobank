@@ -156,7 +156,7 @@ Spheres Translating
 
 The spheres translating phantom consists of 16 spheres of equal and constant attenuation each moving independently. The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
-:download:`https://g-c23ae.fd635.8443.data.globus.org/spheres_translating.zip`
+:download:`https://g-a0400.fd635.8443.data.globus.org/phantom_00029/spheres_translating.zip`
 
 .. |sp00000| image:: ../img/pt4/spheres/2dview.png
     :width: 300pt
@@ -174,7 +174,7 @@ Bread Baking
 
 The bread baking phantom takes inspiration from a loaf of bread rising during baking. Throughout its evolution it expands while voids appear that also expand. In its final state the phantom has seven voids. To emulate conservation of mass, the phantom reduces in density as it expands. This manifests as phantom's main ellipsoid decreasing in attenuation proportionally to its volume  ( :math:`\mu(t) = \mu(0) \frac{V(t)}{V(0)}`, where :math:`\mu(t)` and :math:`V(t)` are the attenuation and volume at time :math:`t` ). The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
-:download:`https://g-c23ae.fd635.8443.data.globus.org/bread_baking.zip`
+:download:`https://g-a0400.fd635.8443.data.globus.org/phantom_00029/bread_baking.zip`
 
 .. |bb00000| image:: ../img/pt4/bread/vol00000.png
     :width: 60pt
@@ -213,7 +213,7 @@ Tensile Fracture
 
 The tensile failure phantom emulates a sample undergoing a tensile test to failure. This phantom exhibit both motion and fracturing dynamics. In the first half of the test, the sample stretches vertically and contracts in radius such that its volume remains constant. At :math:`t = 0.5`, the sample fractures and the two halves begin to move away from each other. The phantom is sampled at 20 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
-:download:`https://g-c23ae.fd635.8443.data.globus.org/tensile_fracture.zip`
+:download:`https://g-a0400.fd635.8443.data.globus.org/phantom_00029/tensile_fracture.zip`
 
 .. |fd00000| image:: ../img/pt4/fracture_deform/vol00000_ZX256.png
     :width: 60pt
@@ -252,7 +252,7 @@ Brazil Crush
 
 The Brazil crush phantom represents a sample undergoing the Brazilian test. In this test a cylindrical sample is placed between two jaws which apply compressive load to the sample. This results in a tensile load on the sample that increases until fracture. In the phantom, multiple fractures appear and close up. For simplicity, the jaws have been modelled nonphysically as they form a contiguous piece of material, however the contact points between the jaws and the sample still close with time. The phantom is sampled at 10 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
-:download:`https://g-c23ae.fd635.8443.data.globus.org/brazil_crush.zip`
+:download:`https://g-a0400.fd635.8443.data.globus.org/phantom_00029/brazil_crush.zip`
 
 .. |bc00000| image:: ../img/pt4/brazil/vol00000.png
     :width: 60pt
@@ -290,7 +290,7 @@ Fluid Flow
 
 The fluid flow phantom gives an example of fluid flowing through a porous medium. This has been implemented as the fluid level rising uniformly in time inside the porous medium. The phantom is sampled at 5 time steps with volumes of size :math:`256^3`. The projection data consists of 400 projections with a fixed angle and time step per projection and at size :math:`256^2`. The projections cover the range :math:`[0,8\pi)` where successive revolutions capture the interleaving angles.
 
-:download:`https://g-c23ae.fd635.8443.data.globus.org/fluid_flow.zip`
+:download:`https://g-a0400.fd635.8443.data.globus.org/phantom_00029/fluid_flow.zip`
 
 .. |ff00000| image:: ../img/pt4/fluid_flow/vol00000_ZX256.png
     :width: 60pt
