@@ -96,7 +96,7 @@ A laminigraphy reconstruction using `tomocupy <https://tomocupy.readthedocs.io/>
 
 
 Brain slab
-----------
+~~~~~~~~~~
 
 Brain slab is a laminography dataset presented at :cite:`nikitin:2024`. This is referred in the paper as brain_x2y1.h5.
 
