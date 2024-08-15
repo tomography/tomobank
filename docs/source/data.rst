@@ -18,6 +18,7 @@ perform a basic reconstruction using tomoPy  :cite:`Gursoy:14a` use: ::
    data/docs.data.nano
    data/docs.data.phasecontrast   
    data/docs.data.porosity
+   data/docs.data.radio   
    data/docs.data.rings   
    data/docs.data.roundrobin
    data/docs.data.spheres
