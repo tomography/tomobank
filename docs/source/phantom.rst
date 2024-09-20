@@ -6,9 +6,9 @@ and  distributed in the data exchange file format :cite:`decarlo:02` together wi
 to generate them (see individual phantom home page) to load and perform a basic 
 reconstruction using tomoPy  :cite:`Gursoy:14a`
 
-To reconstruct the phantom with tomopy  you may run these
+To reconstruct the phantom with tomopy  you may run the phantom
 `Jupyter notebook <https://jupyter-notebook.readthedocs.io/en/stable/>`_
-examples on your local machine or run the equivalent Python
+example on your local machine or run the equivalent Python
 scripts from `here <https://github.com/tomography/tomobank/tree/master/docs/source/ipynb/>`_.
 
 
