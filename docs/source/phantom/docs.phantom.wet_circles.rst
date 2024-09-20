@@ -35,12 +35,8 @@ The ground truth, sinogram and projection are obtained with:
     sino, probe = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
-To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script:
+To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  you may run the phantom `Jupyter notebook <https://jupyter-notebook.readthedocs.io/en/stable/>`_ example on your local machine or run the equivalent Python scripts from `here <https://github.com/tomography/tomobank/tree/master/docs/source/ipynb/>`_.
 
-::
-
-    tomopy recon --file-name phantom_00007.h5
 
 +---------------+----------------+------------------------+--------------+------------+--------------------+
 |  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |

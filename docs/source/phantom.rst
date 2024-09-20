@@ -6,12 +6,14 @@ and  distributed in the data exchange file format :cite:`decarlo:02` together wi
 to generate them (see individual phantom home page) to load and perform a basic 
 reconstruction using tomoPy  :cite:`Gursoy:14a`
 
-::
+To reconstruct the phantom with tomopy  you may run the phantom
+`Jupyter notebook <https://jupyter-notebook.readthedocs.io/en/stable/>`_
+example on your local machine or run the equivalent Python
+scripts from `here <https://github.com/tomography/tomobank/tree/master/docs/source/ipynb/>`_.
 
-    tomopy recon --file-name phantom_00001.h5
 
 .. toctree::
-
+   
    phantom/docs.phantom.standard
    phantom/docs.phantom.wet_circles
    phantom/docs.phantom.foams
