@@ -353,7 +353,7 @@ The coal sample inside the environmental cell was rotated by 180 deg every 15 mi
 
 The first image (tomo_00102) captures the sample's lower section after establishing pressure-temperature (PT) conditions favorable for methane-hydrate growth/dissociation. Here, the system remains quasi-stationary with no subsecond flow processes. The second image (tomo_00103), taken 12 hours later, shows the middle-upper section of the sample, where intensive subsecond flow processes occurred during scanning due to cryogenic suction.
 
-.. _tomo_00102: https://app.globus.org/file-manager?origin_id=42c88e95-a510-415f-8c78-86e23a905e09&origin_path=%2FIPGG%2Ftest%2F2019-08-GH-coal%2F
+.. _tomo_00102: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00102%2F
 
 .. |00102| image:: ../img/tomo_00102.png
     :width: 20pt
@@ -392,7 +392,7 @@ The first image (tomo_00102) captures the sample's lower section after establish
 +-----------------------------+---------------------------------------------------------+
 
 
-.. _tomo_00103: https://app.globus.org/file-manager?origin_id=42c88e95-a510-415f-8c78-86e23a905e09&origin_path=%2FIPGG%2Ftest%2F2019-08-GH-coal%2F
+.. _tomo_00103: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00103%2F
 
 .. |000103| image:: ../img/tomo_00103.png
     :width: 20pt
