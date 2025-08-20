@@ -58,7 +58,7 @@ a high-quality dataset with many projections and limited noise. For other sample
 
 Each dataset consists of a HDF5 file with two entries: :code:`projs` is the projections data (already flatfielded and
 linearized) and :code:`angs` is a list of projection angles in radians. An example script that reconstructs a
-dataset with the ASTRA toolbox is available `here <https://github.com/tomochallenge/tomochallenge_utils/blob/master/foam_phantom_reconstruct_astra.py>`_.
+dataset with the ASTRA toolbox is available at `tomochallenge <https://github.com/tomochallenge/tomochallenge_utils/blob/master/foam_phantom_reconstruct_astra.py>`_.
 
 Data for the following acquisition modes are included: 
 
