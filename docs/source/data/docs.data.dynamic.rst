@@ -342,3 +342,90 @@ python script::
 +-----------------------------+---------------------------------------------------------+
 
 
+Methane Hydrate Formation
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This dataset contains data from a dynamic in situ micro-computed tomography experiment of methane-hydrate formation in porous coal samples :cite:`nikitin2021dynamic`.
+
+Experimental study of gas-hydrate formation in coal samples is challenging because of the coal microporous structure and lower X-ray contrast. Synchrotron X-ray tomographic microscopy was applied to achieve sufficient contrast levels to separate all the materials of interest (gas, water, coal, and gas hydrate). The experiment was conducted at Sector 2-BM of the Advanced Photon Source.
+
+The coal sample inside the environmental cell was rotated by 180 deg every 15 min and scanned to capture the evolution of methane-hydrate morphology. During the experiment, hydrate formation was accompanied by water movement driven by cryogenic suction, which occurred as sequences of rapid and short flows with longer equilibrium states in between.
+
+The first image (tomo_00102) captures the sample's lower section after establishing pressure-temperature (PT) conditions favorable for methane-hydrate growth/dissociation. Here, the system remains quasi-stationary with no subsecond flow processes. The second image (tomo_00103), taken 12 hours later, shows the middle-upper section of the sample, where intensive subsecond flow processes occurred during scanning due to cryogenic suction.
+
+.. _tomo_00102: https://app.globus.org/file-manager?origin_id=42c88e95-a510-415f-8c78-86e23a905e09&origin_path=%2FIPGG%2Ftest%2F2019-08-GH-coal%2F
+
+.. |00102| image:: ../img/tomo_00102.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |      00102                                              | 
++=============================+=========================================================+
+| Image preview               |      |00102|                                            | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00102_                                        |  
++-----------------------------+---------------------------------------------------------+
+| Instrument                  |      APS 2-BM                                           |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      stable_coal5wtNaBr5p                               |
++-----------------------------+---------------------------------------------------------+
+| Energy                      |      20 keV                                             |
++-----------------------------+---------------------------------------------------------+
+| Sample-to-detector Distance |      100 mm                                             |
++-----------------------------+---------------------------------------------------------+
+| Scan Range                  |      180 degree                                         |
++-----------------------------+---------------------------------------------------------+
+| Number of Projections       |      1500                                               |
++-----------------------------+---------------------------------------------------------+
+| White Fields                |      30                                                 |
++-----------------------------+---------------------------------------------------------+
+| Dark Fields                 |      20                                                 | 
++-----------------------------+---------------------------------------------------------+
+| Exposure Time               |      70 ms                                              |
++-----------------------------+---------------------------------------------------------+
+| Frame rate                  |      1.7 deg/s                                          |
++-----------------------------+---------------------------------------------------------+
+| PixelSize                   |      1.725 µm                                           | 
++-----------------------------+---------------------------------------------------------+
+| Rotation axis location      |      1233                                               |
++-----------------------------+---------------------------------------------------------+
+
+
+.. _tomo_00103: https://app.globus.org/file-manager?origin_id=42c88e95-a510-415f-8c78-86e23a905e09&origin_path=%2FIPGG%2Ftest%2F2019-08-GH-coal%2F
+
+.. |000103| image:: ../img/tomo_00103.png
+    :width: 20pt
+    :height: 20pt
+
++-----------------------------+---------------------------------------------------------+
+| tomo_ID                     |      00103                                              | 
++=============================+=========================================================+
+| Image preview               |      |00103|                                            | 
++-----------------------------+---------------------------------------------------------+
+| Downloads                   |      tomo_00103_                                        |  
++-----------------------------+---------------------------------------------------------+
+| Instrument                  |      APS 2-BM                                           |
++-----------------------------+---------------------------------------------------------+
+| Sample name                 |      unstable_coal5wtNaBr5p                               |
++-----------------------------+---------------------------------------------------------+
+| Energy                      |      20 keV                                             |
++-----------------------------+---------------------------------------------------------+
+| Sample-to-detector Distance |      100 mm                                             |
++-----------------------------+---------------------------------------------------------+
+| Scan Range                  |      180 degree                                         |
++-----------------------------+---------------------------------------------------------+
+| Number of Projections       |      1500                                               |
++-----------------------------+---------------------------------------------------------+
+| White Fields                |      30                                                 |
++-----------------------------+---------------------------------------------------------+
+| Dark Fields                 |      20                                                 | 
++-----------------------------+---------------------------------------------------------+
+| Exposure Time               |      70 ms                                              |
++-----------------------------+---------------------------------------------------------+
+| Frame rate                  |      1.7 deg/s                                          |
++-----------------------------+---------------------------------------------------------+
+| PixelSize                   |      1.725 µm                                           | 
++-----------------------------+---------------------------------------------------------+
+| Rotation axis location      |      1238                                               |
++-----------------------------+---------------------------------------------------------+
