@@ -18,14 +18,18 @@ radiography sequences.
 
 .. _rad_00003: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Frad_00003%2F
 
-.. |rad00003| image:: ../img/rad_00003.png
+.. |rad00003h| image:: ../img/rad_00003_high_res.png
+    :width: 20pt
+    :height: 20pt
+
+.. |rad00003l| image:: ../img/rad_00003_low_res.png
     :width: 20pt
     :height: 20pt
 
 +------------------------+---------------------------------------+
 | rad_ID                 | 00003                                 |
 +========================+=======================================+
-| Image preview          | |rad00003|                            |
+| Image preview          | |rad00003l|  |rad00003h|              |
 +------------------------+---------------------------------------+
 | Downloads              | rad_00003_                            |
 +------------------------+---------------------------------------+
@@ -57,14 +61,18 @@ This dataset provides paired low- and high-resolution sequences collected using 
 
 .. _rad_00004: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Frad_00004%2F
 
-.. |rad00004| image:: ../img/rad_00004.png
+.. |rad00004h| image:: ../img/rad_00004_high_res.png
+    :width: 20pt
+    :height: 20pt
+
+.. |rad00004l| image:: ../img/rad_00004_low_res.png
     :width: 20pt
     :height: 20pt
 
 +------------------------+---------------------------------------+
 | rad_ID                 | 00004                                 |
 +========================+=======================================+
-| Image preview          | |rad00004|                            |
+| Image preview          ||rad00004l|  |rad00004h|               |
 +------------------------+---------------------------------------+
 | Downloads              | rad_00004_                            |
 +------------------------+---------------------------------------+
