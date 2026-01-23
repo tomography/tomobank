@@ -8,7 +8,7 @@ with the high temporal resolution of an ultra-high-speed camera sequence.
 * Code: https://github.com/xray-imaging/XFusion
 * Documentation: https://xrayfusion.readthedocs.io/
 
-If you use XFusion, we kindly request that you cite :cite:`Tang:25`.
+If you use XFusion, we kindly request that you cite :cite:`Tang:25` and :cite:`Tang:25b`.
 
 User Data (Testing Case)
 ~~~~~~~~~~~~~~~~~~~~~~~~
