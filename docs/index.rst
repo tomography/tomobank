@@ -50,6 +50,7 @@ Content
 
    source/about
    source/usage
+   source/ai
    source/data
    source/phantom
    source/volumes
