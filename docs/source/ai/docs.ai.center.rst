@@ -11,6 +11,9 @@ For example::
   $ tomocupy recon_steps --file-name /data/2022-07/Stock/WKH_1490U_1_050.h5 --rotation-axis 1214.5  --reconstruction-type try --remove-stripe-method fw --dezinger 3
   $ tomocupy recon --file-name /data/2022-07/Stock/WKH_1490U_1_050.h5 --rotation-axis 1214.5  --reconstruction-type try 
 
+.. _ai_00001: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fai_00001%2F
+
+The data are avaialable at tomo_00031_
 
 .. list-table:: 2022-07-Stock
    :header-rows: 1
