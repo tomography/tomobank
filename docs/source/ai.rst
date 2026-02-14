@@ -7,3 +7,4 @@ TomoBank also hosts datasets curated for AI/ML development and benchmarking in x
 
    ai/docs.ai.xfusion   
    ai/docs.ai.center
+   ai/docs.ai.diffusion
