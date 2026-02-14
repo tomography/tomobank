@@ -1,7 +1,10 @@
 Porosity
 --------
 
-N2-1, Ar-1, Ar-2, and Ar-3 are CT datasets of a few different gas atomized 17-4 stainless powders. They have various levels of entrapped gas porosity which were intentionally introduced during atomization.
+Stainless Powders
+~~~~~~~~~~~~~~~~~
+
+N2-1, Ar-1, Ar-2, and Ar-3 are CT datasets of a few different gas atomized 17-4 . They have various levels of entrapped gas porosity which were intentionally introduced during atomization.
 
 .. image:: ../img/tomo_00090.png
     :width: 512pt
