@@ -13,7 +13,7 @@ For example::
 
 .. _ai_00001: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fai_00001%2F
 
-The data are avaialable at tomo_00031_
+The data are avaialable at ai_00001_
 
 .. list-table:: 2022-07-Stock
    :header-rows: 1
