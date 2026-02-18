@@ -159,9 +159,6 @@ The data are avaialable at ai_00001_
    * - WKH_1490U_1_049
      - 1222.0
      - tomocupy recon_steps --file-name /data/2022-07/Stock/WKH_1490U_1_049.h5 --rotation-axis 1222.0  --reconstruction-type try --remove-stripe-method fw
-   * - WKH_1490U_1_050
-     - 1214.5
-     - tomocupy recon_steps --file-name /data/2022-07/Stock/WKH_1490U_1_050.h5 --rotation-axis 1214.5  --reconstruction-type try --remove-stripe-method fw --dezinger 3
    * - WKH_1504L_1_060
      - 1222.0
      - tomocupy recon_steps --file-name /data/2022-07/Stock/WKH_1504L_1_060.h5 --rotation-axis 1222.0  --reconstruction-type try --remove-stripe-method fw
