@@ -1,10 +1,16 @@
 Center
 ------
 
-Center contains a list of dataset used to train an AI agent to find the center of rotation of tomographic data sets.
+Center contains a list of datasets used to train an AI agent to find the center of rotation of tomographic data sets.
 
-tomocupy was run using the **optimal** parameters selected by user (see table below) with the --reconstruction-type set to try. 
+tomocupy was run using the **default** parameters selected by user (see table below) with the --reconstruction-type set to try. 
 A second try reconstruction was run without user selected parameters.
+
+
+ai_00001
+~~~~~~~~
+
+Static (bone) sample with strong absorption.
 
 For example::
 
@@ -13,7 +19,7 @@ For example::
 
 .. _ai_00001: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fai_00001%2F
 
-The data are avaialable at ai_00001_
+The data are available at ai_00001_
 
 .. list-table:: 2022-07-Stock
    :header-rows: 1
@@ -288,3 +294,70 @@ The data are avaialable at ai_00001_
    * - D365_42_44_delta2_107
      - 1272.0
      - tomocupy recon_steps --file-name /data/2022-07/Stock/D365_42_44_delta2_107.h5 --rotation-axis 1272.0  --reconstruction-type try --remove-stripe-method fw
+
+
+ai_00002
+~~~~~~~~
+
+Dynamic (wood) sample with water.
+
+For example::
+
+  $ tomocupy recon --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_003.h5 --rotation-axis 1948 --reconstruction-type try
+
+.. _ai_00002: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fai_00002%2F
+
+The data are available at ai_00002_
+
+.. |tomolog_ai_00002_01| image:: ../img/tomolog_ai_00002_01.png
+    :width: 20pt
+    :height: 20pt
+
+.. |tomolog_ai_00002_02| image:: ../img/tomolog_ai_00002_02.png
+    :width: 20pt
+    :height: 20pt
+
+.. |tomolog_ai_00002_03| image:: ../img/tomolog_ai_00002_03.png
+    :width: 20pt
+    :height: 20pt
+
+.. |tomolog_ai_00002_04| image:: ../img/tomolog_ai_00002_04.png
+    :width: 20pt
+    :height: 20pt
+
+.. |tomolog_ai_00002_05| image:: ../img/tomolog_ai_00002_05.png
+    :width: 20pt
+    :height: 20pt
+
+
+.. list-table:: 2023-02-Jakes
+   :header-rows: 1
+
+   * - Sample
+     - Tomolog
+     - rotation-axis
+     - Recon command
+   * - E119_3_GR_01_003
+     - |tomolog_ai_00002_01|
+     - 1948
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_003.h5 --rotation-axis 1948 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_GR_01_003_rec/default/try_center
+   * - E119_3_GR_01_004
+     - |tomolog_ai_00002_02|
+     - 1948.5
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_004.h5 --rotation-axis 1948.5 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_GR_01_004_rec/default/try_center
+   * - E119_3_GR_01_005
+     - |tomolog_ai_00002_03|
+     - 1947.5
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_005.h5 --rotation-axis 1947.5 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_GR_01_005_rec/default/try_center
+   * - E119_3_GR_01_006
+     - |tomolog_ai_00002_04|
+     - 1947.5
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_006.h5 --rotation-axis 1947.5 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_GR_01_006_rec/default/try_center
+   * - E119_3_GR_01_007
+     - |tomolog_ai_00002_05|
+     - 1945
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_GR_01_007.h5 --rotation-axis 1945 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_GR_01_007_rec/default/try_center
+   * - E119_3_LW_008
+     - 
+     - 1625.17
+     - tomocupy recon_steps --file-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/E119_3_LW_008.h5 --rotation-axis 1625.17 --reconstruction-type try --out-path-name /gdata/dm/2BM/2023-02/Jakes-2023-02/data/Jakes_rec/E119_3_LW_008_rec/default/try_center
