@@ -24,7 +24,7 @@ forward model and evaluation protocol described in the DM4CT paper.
 If you use these data sets, please cite the DM4CT paper at :cite:`shi2026dmct`.
 
 +---------------------------------+-------------------------------------+
-| Instrument                      |        Synchrotron X-ray CT         |
+| Instrument                      |        Elettra Sincrotrone Trieste  | 
 +---------------------------------+-------------------------------------+
 | Energy                          |        24 keV                       |
 +---------------------------------+-------------------------------------+
@@ -61,14 +61,29 @@ https://zenodo.org/records/15420527
 .. _tomo_00108: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00108%2F
 .. _tomo_00109: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00109%2F
 
+.. |tomo_00108_proj| image:: ../img/tomo_00108_proj.png
+    :width: 48pt
+    :height: 20pt
 
-+-------------+--------------------+----------------------------+--------------------------+
-| Tomo ID     | Sample             | Contents                   | Rotation axis location   |
-+-------------+--------------------+----------------------------+--------------------------+
-| tomo_00108_ | F3_1 (rock sample) | projections + recon slices |      -61                 |
-+-------------+--------------------+----------------------------+--------------------------+
-| tomo_00109_ | F3_2 (rock sample) | projections + recon slices |      -62                 |
-+-------------+--------------------+----------------------------+--------------------------+
+.. |tomo_00108_recon| image:: ../img/tomo_00108_recon.png
+    :width: 48pt
+    :height: 48pt
+
+.. |tomo_00109_proj| image:: ../img/tomo_00109_proj.png
+    :width: 48pt
+    :height: 20pt
+
+.. |tomo_00109_recon| image:: ../img/tomo_00109_recon.png
+    :width: 48pt
+    :height: 48pt
+
++-------------+--------------------+----------------------------+--------------------------+--------------------------------------------+--------------------------------------------+
+| Tomo ID     | Sample             | Contents                   | Rotation axis location   | Projection Preview                         |Reconstruction Preview                      |
++-------------+--------------------+----------------------------+--------------------------+--------------------------------------------+--------------------------------------------+
+| tomo_00108_ | F3_1 (rock sample) | projections + recon slices |      -61                 | |tomo_00108_proj|                          | |tomo_00108_recon|                         |
++-------------+--------------------+----------------------------+--------------------------+--------------------------------------------+--------------------------------------------+
+| tomo_00109_ | F3_2 (rock sample) | projections + recon slices |      -62                 | |tomo_00109_proj|                          | |tomo_00109_recon|                         |
++-------------+--------------------+----------------------------+--------------------------+--------------------------------------------+--------------------------------------------+
 
 
 Notes
