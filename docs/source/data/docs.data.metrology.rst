@@ -13,8 +13,9 @@ and dimensional metrology workflows against a tactile coordinate measuring machi
 inaccessible internal geometry. An auxiliary Chinook rotor-hub blade CT data set is included as an
 additional high-attenuation reconstruction reference; it is not part of the CMM thickness benchmark.
 
-All data were collected on a Comet Yxlon FF35 cone-beam CT system over a 360 degree scan range with a
-20 degree inclination angle. The Ti-6Al-4V and Inconel 625 artefacts were reconstructed with CERA using a
+All data were collected on a Comet Yxlon FF35 cone-beam CT system over a 360 degree scan range. The
+Ti-6Al-4V and Inconel 625 artefacts were scanned with a 20 degree inclination angle, while the Chinook
+blade was scanned vertically (0 degree inclination). The Ti-6Al-4V and Inconel 625 artefacts were reconstructed with CERA using a
 single-material beam-hardening correction; surface-determination products were generated in Dragonfly
 (Fast Surface Finding, FSF) at FSF 0.2, 0.4 and 0.6 for Ti-6Al-4V and at FSF 0.6 plus a deep-learning route
 for Inconel 625. For the Chinook blade, CERA / LDA reference data and FSF 0.6 surfaces are provided where
@@ -59,15 +60,15 @@ Experimental conditions
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Voxel size                     | 33.3 µm                     | 33.3 µm                     | 37.5 µm                     |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
-| Inclination angle              | 20 deg                      | 20 deg                      | 20 deg                      |
+| Inclination angle              | 20 deg                      | 20 deg                      | 0 deg                       |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Magnification                  | 4.5                         | 4.5                         | 4.0                         |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Filter / attenuator            | Cu, 1 mm                    | Cu, 0.4 mm                  | Cu, 1 mm                    |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
-| Focus-detector distance (FDD)  | 6000 mm                     | 6000 mm                     | 6000 mm                     |
+| Focus-detector distance (FDD)  | 900 mm                      | 900 mm                      | 900 mm                      |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
-| Focus-object distance (FOD)    | 1333.3 mm                   | 1333.3 mm                   | 1500.0 mm                   |
+| Focus-object distance (FOD)    | 200 mm                      | 200 mm                      | 225 mm                      |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Voltage                        | 180 kV                      | 190 kV                      | 195 kV                      |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
@@ -79,7 +80,7 @@ Experimental conditions
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Integrated images / projection | 3                           | 3                           | 3                           |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
-| Detector sensitivity           | 50                          | 25                          | 25                          |
+| Detector sensitivity           | 50                          | 25                          | 50                          |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
 | Nominal scan duration          | 64.2 min                    | 75.0 min                    | 62.5 min                    |
 +--------------------------------+-----------------------------+-----------------------------+-----------------------------+
