@@ -229,6 +229,10 @@ this dataset is to use the `recon_hdf5` function in Tomosaic. The source codes o
 Berea sandstone
 ~~~~~~~~~~~~~~~
 
+.. image:: ../img/rec12_summary.png
+    :width: 100%
+    :alt: Reconstruction overview of the Berea sandstone volume: slices, zooms at full resolution, and acquisition parameters
+
 High-resolution micro-CT of a cylindrical Berea sandstone core, about 3 cm in diameter and 8 cm tall,
 scanned at 1.889 µm pixel size on the APS 19-BM FACT micro-CT instrument (proposal 1026094). The core
 is wider than the detector field of view, so it was acquired as a mosaic of off-axis 360° scans: two
