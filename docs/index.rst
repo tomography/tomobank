@@ -13,39 +13,34 @@ beamline scientists and experimentalists, to accelerate the development of tomog
 reconstruction and 3D visualization methods and to speed up their implementation in the various 
 synchrotron facility data analysis software packages.
 
+If you use the tomoBank Toolbox for your research, we would appreciate it if you would refer to the following papers :cite:`decarlo:01`:
+
+	De Carlo, Francesco, et al. "TomoBank: a tomographic data repository for computational x-ray science." Measurement Science and Technology 29.3 (2018): 034004. http://www.doi.org/10.1088/1361-6501/aa9c19
+
+From 2016 to 2021, TomoBank relied on `Petrel <http://petrel.alcf.anl.gov/>`_ :cite:`petrel:19`, a resource of the 
+`Argonne Leadership Computing Facility <https://www.alcf.anl.gov>`_, which is a U.S. Department of Energy (DOE) Office of Science User Facility located at Argonne National Laboratory and supported under Contract DE-AC02-06CH11357.
+
+From 2022 TomoBank relies on `Eagle <https://www.alcf.anl.gov/alcf-resources/storage-and-networking>`_, a resource of the 
+`Argonne Leadership Computing Facility <https://www.alcf.anl.gov>`_, which is a U.S. Department of Energy (DOE) Office of Science User Facility located at Argonne National Laboratory and supported under Contract DE-AC02-06CH11357.
+
 Features
 --------
 
-* Tomographic datasets and phantom repository `Globus <https://www.globus.org/>`_
-* Python scripts to read and reconstruct all data sets (:download:`tomopy_rec.py <../docs/demo/tomopy_rec.py>`)
+* Tomographic datasets and phantom repository available via `Globus <https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F>`_
 
-Usage: ::
 
-    python tomopy_rec.py -h
-	usage: tomopy_rec.py [-h] [--axis [AXIS]] [--type [TYPE]] [--nsino [NSINO]]
-                     fname
-
-	positional arguments:
-  		fname            file name of a tmographic dataset: /data/sample.h5
-
-	optional arguments:
-  		-h, --help       show this help message and exit
-  		--axis [AXIS]    rotation axis location: 1024.0 (default 1024.0)
-  		--type [TYPE]    reconstruction type: full (default slice)
-  		--nsino [NSINO]  location of the sinogram used by slice reconstruction (0
-                   		 top, 1 bottom): 0.5 (default 0.5)
+* Python scripts to read and reconstruct all data sets
 
 Example: ::
 
-    python tomopy_rec.py /tomobank/tomo_00001.h5 --axis 1024
+    $ tomopy recon --file-name tomo_0001.h5 --rotation-axis 1024.0
 
 
 Contribute
 ----------
 
-* Documentation: https://github.com/tomography/tomobank/tree/master/doc
-* Issue Tracker: https://github.com/tomography/tomobank/docs/issues
-* Source Code: https://github.com/tomography/tomobank/project
+* Documentation: https://github.com/tomography/tomobank/tree/master/
+* Issue Tracker: https://github.com/tomography/tomobank/issues
 
 Content
 -------
@@ -55,8 +50,10 @@ Content
 
    source/about
    source/usage
+   source/ai
    source/data
    source/phantom
+   source/volumes
    source/publish
    source/credits
    source/license

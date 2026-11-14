@@ -1,6 +1,151 @@
 Mosaic
 ------
 
+Foam
+----
+
+Foam is a 3 x 3 mosaic tomography data set used as a test data set during the development of 
+`mosaic <https://github.com/xray-imaging/mosaic>`_, a command line inteface from mosaic tomography 
+data processing.
+
+Data sets were collected with the following mosaic parameters:
+
+::
+
+    image   size (x, y) in pixels: (2448, 900)
+    mosaic shift (x, y) in pixels: (2202, 811)
+
+
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|   Tile location     |   X (h) tile position (mm)   |  Y (v) tile position (mm)   |  file name                     |
++=====================+==============================+=============================+================================+
+|        x0y0         |      -3.800300;              |         15.000000           |      mosaic_test_001.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x1y0         |      -0.000300;              |         15.000000           |      mosaic_test_002.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x2y0         |       3.799700;              |         15.000000           |      mosaic_test_003.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x0y1         |      -3.800300;              |         16.400000           |      mosaic_test_004.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x1y1         |      -0.000300;              |         16.400000           |      mosaic_test_005.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x2y1         |       3.799700;              |         16.400000           |      mosaic_test_006.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x0y2         |      -3.800300;              |         17.800000           |      mosaic_test_007.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x1y2         |      -0.000300;              |         17.800000           |      mosaic_test_008.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+|        x2y2         |       3.799700;              |         17.800000           |      mosaic_test_009.h5        |
++---------------------+------------------------------+-----------------------------+--------------------------------+
+
+
+mosaic file name grid:
+
++------------+------------------------+---------------------------+-------------------------+
+|            |         x_0            |             x_1           |          x_2            |
++============+========================+===========================+=========================+
+|     y_0    |    mosaic_test_001.h5  |       mosaic_test_002.h5  |    mosaic_test_003.h5   |
++------------+------------------------+---------------------------+-------------------------+
+|     y_1    |    mosaic_test_004.h5  |       mosaic_test_005.h5  |    mosaic_test_006.h5   |
++------------+------------------------+---------------------------+-------------------------+
+|     y_2    |    mosaic_test_007.h5  |       mosaic_test_008.h5  |    mosaic_test_009.h5   |
++------------+------------------------+---------------------------+-------------------------+
+
+
+
+
+Each data set is collected with the following parameters:
+
++-------------------------+----------------------------------------+-----------+
+| tomo_ID                 |  00094                                 |           |  
++=========================+========================================+===========+
+| Image preview           | |00094|                                |           |  
++-------------------------+----------------------------------------+-----------+
+| Recon preview           | |00094_rec|                            |           |  
++-------------------------+----------------------------------------+-----------+
+| Download                | tomo_00094_                            |           |  
++-------------------------+----------------------------------------+-----------+
+| camera_distance         | 100.00000000000011                     | mm        |
++-------------------------+----------------------------------------+-----------+
+| camera_objective        | 2x                                     |           |
++-------------------------+----------------------------------------+-----------+
+| resolution              | 1.725                                  | microns   |
++-------------------------+----------------------------------------+-----------+
+| scintillating_thickness | 50.0                                   | microns   |
++-------------------------+----------------------------------------+-----------+
+| scintillator_type       | LuAG:Ce                                |           |
++-------------------------+----------------------------------------+-----------+
+| size_x                  | 2448                                   |           |
++-------------------------+----------------------------------------+-----------+
+| size_y                  | 900                                    |           |
++-------------------------+----------------------------------------+-----------+
+| instrument_name         | Micro-tomography                       |           |
++-------------------------+----------------------------------------+-----------+
+| energy                  | 25.51                                  | keV       |
++-------------------------+----------------------------------------+-----------+
+| beamline                | 2-BM-A                                 |           |
++-------------------------+----------------------------------------+-----------+
+| current                 | 102.038222190282                       | mA        |
++-------------------------+----------------------------------------+-----------+
+| fill_mode               | 0+24x1                                 |           |
++-------------------------+----------------------------------------+-----------+
+| source_name             | Advanced Photon Source                 |           |
++-------------------------+----------------------------------------+-----------+
+| top_up                  | Enable                                 |           |
++-------------------------+----------------------------------------+-----------+
+| description_2           | 25.51 kEv                              |           |
++-------------------------+----------------------------------------+-----------+
+| description_3           | 100mm sample to detector off center    |           |
++-------------------------+----------------------------------------+-----------+
+| title                   | mosaic_test                            |           |
++-------------------------+----------------------------------------+-----------+
+| institution             | Advanced Photon Source                 |           |
++-------------------------+----------------------------------------+-----------+
+| file_name               | mosaic_test                            |           |
++-------------------------+----------------------------------------+-----------+
+| file_path               | /local/data/2021-09/Pasha/             |           |
++-------------------------+----------------------------------------+-----------+
+| full_file_name          | mosaic_test_001.h5                     |           |
++-------------------------+----------------------------------------+-----------+
+| sample_name             | test mosaic scan                       |           |
++-------------------------+----------------------------------------+-----------+
+| num_dark_fields         | 40                                     |           |
++-------------------------+----------------------------------------+-----------+
+| num_flat_fields         | 40                                     |           |
++-------------------------+----------------------------------------+-----------+
+| sample_in_x             | -3.8                                   | mm        |
++-------------------------+----------------------------------------+-----------+
+| sample_in_y             | 0.0                                    | mm        |
++-------------------------+----------------------------------------+-----------+
+| sample_out_x            | 15.0                                   | mm        |
++-------------------------+----------------------------------------+-----------+
+| sample_out_y            | 0.0                                    | mm        |
++-------------------------+----------------------------------------+-----------+
+| num_angles              | 6000                                   |           |
++-------------------------+----------------------------------------+-----------+
+| return_rotation         | Yes                                    |           |
++-------------------------+----------------------------------------+-----------+
+| rotation_speed          | 0.19518786863429474                    | degrees/s |
++-------------------------+----------------------------------------+-----------+
+| rotation_start          | 0.0                                    | degrees   |
++-------------------------+----------------------------------------+-----------+
+| rotation_step           | 0.03000973466739211                    | degrees   |
++-------------------------+----------------------------------------+-----------+
+| start_date              | 2021-09-27T16:51:55-0500               |           |
++-------------------------+----------------------------------------+-----------+
+| end_date                | 2021-09-27T17:07:57-0500               |           |
++-------------------------+----------------------------------------+-----------+
+
+
+.. _tomo_00094: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00094%2F
+
+.. |00094| image:: ../img/tomo_00094.png
+    :width: 20pt
+    :height: 20pt
+
+.. |00094_rec| image:: ../img/tomo_00094_rec.png
+    :width: 20pt
+    :height: 20pt
 
 
 Activated charcoal
@@ -27,7 +172,7 @@ relative shift x to bottom neightbor.
     :width: 20pt
     :height: 20pt
 
-.. _tomo_00078: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00078%2F
+.. _tomo_00078: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00078%2F
 
 .. _tomosaic: https://github.com/mdw771/tomosaic2.git
 
@@ -70,7 +215,7 @@ To load the data sets and perform a basic reconstruction using `tomopy <https://
 
 Example: ::
 
-    python tomopy_rec.py tomo_00078.h5 --axis 3316
+    tomopy recon --file-name tomo_00078.h5 --rotation-axis 3316
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
@@ -79,3 +224,90 @@ to reconstruct belong to. You can do this with the aid of `shifts.txt`. For exam
 of tile relative to the first row is 997, and that of the third row relative to the second row is 996. So slice
 997 to 1993 will be on the second row, corresponding to an axis of 3324. The most convenient way to reconstruct
 this dataset is to use the `recon_hdf5` function in Tomosaic. The source codes of Tomosaic can be found here: tomosaic_
+
+
+Berea sandstone
+~~~~~~~~~~~~~~~
+
+.. image:: ../img/rec12_summary.png
+    :width: 100%
+    :alt: Reconstruction overview of the Berea sandstone volume: slices, zooms at full resolution, and acquisition parameters
+
+High-resolution micro-CT of a cylindrical Berea sandstone core, about 3 cm in diameter and 8 cm tall,
+scanned at 1.889 µm pixel size on the APS 19-BM FACT micro-CT instrument (proposal 1026094). The core
+is wider than the detector field of view, so it was acquired as a mosaic of off-axis 360° scans: two
+columns (inner and outer) at each height, stepped vertically over 11 heights, for a total of 22 scans.
+
+Complex and heterogeneous pore structures of geological materials strongly influence their hydraulic
+and mechanical properties and govern a wide range of geoscience applications, including water
+infiltration and contaminant migration in soils, hydrocarbon recovery, and CO₂ storage. Digital Rock
+Physics is widely used for numerical simulations of multiphase flow, reactive transport, and rock
+deformation and failure, and high-resolution X-ray microtomography is an essential step for building
+and validating such digital rock models. Representative sample diameter in the industry is 3 cm, while
+the relevant pore-scale processes require µm resolution, which is impossible for conventional
+laboratory X-ray microCT. Berea sandstone is an established benchmark in experimental rock physics
+and is an optimal starting point for this class of measurements.
+
+.. image:: ../img/sandstone_photo.jpg
+    :width: 320px
+    :alt: Berea sandstone core, about 3 cm diameter, next to a tape measure
+
++-----------------------------------------+-----------------------------------------------+
+|             tomo_ID                     | 00115                                         |
++=========================================+===============================================+
+|             Download                    | tomo_00115_                                   |
++-----------------------------------------+-----------------------------------------------+
+|             Instrument                  | APS 19-BM, FACT micro-CT                      |
++-----------------------------------------+-----------------------------------------------+
+|             Sample name                 | Berea sandstone core (3 cm × 8 cm)            |
++-----------------------------------------+-----------------------------------------------+
+|             X-ray energy                | > 70 keV (Ge filter)                          |
++-----------------------------------------+-----------------------------------------------+
+|             Sample-to-detector distance | 604 mm                                        |
++-----------------------------------------+-----------------------------------------------+
+|             Scan range                  | 360 degree (off-axis), per tile               |
++-----------------------------------------+-----------------------------------------------+
+|             Number of projections       | 18001 (0.02° step, ≈ 20 fps), per tile        |
++-----------------------------------------+-----------------------------------------------+
+|             Flat fields                 | 20 at the start of each scan                  |
++-----------------------------------------+-----------------------------------------------+
+|             Dark fields                 | 10 at the start of each scan                  |
++-----------------------------------------+-----------------------------------------------+
+|             Exposure                    | 25 ms inner column, 15 ms outer column        |
++-----------------------------------------+-----------------------------------------------+
+|             Pixel size                  | 1.889 µm                                      |
++-----------------------------------------+-----------------------------------------------+
+|             Detector frame              | 2748 × 8192 px, uint16                        |
++-----------------------------------------+-----------------------------------------------+
+|             Mosaic layout               | 11 heights × 2 columns (22 scans, 082–103)    |
++-----------------------------------------+-----------------------------------------------+
+|             Time per tile scan          | 15.8 min                                      |
++-----------------------------------------+-----------------------------------------------+
+|             Total acquisition time      | 5.9 h (22 scans)                              |
++-----------------------------------------+-----------------------------------------------+
+|             Raw data size               | 17.9 TB                                       |
++-----------------------------------------+-----------------------------------------------+
+|             Rotation axis               | 944 px                                        |
++-----------------------------------------+-----------------------------------------------+
+
+Reconstruction
+^^^^^^^^^^^^^^
+
+Each scan was dark/flat corrected, stitched into one wide sinogram, folded from 360° to 180°, and
+reconstructed with Paganin phase retrieval (α = 1 × 10⁻⁴) and FBP (ramp filter).
+
+Files
+^^^^^
+
++------------------------------------------------+---------------------------------------------------------------------+
+| File                                           | Content                                                             |
++================================================+=====================================================================+
+| ``big_sandstone_full_082.h5`` … ``_103.h5``    | raw scans of the ``full`` series                                    |
+|                                                | (datasets ``exchange/data``, ``data_white``, ``data_dark``, ``theta``) |
++------------------------------------------------+---------------------------------------------------------------------+
+| ``big_sandstone_full_*.config``                | acquisition settings of each scan                                   |
++------------------------------------------------+---------------------------------------------------------------------+
+| ``sandstone_photo.jpg``                        | photo of the core                                                   |
++------------------------------------------------+---------------------------------------------------------------------+
+
+.. _tomo_00115: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00115%2F

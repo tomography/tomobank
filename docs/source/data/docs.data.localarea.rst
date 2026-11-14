@@ -4,9 +4,9 @@ Small ROI
 Small Region of Interest (ROI) includes a series of data sets in which the sample is larger than the field of view (see table below). The related sample description and the experimental conditions are reported in tables below. 
 
 
-.. _tomo_00022: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00022%2F
-.. _tomo_00023: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00023%2F
-.. _tomo_00024: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00024%2F
+.. _tomo_00022: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00022%2F
+.. _tomo_00023: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00023%2F
+.. _tomo_00024: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00024%2F
 
 .. |00022| image:: ../img/tomo_00022.png
     :width: 20pt
@@ -23,14 +23,11 @@ Small Region of Interest (ROI) includes a series of data sets in which the sampl
 Double Bamboo Tin Wire
 ~~~~~~~~~~~~~~~~~~~~~~
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00022.h5 --axis 980
-    python tomopy_rec.py tomo_00023.h5 --axis 893
-    python tomopy_rec.py tomo_00024.h5 --axis 972
+    tomopy recon --file-name tomo_00022.h5 --rotation-axis 980
+    tomopy recon --file-name tomo_00023.h5 --rotation-axis 893
+    tomopy recon --file-name tomo_00024.h5 --rotation-axis 972
 
 +-----------------------------------------+----------------------------+
 |             tomo_ID                     |   00022                    |  
@@ -138,12 +135,9 @@ tomography is making this challenging task even more difficult. Standard solutio
 TOMCAT beamline (e.g. constant padding) are not sufficient in the phase retrieved case :cite:`paganin:02`, 
 if small grey level differences need to be reliably detected.
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00070.h5 --axis 1289
+    tomopy recon --file-name tomo_00070.h5 --rotation-axis 1289
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
@@ -177,7 +171,7 @@ To enable phase retrieval un-comment the appropriate setting in :download:`tomop
 +-----------------------------------------+----------------------------+
 
 
-.. _tomo_00070: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00070%2F
+.. _tomo_00070: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00070%2F
 
 .. |00070| image:: ../img/tomo_00070.png
     :width: 20pt
@@ -188,10 +182,10 @@ TomoLab
 
 A second series of data sets (see table below) were acquired by microfocus CT at the TomoLab station of Elettra using a cone-beam geometry. The sample description and the experimental conditions are reported in tables below under tomo_00027 to tomo_00030.
 
-.. _tomo_00027: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00027%2F
-.. _tomo_00028: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00028%2F
-.. _tomo_00029: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00029%2F
-.. _tomo_00030: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00030%2F
+.. _tomo_00027: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00027%2F
+.. _tomo_00028: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00028%2F
+.. _tomo_00029: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00029%2F
+.. _tomo_00030: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00030%2F
 
 .. |00027| image:: ../img/tomo_00001.png
     :width: 20pt

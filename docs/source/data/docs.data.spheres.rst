@@ -52,28 +52,25 @@ the experimental conditions reported in the table below:
 The sphere data sets includes 6 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00058.h5 --axis 1427
-    python tomopy_rec.py tomo_00059.h5 --axis 1440
-    python tomopy_rec.py tomo_00060.h5 --axis 1337
-    python tomopy_rec.py tomo_00061.h5 --axis 1316.5
-    python tomopy_rec.py tomo_00062.h5 --axis 1359.5
-    python tomopy_rec.py tomo_00063.h5 --axis 1322,5
+    tomopy recon --file-name tomo_00058.h5 --rotation-axis 1427
+    tomopy recon --file-name tomo_00059.h5 --rotation-axis 1440
+    tomopy recon --file-name tomo_00060.h5 --rotation-axis 1337
+    tomopy recon --file-name tomo_00061.h5 --rotation-axis 1316.5
+    tomopy recon --file-name tomo_00062.h5 --rotation-axis 1359.5
+    tomopy recon --file-name tomo_00063.h5 --rotation-axis 1322,5
 
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 
-.. _tomo_00058: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
-.. _tomo_00059: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
-.. _tomo_00060: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
-.. _tomo_00061: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
-.. _tomo_00062: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
-.. _tomo_00063: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00058: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00059: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00060: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00061: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00062: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
+.. _tomo_00063: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00058_to_00063%2F
 
 
 .. |00058| image:: ../img/tomo_00058.png

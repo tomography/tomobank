@@ -11,7 +11,7 @@ Wet Circles
 
 .. |phan_00007| replace:: :download:`gen_script.py <../../../docs/demo/phantom_00007.py>`
 
-.. _phan_00007: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Fphantom_00007%2F
+.. _phan_00007: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Fphantom_00007%2F
 
 These phantom use `XDesign <http://myxdesign.readthedocs.io/>`_ 
 version `0.2.0.dev0+1d67599 <https://github.com/tomography/xdesign/tree/1d67599b8f104ebded86bac98100dbf15e251a66>`_
@@ -35,12 +35,8 @@ The ground truth, sinogram and projection are obtained with:
     sino, probe = sinogram(n_proj, ccd_x, phantom)
     proj = np.expand_dims(sino, 1)
 
-To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script:
+To load the phantom data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  you may run the phantom `Jupyter notebook <https://jupyter-notebook.readthedocs.io/en/stable/>`_ example on your local machine or run the equivalent Python scripts from `here <https://github.com/tomography/tomobank/tree/master/docs/source/ipynb/>`_.
 
-::
-
-    python tomopy_rec.py phantom_00007.h5
 
 +---------------+----------------+------------------------+--------------+------------+--------------------+
 |  Phantom ID   |    Facility    |    Sample              | Ground Truth |  Grirec    |       Downloads    |

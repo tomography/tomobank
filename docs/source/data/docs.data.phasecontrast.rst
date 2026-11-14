@@ -54,24 +54,21 @@ The experimental conditions reported in the table below:
 The sphere data sets includes 4 tomographic data sets collected at different 
 sample to detector distance and different concentrations as reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
-
-    python tomopy_rec.py tomo_00064.h5 --axis 175
-    python tomopy_rec.py tomo_00065.h5 --axis 175
-    python tomopy_rec.py tomo_00066.h5 --axis 175
-    python tomopy_rec.py tomo_00067.h5 --axis 175
+    tomopy recon --file-name tomo_00064.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00065.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00066.h5 --rotation-axis 175
+    tomopy recon --file-name tomo_00067.h5 --rotation-axis 175
 
 To enable phase retrieval un-comment the appropriate setting in :download:`tomopy_rec.py <../../demo/tomopy_rec.py>` 
 
 
 
-.. _tomo_00064: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00065: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00066: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
-.. _tomo_00067: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00064: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00065: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00066: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
+.. _tomo_00067: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2F%2Ftomo_00064_to_00067%2F
 
 
 .. |00064| image:: ../img/tomo_00064.png
@@ -91,17 +88,17 @@ To enable phase retrieval un-comment the appropriate setting in :download:`tomop
     :height: 20pt
 
 
-+-------------+----------+---------------+-----------+-----------------------+ 
-| Tomo ID     | Distance | Sample Name   |   Image   |       Axis            |     
-+=============+==========+===============+===========+=======================+ 
-| tomo_00064_ |     8    |   p2_pct_1    |  |00064|  |       175             |
-+-------------+----------+---------------+-----------+-----------------------+ 
-| tomo_00065_ |    58    |   p2_pct_2    |  |00065|  |       175             |
-+-------------+----------+---------------+-----------+-----------------------+ 
-| tomo_00066_ |   158    |   p2_pct_3    |  |00066|  |       175             |
-+-------------+----------+---------------+-----------+-----------------------+ 
-| tomo_00067_ |   308    |   p2_pct_4    |  |00067|  |       175             |
-+-------------+----------+---------------+-----------+-----------------------+ 
++-------------+---------------+---------------+-----------+-----------------------+ 
+| Tomo ID     | Distance (mm) | Sample Name   |   Image   |       Axis            |     
++=============+===============+===============+===========+=======================+ 
+| tomo_00064_ |     8         |   p2_pct_1    |  |00064|  |       175             |
++-------------+---------------+---------------+-----------+-----------------------+ 
+| tomo_00065_ |    58         |   p2_pct_2    |  |00065|  |       175             |
++-------------+---------------+---------------+-----------+-----------------------+ 
+| tomo_00066_ |   158         |   p2_pct_3    |  |00066|  |       175             |
++-------------+---------------+---------------+-----------+-----------------------+ 
+| tomo_00067_ |   308         |   p2_pct_4    |  |00067|  |       175             |
++-------------+---------------+---------------+-----------+-----------------------+ 
 
 Wet Sample
 ~~~~~~~~~~
@@ -115,20 +112,16 @@ Here we present a dataset in which the challange is to compensate a partial moti
 a liquid-embedded biomaterial structure causing the edges of the air bubbles to contain streaks due to motio of the air bubbles
 instead of forming a complete contour. The experimental conditions reported in the table below:
 
-To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_  use the 
-:download:`tomopy_rec.py <../../demo/tomopy_rec.py>` python script.
+To load the data sets and perform a basic reconstruction using `tomopy <https://tomopy.readthedocs.io>`_ ::
 
-Example: ::
+    tomopy recon --file-name tomo_00068.h5 --rotation-axis 1463.5
 
-    python tomopy_rec.py tomo_00068.h5 --axis 1463.5
-
-.. _tomo_00068: https://www.globus.org/app/transfer?origin_id=e133a81a-6d04-11e5-ba46-22000b92c6ec&origin_path=%2Ftomobank%2Ftomo_00068%2F
+.. _tomo_00068: https://app.globus.org/file-manager?origin_id=9f00a780-4aee-42a7-b7f4-6a2773c8da30&origin_path=%2Ftomo_00068%2F
 
 .. |00068| image:: ../img/tomo_00068.png
     :width: 20pt
     :height: 20pt
 
-1463.5
 
 +-----------------------------------------+-------------------------------+
 |             tomo_ID                     |   00068                       |  
@@ -153,4 +146,5 @@ Example: ::
 +-----------------------------------------+-------------------------------+
 |             Rotation axis location      |   1463.5                      |
 +-----------------------------------------+-------------------------------+
+
 
