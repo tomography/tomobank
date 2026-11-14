@@ -2,7 +2,7 @@ Mosaic
 ------
 
 Foam
-----
+~~~~
 
 Foam is a 3 x 3 mosaic tomography data set used as a test data set during the development of 
 `mosaic <https://github.com/xray-imaging/mosaic>`_, a command line inteface from mosaic tomography 
